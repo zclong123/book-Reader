@@ -63,6 +63,14 @@ const progress = computed(() => {
           </select>
         </label>
 
+        <label class="speech-field">
+          <span>语气</span>
+          <select v-model="speech.style">
+            <option value="anchor">主持人（平稳）</option>
+            <option value="recite">朗诵（舒缓）</option>
+          </select>
+        </label>
+
         <label class="speech-field rate-field">
           <span>语速 {{ Number(rateValue).toFixed(1) }}×</span>
           <input v-model="rateValue" type="range" min="0.6" max="1.8" step="0.1" />

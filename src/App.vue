@@ -19,6 +19,7 @@ const today = computed(() => todayBook())
       <nav class="site-nav">
         <RouterLink to="/">总目录</RouterLink>
         <RouterLink :to="`/book/${today.id}`">今日一书</RouterLink>
+        <RouterLink to="/custom">添加自定义书</RouterLink>
         <RouterLink to="/about">关于</RouterLink>
       </nav>
     </header>

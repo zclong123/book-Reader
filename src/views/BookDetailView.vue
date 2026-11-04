@@ -5,7 +5,9 @@ import BookCover from '../components/BookCover.vue'
 import Recorder from '../components/Recorder.vue'
 import SpeechBar from '../components/SpeechBar.vue'
 import { useSpeech } from '../composables/useSpeech.js'
-import { getBook, getContent, lectureBlocks, similarBooks } from '../data/library.js'
+import { getBook, getContent, getDossier, lectureBlocks, similarBooks, detailSource, saveDossier, removeDossier } from '../data/library.js'
+import { generateDetailForBook, reviseDetailWithAI, loadAISettings } from '../services/ai.js'
+import { normalizeCustomBook } from '../data/customBooks.js'
 
 const props = defineProps({
   id: { type: String, required: true }
@@ -14,7 +16,12 @@ const props = defineProps({
 const route = useRoute()
 const bookId = computed(() => props.id || String(route.params.id))
 const book = computed(() => getBook(bookId.value))
-const content = computed(() => getContent(bookId.value))
+const revision = ref(0)
+const content = computed(() => {
+  revision.value
+  const local = getDossier(bookId.value)
+  return local ? JSON.parse(JSON.stringify(local)) : getContent(bookId.value)
+})
 const similar = computed(() => similarBooks(book.value, 4))
 const tab = ref('essence')
 const speech = useSpeech()
@@ -113,10 +120,159 @@ function toggleFavorite() {
   favorite.value = ids.includes(book.value.id)
 }
 
+/* ---------------- 按需生成 / 编辑 / AI 修改 ---------------- */
+const source = computed(() => {
+  revision.value
+  return detailSource(bookId.value)
+})
+const aiBusy = ref('')
+const aiError = ref('')
+const aiNotice = ref('')
+const editMode = ref(false)
+const showRevise = ref(false)
+const reviseInstruction = ref('')
+const reviseScope = ref('all')
+const draft = ref(null)
+const settings = ref(loadAISettings())
+
+function toText(list) {
+  return (list ?? []).join('\n')
+}
+
+function toList(text) {
+  return String(text ?? '')
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+}
+
+function prepareDraft(detail) {
+  const copy = JSON.parse(JSON.stringify(detail ?? {}))
+  copy.essence = copy.essence ?? {}
+  copy.essence.storyText = toText(copy.essence.story)
+  copy.essence.insightsText = toText(copy.essence.insights)
+  copy.essence.quotes = copy.essence.quotes ?? []
+  copy.lecture = copy.lecture ?? { title: '', opening: '', sections: [], closing: '' }
+  copy.lecture.openingText = toText([copy.lecture.opening].filter(Boolean))
+  copy.lecture.closingText = toText([copy.lecture.closing].filter(Boolean))
+  copy.lecture.sections = (copy.lecture.sections ?? []).map((section) => ({
+    ...section,
+    paragraphsText: toText(section.paragraphs)
+  }))
+  copy.chapters = copy.chapters ?? []
+  return copy
+}
+
+function persist(detail) {
+  const clean = normalizeCustomBook(detail, {
+    title: book.value?.title || '',
+    author: book.value?.author || '',
+    category: book.value?.category || ''
+  })
+  clean.id = bookId.value
+  clean.title = book.value?.title || clean.title
+  clean.custom = false
+  saveDossier(bookId.value, clean)
+  revision.value += 1
+  return clean
+}
+
+async function generateDetail() {
+  if (!book.value) return
+  aiError.value = ''
+  aiNotice.value = ''
+  aiBusy.value = 'generate'
+  try {
+    const raw = await generateDetailForBook({ book: book.value, settings: settings.value })
+    persist(raw)
+    aiNotice.value = '精读详情已生成并保存在本机。'
+  } catch (err) {
+    aiError.value = err?.message || '生成失败，请稍后重试'
+  } finally {
+    aiBusy.value = ''
+  }
+}
+
+function startEdit() {
+  draft.value = prepareDraft(content.value)
+  editMode.value = true
+  aiNotice.value = ''
+}
+
+function saveEdit() {
+  if (!book.value || !draft.value) return
+  const d = draft.value
+  d.essence.story = toList(d.essence.storyText)
+  d.essence.insights = toList(d.essence.insightsText)
+  d.lecture.opening = toList(d.lecture.openingText).join('\n')
+  d.lecture.closing = toList(d.lecture.closingText).join('\n')
+  d.lecture.sections = d.lecture.sections.map((section) => ({
+    title: section.title,
+    paragraphs: toList(section.paragraphsText)
+  }))
+  persist(d)
+  editMode.value = false
+  draft.value = null
+  aiNotice.value = '修改已保存到本机。'
+}
+
+function cancelEdit() {
+  editMode.value = false
+  draft.value = null
+}
+
+function addQuoteRow() {
+  if (draft.value?.essence) {
+    draft.value.essence.quotes = draft.value.essence.quotes ?? []
+    draft.value.essence.quotes.push({ text: '', source: '', note: '' })
+  }
+}
+
+function addSectionRow() {
+  if (draft.value?.lecture) {
+    draft.value.lecture.sections = draft.value.lecture.sections ?? []
+    draft.value.lecture.sections.push({ title: '新段落', paragraphs: [], paragraphsText: '' })
+  }
+}
+
+function resetLocal() {
+  if (!window.confirm('确定要清除本机的精读详情修改，恢复为馆内默认内容吗？')) return
+  removeDossier(bookId.value)
+  revision.value += 1
+  aiNotice.value = '已恢复默认内容。'
+}
+
+async function reviseWithAI() {
+  if (!book.value || !content.value) return
+  aiError.value = ''
+  aiBusy.value = 'revise'
+  try {
+    const raw = await reviseDetailWithAI({
+      book: book.value,
+      detail: content.value,
+      instruction: reviseInstruction.value,
+      scope: reviseScope.value,
+      settings: settings.value
+    })
+    persist({ ...content.value, ...raw })
+    aiNotice.value = '大模型已按你的要求完成修改。'
+    showRevise.value = false
+    reviseInstruction.value = ''
+  } catch (err) {
+    aiError.value = err?.message || '修改失败，请稍后重试'
+  } finally {
+    aiBusy.value = ''
+  }
+}
+
 watch(bookId, () => {
   speech.stop()
   tab.value = 'essence'
   favorite.value = isFavorite(bookId.value)
+  editMode.value = false
+  showRevise.value = false
+  aiError.value = ''
+  aiNotice.value = ''
 })
 
 watch(tab, () => {
@@ -144,7 +300,7 @@ watch(tab, () => {
       <BookCover :book="book" size="lg" />
 
       <div class="book-hero__content">
-        <span class="eyebrow">{{ book.country }} · {{ book.era }} · 第 {{ book.batch }} 批</span>
+        <span class="eyebrow">{{ book.country }} · {{ book.era }} · {{ book.category }}</span>
         <h1>{{ book.title }}</h1>
         <p class="book-subtitle">{{ content.subtitle || book.summary }}</p>
         <p class="book-author">
@@ -172,10 +328,105 @@ watch(tab, () => {
             {{ favorite ? '★ 已收藏' : '☆ 收藏' }}
           </button>
         </div>
+
+        <div class="dossier-actions">
+          <span class="dossier-source">
+            {{ source === 'local' ? '本机版本（已生成/编辑）' : source === 'builtin' ? '馆内精读档案' : '尚无精读详情' }}
+          </span>
+          <button
+            v-if="source === 'none'"
+            class="primary-btn small"
+            type="button"
+            :disabled="Boolean(aiBusy)"
+            @click="generateDetail"
+          >
+            {{ aiBusy === 'generate' ? '正在生成…' : '⚡ 调用大模型生成精读详情' }}
+          </button>
+          <button v-else class="ghost-btn small" type="button" @click="startEdit">✎ 编辑精读详情</button>
+          <button v-if="source !== 'none'" class="ghost-btn small" type="button" @click="showRevise = !showRevise">🤖 大模型修改</button>
+          <button v-if="source === 'local'" class="ghost-btn small" type="button" @click="resetLocal">恢复默认</button>
+        </div>
+
+        <p v-if="aiBusy === 'generate'" class="inline-note">正在调用大模型生成，通常需要 1—3 分钟，请保持页面打开。</p>
+        <p v-if="aiBusy === 'revise'" class="inline-note">正在让大模型按你的要求修改…</p>
+        <p v-if="aiError" class="inline-note error">{{ aiError }}</p>
+        <p v-if="aiNotice" class="inline-note">{{ aiNotice }}</p>
+      </div>
+    </section>
+
+    <section v-if="showRevise && source !== 'none'" class="panel revise-panel">
+      <h3>让大模型修改这份精读</h3>
+      <div class="field-row">
+        <label class="field">
+          <span>修改范围</span>
+          <select v-model="reviseScope">
+            <option value="all">精读详情全部</option>
+            <option value="essence">仅阅读精华</option>
+            <option value="lecture">仅演讲书稿</option>
+          </select>
+        </label>
+        <label class="field grow">
+          <span>修改要求</span>
+          <input
+            v-model="reviseInstruction"
+            type="text"
+            placeholder="例如：把演讲书稿改得更口语化；或：补充关于女性角色的分析"
+            @keyup.enter="reviseWithAI"
+          />
+        </label>
+      </div>
+      <div class="custom-actions">
+        <button class="primary-btn small" type="button" :disabled="Boolean(aiBusy)" @click="reviseWithAI">
+          {{ aiBusy === 'revise' ? '正在修改…' : '🤖 提交给大模型' }}
+        </button>
+        <button class="ghost-btn small" type="button" @click="showRevise = false">收起</button>
+      </div>
+    </section>
+
+    <section v-if="editMode && draft" class="panel edit-panel">
+      <h3>编辑精读详情（保存在本机）</h3>
+      <label class="field"><span>副标题</span><input v-model="draft.subtitle" type="text" /></label>
+      <label class="field"><span>作者小传</span><input v-model="draft.authorIntro" type="text" /></label>
+      <label class="field"><span>一句话简介</span><input v-model="draft.summary" type="text" /></label>
+
+      <h4>故事情节（每行一段）</h4>
+      <textarea v-model="draft.essence.storyText" rows="5" class="edit-area"></textarea>
+
+      <h4>阅读所获（每行一条）</h4>
+      <textarea v-model="draft.essence.insightsText" rows="5" class="edit-area"></textarea>
+
+      <h4>必背章句</h4>
+      <div v-for="(quote, qi) in draft.essence.quotes" :key="`q-${qi}`" class="edit-quote-row">
+        <input v-model="quote.text" type="text" placeholder="金句原文" />
+        <input v-model="quote.source" type="text" placeholder="出处" />
+        <input v-model="quote.note" type="text" placeholder="短评（可选）" />
+        <button class="text-btn" type="button" @click="draft.essence.quotes.splice(qi, 1)">删除</button>
+      </div>
+      <button class="ghost-btn small" type="button" @click="addQuoteRow">＋ 添加章句</button>
+
+      <h4>演讲书稿</h4>
+      <label class="field"><span>讲稿标题</span><input v-model="draft.lecture.title" type="text" /></label>
+      <label class="field"><span>开场白（每行一段）</span><textarea v-model="draft.lecture.openingText" rows="3" class="edit-area"></textarea></label>
+      <h4>讲稿段落</h4>
+      <div v-for="(sec, si) in draft.lecture.sections" :key="`s-${si}`" class="edit-section">
+        <input v-model="sec.title" type="text" placeholder="小节标题" />
+        <textarea v-model="sec.paragraphsText" rows="3" class="edit-area" placeholder="每行一段"></textarea>
+        <button class="text-btn" type="button" @click="draft.lecture.sections.splice(si, 1)">删除本节</button>
+      </div>
+      <button class="ghost-btn small" type="button" @click="addSectionRow">＋ 添加段落</button>
+      <label class="field"><span>收束（每行一段）</span><textarea v-model="draft.lecture.closingText" rows="3" class="edit-area"></textarea></label>
+
+      <div class="custom-actions">
+        <button class="primary-btn small" type="button" @click="saveEdit">保存修改</button>
+        <button class="ghost-btn small" type="button" @click="cancelEdit">取消</button>
       </div>
     </section>
 
     <SpeechBar :speech="speech" :label="speech.label || '正在朗读'" />
+
+    <p v-if="content.aiGenerated" class="pending-note">
+      本书由 AI 根据书名生成，内容请自行校对；如需修改，可在“我的书架”中删除后重新生成。
+    </p>
 
     <div class="detail-layout">
       <div class="detail-main">
@@ -223,7 +474,7 @@ watch(tab, () => {
 
         <section v-if="tab === 'essence'" class="panel">
           <div v-if="content.isFallback" class="pending-note">
-            这本作品的完整精读档案正在按批次整理中。以下为目录速览，你仍然可以导入本地原书按章节阅读。
+            这本作品的精读档案正在整理中。以下为目录速览，你仍然可以导入本地原书按章节阅读。
           </div>
 
           <article class="essence-section">
@@ -378,7 +629,8 @@ watch(tab, () => {
             <div><dt>国别</dt><dd>{{ book.country }}</dd></div>
             <div><dt>类别</dt><dd>{{ book.category }}</dd></div>
             <div><dt>推荐</dt><dd>{{ book.level }}</dd></div>
-            <div><dt>批次</dt><dd>第 {{ book.batch }} 批</dd></div>
+            <div v-if="book.custom"><dt>来源</dt><dd>我的书架 · AI 自定义</dd></div>
+            <div v-else><dt>推荐等级</dt><dd>{{ book.level }}</dd></div>
             <div><dt>阅读量</dt><dd>约 {{ book.readingMinutes }} 分钟</dd></div>
           </dl>
         </section>

@@ -60,6 +60,7 @@ const header = rows.shift()
 const index = Object.fromEntries(header.map((key, i) => [key.trim(), i]))
 
 const required = ['id', 'title', 'author', 'country', 'era', 'category', 'level', 'batch', 'reading_minutes', 'tags', 'summary']
+const optional = ['cat1', 'cat2', 'cat3']
 const missing = required.filter((key) => !(key in index))
 if (missing.length) {
   console.error(`catalog.csv 缺少字段: ${missing.join(', ')}`)
@@ -79,7 +80,10 @@ const books = rows.map((row) => {
     batch: toNumber(get('batch'), 1),
     readingMinutes: toNumber(get('reading_minutes'), 0),
     tags: get('tags').split('|').map((t) => t.trim()).filter(Boolean),
-    summary: get('summary')
+    summary: get('summary'),
+    ...(optional.every((k) => k in index)
+      ? { cat1: get('cat1'), cat2: get('cat2'), cat3: get('cat3') }
+      : {})
   }
 })
 

@@ -9,6 +9,8 @@ export function useSpeech() {
   const voices = ref([])
   const voiceURI = ref('')
   const rate = ref(1)
+  // 朗读风格：主持（平稳、偏快） / 朗诵（放慢、有韵）
+  const style = ref('anchor')
   const speaking = ref(false)
   const paused = ref(false)
   const activeIndex = ref(-1)
@@ -57,10 +59,13 @@ export function useSpeech() {
       return
     }
 
-    const utterance = new SpeechSynthesisUtterance(text)
+    // 主持：标准普通话、语速平稳；朗诵：放慢一点、降调，句末补停顿
+    const reciting = style.value === 'recite'
+    const spoken = reciting && !/[。！？…”]$/.test(text) ? `${text}。` : text
+    const utterance = new SpeechSynthesisUtterance(spoken)
     utterance.lang = 'zh-CN'
-    utterance.rate = rate.value
-    utterance.pitch = 1
+    utterance.rate = rate.value * (reciting ? 0.86 : 1)
+    utterance.pitch = reciting ? 0.92 : 1.02
     if (selectedVoice.value) utterance.voice = selectedVoice.value
 
     utterance.onstart = () => {
@@ -194,6 +199,7 @@ export function useSpeech() {
     voices,
     voiceURI,
     rate,
+    style,
     speaking,
     paused,
     activeIndex,

@@ -5,6 +5,7 @@ import Recorder from '../components/Recorder.vue'
 import SpeechBar from '../components/SpeechBar.vue'
 import { useSpeech } from '../composables/useSpeech.js'
 import { getBook, getContent } from '../data/library.js'
+import textManifest from '../data/textManifest.json'
 
 const props = defineProps({
   id: { type: String, required: true }
@@ -23,6 +24,19 @@ const theme = ref('paper')
 const importError = ref('')
 const importInfo = ref('')
 const fileInput = ref(null)
+const onlineBusy = ref(false)
+
+// 公版原书：已下载到 public/books 的全文（构建时注入清单）
+const online = computed(() => {
+  const meta = textManifest[bookId.value]
+  if (!meta) return null
+  return { ...meta, localFile: meta.file }
+})
+
+const onlineState = computed(() => {
+  if (!online.value) return 'none'
+  return 'ready'
+})
 
 const builtInChapters = computed(() =>
   (content.value?.chapters ?? []).map((chapter) => ({
@@ -113,6 +127,21 @@ function splitChapters(rawText, fallbackTitle = '全文') {
     if (result.length >= 2) return result
   }
 
+  // 英文公版书：按 CHAPTER / BOOK / PART / ACT 切分
+  if (!/第[0-9零〇一二三四五六七八九十百千万两]+[章回节卷篇部集]/.test(text)) {
+    const parts = text.split(/\n(?=(?:CHAPTER|Chapter|BOOK|Book|PART|Part|ACT|Act)\s+[IVXLCDM0-9]+)/)
+    if (parts.length >= 3) {
+      const result = parts
+        .map((part, i) => {
+          const lines = part.split('\n').filter(Boolean)
+          const title = (lines[0] ?? '').trim().slice(0, 60) || `第 ${i + 1} 部分`
+          return { title, text: lines.slice(1).join('\n').trim() }
+        })
+        .filter((item) => item.text)
+      if (result.length >= 2) return result
+    }
+  }
+
   const paragraphs = text.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean)
   const chunks = []
   let buffer = ''
@@ -180,6 +209,48 @@ function resetImport() {
   }
 }
 
+// 直接从站内已下载的公版全文打开（不用选文件）
+async function openOnlineText() {
+  if (!online.value) return
+  importError.value = ''
+  importInfo.value = ''
+  try {
+    const response = await fetch(online.value.localFile)
+    if (!response.ok) throw new Error(`HTTP ${response.status}`)
+    const text = await response.text()
+    const parsed = splitChapters(text, book.value?.title ?? online.value.title)
+    imported.value = { name: `${book.value?.title ?? online.value.title}（公版原书 · ${online.value.source}）`, chapters: parsed }
+    currentIndex.value = 0
+    importInfo.value = `已打开公版原书，自动拆分 ${parsed.length} 章`
+    speech.stop()
+  } catch (err) {
+    importError.value = `读取内置原书失败：${err.message}，请改用“导入本地原书”下载后手动导入。`
+  }
+}
+
+// 在线取回原书：优先本地服务代理，失败时退回直接下载源链接
+async function downloadOnlineText() {
+  if (!online.value) return
+  onlineBusy.value = true
+  importError.value = ''
+  try {
+    const response = await fetch(`/api/text?id=${encodeURIComponent(bookId.value)}`)
+    if (!response.ok) throw new Error(`HTTP ${response.status}`)
+    const text = await response.text()
+    if (text.trim().startsWith('{')) throw new Error('本地下载服务未启用')
+    const parsed = splitChapters(text, book.value?.title ?? '')
+    imported.value = { name: `${book.value?.title ?? ''}（在线下载）`, chapters: parsed }
+    currentIndex.value = 0
+    importInfo.value = `已从 ${online.value.source} 取回原书，自动拆分 ${parsed.length} 章`
+    speech.stop()
+  } catch (err) {
+    importInfo.value = ''
+    importError.value = `在线下载失败（${err.message}）。可直接打开 ${online.value.sourceUrl} 获取再导出入。`
+  } finally {
+    onlineBusy.value = false
+  }
+}
+
 function goChapter(index) {
   if (index < 0 || index >= chapters.value.length) return
   speech.stop()
@@ -240,10 +311,40 @@ onMounted(loadSaved)
         <p>{{ book.author }} · {{ book.era }} · {{ usingImported ? '本地原书' : '内置章节导读' }}</p>
       </div>
       <div class="reader-head__actions">
-        <button class="primary-btn" type="button" @click="pickFile">导入本地原书 (.txt)</button>
+        <button v-if="onlineState === 'ready'" class="primary-btn" type="button" :disabled="onlineBusy" @click="openOnlineText">
+          阅读已下载全文
+        </button>
+        <button v-if="onlineState === 'ready'" class="ghost-btn" type="button" :disabled="onlineBusy" @click="downloadOnlineText">
+          {{ onlineBusy ? '正在取回…' : '在线下载原书' }}
+        </button>
+        <a v-if="onlineState === 'ready'" class="ghost-btn" :href="online.sourceUrl" target="_blank" rel="noreferrer">
+          前往 {{ online.source }} 全本 ↗
+        </a>
+        <button class="ghost-btn" type="button" @click="pickFile">导入本地原书 (.txt)</button>
         <button v-if="usingImported" class="ghost-btn" type="button" @click="resetImport">恢复内置导读</button>
         <input ref="fileInput" class="visually-hidden" type="file" accept=".txt,.md,.markdown,text/plain,text/markdown" @change="onFile" />
       </div>
+    </section>
+
+    <section v-if="onlineState === 'ready'" class="panel download-note">
+      <h2>本书的公版原书</h2>
+      <p>
+        已从 <strong>{{ online.source }}</strong> 取回《{{ online.title }}》的公版全文
+        （{{ online.sourceTitle }}，约 {{ Math.round((online.chars || 0) / 1000) }} 千字符，下载于 {{ online.downloadedAt }}），
+        点“阅读已下载全文”即可在本页按章节阅读。
+      </p>
+      <p class="muted-text">
+        此版本为原文语言（多为英文）的公版文本，无版权问题；不含中文译本——中文译本仍在版权保护期内，建议自行导入合法获得的电子书。
+      </p>
+    </section>
+
+    <section v-else class="panel download-note">
+      <h2>本书的公版原书</h2>
+      <p>
+        暂未找到可校验的公版全文（或原书仍在版权期内）。你可以：自行导入合法来源的 .txt / .md 电子书；
+        或运行 <code>node scripts/download-books.mjs --id {{ book.id }}</code> 将公版文本补进本站。
+        同目录下有 <code>scripts/external-texts.mjs</code>，可自行登记新的公版来源。
+      </p>
     </section>
 
     <p v-if="importInfo" class="inline-note">{{ importInfo }}</p>
@@ -303,8 +404,11 @@ onMounted(loadSaved)
           </button>
         </header>
 
-        <p v-if="!usingImported" class="reader-hint">
-          这里展示的是章节导读与短节选。要读全文，请点击右上角“导入本地原书”。
+        <p v-if="!usingImported && onlineState === 'ready'" class="reader-hint">
+          这里展示的是章节导读与短节选。要读全文，点右上角“阅读已下载全文”（公版原文，无版权问题）。
+        </p>
+        <p v-else-if="!usingImported" class="reader-hint">
+          这里展示的是章节导读与短节选。本书暂无公版全文，可导入自己合法拥有的 .txt / .md 电子书。
         </p>
 
         <div class="reader-text">

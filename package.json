@@ -9,7 +9,10 @@
     "build": "node scripts/build-catalog.mjs && vite build",
     "preview": "vite preview",
     "catalog": "node scripts/build-catalog.mjs",
-    "new-batch": "node scripts/new-batch.mjs"
+    "new-batch": "node scripts/new-batch.mjs",
+    "dossiers": "node scripts/generate-dossiers.mjs",
+    "download-books": "node scripts/download-books.mjs",
+    "books": "node scripts/add-books.mjs"
   },
   "dependencies": {
     "vue": "^3.5.13",
