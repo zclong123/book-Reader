@@ -1,0 +1,7602 @@
+[
+  {
+    "id": "hongloumeng",
+    "title": "红楼梦",
+    "author": "曹雪芹",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "殿堂级",
+    "batch": 1,
+    "readingMinutes": 2400,
+    "tags": [
+      "家族",
+      "爱情",
+      "女性",
+      "命运",
+      "诗词"
+    ],
+    "summary": "以贾府兴衰为背景的长篇世情小说，写尽繁华与幻灭，被誉为中国古典小说的巅峰。"
+  },
+  {
+    "id": "sanguoyanyi",
+    "title": "三国演义",
+    "author": "罗贯中",
+    "country": "中国",
+    "era": "明代",
+    "category": "古典小说",
+    "level": "殿堂级",
+    "batch": 1,
+    "readingMinutes": 1200,
+    "tags": [
+      "历史",
+      "战争",
+      "谋略",
+      "英雄",
+      "忠义"
+    ],
+    "summary": "以魏蜀吴百年争霸为主线，塑造诸葛亮、关羽等经典形象，是中国历史演义小说的开山之作。"
+  },
+  {
+    "id": "xiyouji",
+    "title": "西游记",
+    "author": "吴承恩",
+    "country": "中国",
+    "era": "明代",
+    "category": "古典小说",
+    "level": "殿堂级",
+    "batch": 1,
+    "readingMinutes": 1000,
+    "tags": [
+      "神魔",
+      "取经",
+      "成长",
+      "幽默",
+      "团队"
+    ],
+    "summary": "唐僧师徒西天取经的奇幻旅程，在降妖除魔中寄托修心之道，想象瑰丽而意味深长。"
+  },
+  {
+    "id": "shuihuzhuan",
+    "title": "水浒传",
+    "author": "施耐庵",
+    "country": "中国",
+    "era": "元末明初",
+    "category": "古典小说",
+    "level": "殿堂级",
+    "batch": 1,
+    "readingMinutes": 900,
+    "tags": [
+      "英雄",
+      "反抗",
+      "忠义",
+      "群像",
+      "悲剧"
+    ],
+    "summary": "一百零八位好汉聚义梁山的故事，写出官逼民反的社会现实与英雄末路的深沉悲凉。"
+  },
+  {
+    "id": "liaozhaizhiyi",
+    "title": "聊斋志异",
+    "author": "蒲松龄",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "经典",
+    "batch": 1,
+    "readingMinutes": 400,
+    "tags": [
+      "志怪",
+      "爱情",
+      "讽刺",
+      "文言",
+      "人性"
+    ],
+    "summary": "近五百篇文言短篇志怪，借狐鬼花妖写人间至情，也刺贪刺虐，是中国文言小说的压卷之作。"
+  },
+  {
+    "id": "lunyu",
+    "title": "论语",
+    "author": "孔子及弟子",
+    "country": "中国",
+    "era": "春秋",
+    "category": "文史哲",
+    "level": "殿堂级",
+    "batch": 1,
+    "readingMinutes": 200,
+    "tags": [
+      "儒家",
+      "仁",
+      "礼",
+      "教育",
+      "修身"
+    ],
+    "summary": "孔子及其弟子的言行辑录，以仁礼为核心，奠定了中国人的伦理底色与学习之道。"
+  },
+  {
+    "id": "daodejing",
+    "title": "道德经",
+    "author": "老子",
+    "country": "中国",
+    "era": "春秋",
+    "category": "文史哲",
+    "level": "殿堂级",
+    "batch": 1,
+    "readingMinutes": 60,
+    "tags": [
+      "道家",
+      "自然",
+      "无为",
+      "辩证",
+      "治国"
+    ],
+    "summary": "五千言道尽天地人事，以道法自然、无为而治为纲，是中国思想史上最精微的经典之一。"
+  },
+  {
+    "id": "shiji",
+    "title": "史记",
+    "author": "司马迁",
+    "country": "中国",
+    "era": "西汉",
+    "category": "文史哲",
+    "level": "殿堂级",
+    "batch": 1,
+    "readingMinutes": 1500,
+    "tags": [
+      "历史",
+      "纪传",
+      "人物",
+      "史学",
+      "文学"
+    ],
+    "summary": "中国第一部纪传体通史，从黄帝写到汉武，以人物为中心，史笔与文心并峙。"
+  },
+  {
+    "id": "tangshi300",
+    "title": "唐诗三百首",
+    "author": "蘅塘退士",
+    "country": "中国",
+    "era": "清代",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 1,
+    "readingMinutes": 180,
+    "tags": [
+      "唐诗",
+      "格律",
+      "山水",
+      "边塞",
+      "抒情"
+    ],
+    "summary": "自唐诗中精选三百余首的经典选本，篇篇可诵，是中国人接触古典诗歌的最佳入口。"
+  },
+  {
+    "id": "sunzibingfa",
+    "title": "孙子兵法",
+    "author": "孙武",
+    "country": "中国",
+    "era": "春秋",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 1,
+    "readingMinutes": 60,
+    "tags": [
+      "兵学",
+      "谋略",
+      "战略",
+      "竞争",
+      "管理"
+    ],
+    "summary": "十三篇兵学圣典，以不战而屈人之兵为上，其战略思想跨越军事而进入商业与人生。"
+  },
+  {
+    "id": "jinpingmei",
+    "title": "金瓶梅",
+    "author": "兰陵笑笑生",
+    "country": "中国",
+    "era": "明代",
+    "category": "古典小说",
+    "level": "经典",
+    "batch": 2,
+    "readingMinutes": 1200,
+    "tags": [
+      "世情",
+      "商业",
+      "家庭",
+      "欲望",
+      "现实"
+    ],
+    "summary": "中国第一部由文人独立创作的长篇世情小说，以西门庆一家写晚明市井与欲望的沉浮。"
+  },
+  {
+    "id": "rulinwaishi",
+    "title": "儒林外史",
+    "author": "吴敬梓",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "经典",
+    "batch": 2,
+    "readingMinutes": 500,
+    "tags": [
+      "讽刺",
+      "科举",
+      "士人",
+      "白话",
+      "群像"
+    ],
+    "summary": "以连环短篇结构讽刺科举制度下的士人百态，是中国古典讽刺小说的里程碑。"
+  },
+  {
+    "id": "fengshenyanyi",
+    "title": "封神演义",
+    "author": "许仲琳",
+    "country": "中国",
+    "era": "明代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 2,
+    "readingMinutes": 600,
+    "tags": [
+      "神魔",
+      "历史",
+      "神话",
+      "战争",
+      "封神"
+    ],
+    "summary": "以武王伐纣为骨架的神魔小说，仙妖斗法、法宝纷呈，塑造了中国民间神话的庞大家谱。"
+  },
+  {
+    "id": "jinghuayuan",
+    "title": "镜花缘",
+    "author": "李汝珍",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 2,
+    "readingMinutes": 500,
+    "tags": [
+      "游记",
+      "奇幻",
+      "女性",
+      "才学",
+      "讽刺"
+    ],
+    "summary": "唐敖等人海外游历的奇幻小说，以君子国、女儿国等寓言式邦国寄托社会理想。"
+  },
+  {
+    "id": "sanyanerpai",
+    "title": "三言二拍",
+    "author": "冯梦龙与凌濛初",
+    "country": "中国",
+    "era": "明代",
+    "category": "古典小说",
+    "level": "经典",
+    "batch": 2,
+    "readingMinutes": 800,
+    "tags": [
+      "话本",
+      "市民",
+      "爱情",
+      "公案",
+      "白话"
+    ],
+    "summary": "明代拟话本小说总集，写市井人情的悲欢与欲望，是研究中国市民文学的重要文本。"
+  },
+  {
+    "id": "xixiangji",
+    "title": "西厢记",
+    "author": "王实甫",
+    "country": "中国",
+    "era": "元代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 2,
+    "readingMinutes": 180,
+    "tags": [
+      "戏曲",
+      "爱情",
+      "反抗",
+      "文辞",
+      "团圆"
+    ],
+    "summary": "张生与崔莺莺冲破礼教终成眷属的爱情喜剧，曲词华美，是中国古代戏曲的代表作。"
+  },
+  {
+    "id": "mudanting",
+    "title": "牡丹亭",
+    "author": "汤显祖",
+    "country": "中国",
+    "era": "明代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 2,
+    "readingMinutes": 200,
+    "tags": [
+      "戏曲",
+      "爱情",
+      "生死",
+      "梦境",
+      "至情"
+    ],
+    "summary": "杜丽娘因情而死、因情复生的传奇，以“情”对抗“理”，是中国浪漫主义戏曲的高峰。"
+  },
+  {
+    "id": "taohuashan",
+    "title": "桃花扇",
+    "author": "孔尚任",
+    "country": "中国",
+    "era": "清代",
+    "category": "诗词曲赋",
+    "level": "重要",
+    "batch": 2,
+    "readingMinutes": 200,
+    "tags": [
+      "戏曲",
+      "历史",
+      "爱情",
+      "兴亡",
+      "气节"
+    ],
+    "summary": "借侯方域与李香君的离合写南明覆亡，以“借离合之情写兴亡之感”著称。"
+  },
+  {
+    "id": "changshengdian",
+    "title": "长生殿",
+    "author": "洪昇",
+    "country": "中国",
+    "era": "清代",
+    "category": "诗词曲赋",
+    "level": "重要",
+    "batch": 2,
+    "readingMinutes": 200,
+    "tags": [
+      "戏曲",
+      "爱情",
+      "历史",
+      "宫廷",
+      "命运"
+    ],
+    "summary": "以唐明皇与杨贵妃的爱情为中心，在帝妃之恋与王朝盛衰之间展开深沉叹惋。"
+  },
+  {
+    "id": "dongzhoulieguozhi",
+    "title": "东周列国志",
+    "author": "冯梦龙",
+    "country": "中国",
+    "era": "明代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 2,
+    "readingMinutes": 900,
+    "tags": [
+      "历史",
+      "春秋",
+      "战国",
+      "权谋",
+      "演义"
+    ],
+    "summary": "演绎西周末年至秦统一五百余年历史，人物众多、事件繁复，是了解春秋战国的重要读本。"
+  },
+  {
+    "id": "shijing",
+    "title": "诗经",
+    "author": "佚名",
+    "country": "中国",
+    "era": "先秦",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 3,
+    "readingMinutes": 200,
+    "tags": [
+      "诗歌",
+      "风雅颂",
+      "爱情",
+      "民生",
+      "现实主义"
+    ],
+    "summary": "中国最早的诗歌总集，以风雅颂记录先民的情感与生活，奠定中国诗歌的抒情传统。"
+  },
+  {
+    "id": "chuci",
+    "title": "楚辞",
+    "author": "屈原等",
+    "country": "中国",
+    "era": "战国",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 3,
+    "readingMinutes": 200,
+    "tags": [
+      "诗歌",
+      "屈原",
+      "浪漫",
+      "香草美人",
+      "家国"
+    ],
+    "summary": "以屈原作品为主体的楚地诗歌总集，想象奇崛、情辞哀婉，开创中国浪漫主义诗风。"
+  },
+  {
+    "id": "songci300",
+    "title": "宋词三百首",
+    "author": "朱孝臧",
+    "country": "中国",
+    "era": "清代",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 3,
+    "readingMinutes": 180,
+    "tags": [
+      "宋词",
+      "婉约",
+      "豪放",
+      "格律",
+      "抒情"
+    ],
+    "summary": "宋词经典选本，兼收婉约与豪放，展现一代文人的情感世界与审美趣味。"
+  },
+  {
+    "id": "yuanqu300",
+    "title": "元曲三百首",
+    "author": "佚名",
+    "country": "中国",
+    "era": "元代",
+    "category": "诗词曲赋",
+    "level": "重要",
+    "batch": 3,
+    "readingMinutes": 150,
+    "tags": [
+      "元曲",
+      "散曲",
+      "市井",
+      "讽刺",
+      "白话"
+    ],
+    "summary": "元曲选本，以浅白生动的语言写市井人生与世态炎凉，别有一种泼辣天真。"
+  },
+  {
+    "id": "guwenguanzhi",
+    "title": "古文观止",
+    "author": "吴楚材与吴调侯",
+    "country": "中国",
+    "era": "清代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 3,
+    "readingMinutes": 400,
+    "tags": [
+      "古文",
+      "散文",
+      "选本",
+      "史论",
+      "文脉"
+    ],
+    "summary": "上起先秦下迄明代的散文选本，二百余篇名作串起中国文章的源流与法度。"
+  },
+  {
+    "id": "yuefushiji",
+    "title": "乐府诗集",
+    "author": "郭茂倩",
+    "country": "中国",
+    "era": "宋代",
+    "category": "诗词曲赋",
+    "level": "重要",
+    "batch": 3,
+    "readingMinutes": 300,
+    "tags": [
+      "乐府",
+      "民歌",
+      "叙事",
+      "爱情",
+      "战争"
+    ],
+    "summary": "汇集汉魏至唐五代乐府诗的百科式总集，保存了大量民歌与叙事名篇。"
+  },
+  {
+    "id": "taoyuanmingji",
+    "title": "陶渊明集",
+    "author": "陶渊明",
+    "country": "中国",
+    "era": "东晋",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 3,
+    "readingMinutes": 180,
+    "tags": [
+      "田园",
+      "隐逸",
+      "自然",
+      "诗歌",
+      "人格"
+    ],
+    "summary": "陶渊明诗文合集，以田园诗与《桃花源记》构建中国人的精神归处。"
+  },
+  {
+    "id": "libaishixuan",
+    "title": "李白诗选",
+    "author": "李白",
+    "country": "中国",
+    "era": "唐代",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 3,
+    "readingMinutes": 180,
+    "tags": [
+      "唐诗",
+      "浪漫",
+      "豪放",
+      "山水",
+      "自我"
+    ],
+    "summary": "李白诗选，以天马行空的想象与磅礴气势，展现盛唐精神与个体自由。"
+  },
+  {
+    "id": "dufushixuan",
+    "title": "杜甫诗选",
+    "author": "杜甫",
+    "country": "中国",
+    "era": "唐代",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 3,
+    "readingMinutes": 180,
+    "tags": [
+      "唐诗",
+      "现实主义",
+      "家国",
+      "民生",
+      "沉郁"
+    ],
+    "summary": "杜甫诗选，以沉郁顿挫之笔写时代苦难与家国忧思，被誉为“诗史”。"
+  },
+  {
+    "id": "sushicixuan",
+    "title": "苏轼词选",
+    "author": "苏轼",
+    "country": "中国",
+    "era": "宋代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 3,
+    "readingMinutes": 150,
+    "tags": [
+      "宋词",
+      "豪放",
+      "旷达",
+      "人生",
+      "自然"
+    ],
+    "summary": "苏轼词选，以旷达胸襟开拓词境，将人生风雨化为江月清风。"
+  },
+  {
+    "id": "daxuezhongyong",
+    "title": "大学·中庸",
+    "author": "曾子与子思",
+    "country": "中国",
+    "era": "战国",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 4,
+    "readingMinutes": 100,
+    "tags": [
+      "儒家",
+      "修身",
+      "中庸",
+      "诚",
+      "治国"
+    ],
+    "summary": "四书中的两部，讲修身齐家治国与诚中致和的工夫，是中国人的成人阶梯。"
+  },
+  {
+    "id": "mengzi",
+    "title": "孟子",
+    "author": "孟子",
+    "country": "中国",
+    "era": "战国",
+    "category": "文史哲",
+    "level": "殿堂级",
+    "batch": 4,
+    "readingMinutes": 300,
+    "tags": [
+      "儒家",
+      "仁政",
+      "性善",
+      "民本",
+      "论辩"
+    ],
+    "summary": "孟子及其弟子言论汇编，以性善论与仁政理想展开雄辩，塑造了中国士人的风骨。"
+  },
+  {
+    "id": "zhuangzi",
+    "title": "庄子",
+    "author": "庄子",
+    "country": "中国",
+    "era": "战国",
+    "category": "文史哲",
+    "level": "殿堂级",
+    "batch": 4,
+    "readingMinutes": 400,
+    "tags": [
+      "道家",
+      "逍遥",
+      "齐物",
+      "寓言",
+      "自由"
+    ],
+    "summary": "以汪洋恣肆的寓言写逍遥与齐物，是中国哲学中最富文学想象力的经典。"
+  },
+  {
+    "id": "xunzi",
+    "title": "荀子",
+    "author": "荀子",
+    "country": "中国",
+    "era": "战国",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 4,
+    "readingMinutes": 300,
+    "tags": [
+      "儒家",
+      "性恶",
+      "礼法",
+      "劝学",
+      "唯物主义"
+    ],
+    "summary": "荀子著作集，以性恶论、礼法论与《劝学》名篇，展现儒学的另一条路径。"
+  },
+  {
+    "id": "hanfeizi",
+    "title": "韩非子",
+    "author": "韩非",
+    "country": "中国",
+    "era": "战国",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 4,
+    "readingMinutes": 300,
+    "tags": [
+      "法家",
+      "权术",
+      "法治",
+      "寓言",
+      "国家"
+    ],
+    "summary": "法家集大成之作，以法、术、势构建国家治理理论，寓言锋利、逻辑冷峻。"
+  },
+  {
+    "id": "mozi",
+    "title": "墨子",
+    "author": "墨子",
+    "country": "中国",
+    "era": "战国",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 4,
+    "readingMinutes": 250,
+    "tags": [
+      "墨家",
+      "兼爱",
+      "非攻",
+      "尚贤",
+      "逻辑"
+    ],
+    "summary": "墨家学派总集，主张兼爱、非攻、尚贤、节用，是中国思想中独特的平民立场。"
+  },
+  {
+    "id": "zuozhuan",
+    "title": "左传",
+    "author": "左丘明",
+    "country": "中国",
+    "era": "春秋",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 4,
+    "readingMinutes": 600,
+    "tags": [
+      "历史",
+      "春秋",
+      "编年",
+      "战争",
+      "辞令"
+    ],
+    "summary": "以编年体详述春秋史事，战争与外交辞令尤为精彩，是史学与文学的共同源头。"
+  },
+  {
+    "id": "zhanguoce",
+    "title": "战国策",
+    "author": "刘向",
+    "country": "中国",
+    "era": "西汉",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 4,
+    "readingMinutes": 500,
+    "tags": [
+      "历史",
+      "战国",
+      "纵横",
+      "辞令",
+      "谋略"
+    ],
+    "summary": "记录战国策士纵横捭阖的言行，辞采铺张扬厉，是了解战国政治生态的关键文本。"
+  },
+  {
+    "id": "hanshu",
+    "title": "汉书",
+    "author": "班固",
+    "country": "中国",
+    "era": "东汉",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 4,
+    "readingMinutes": 900,
+    "tags": [
+      "历史",
+      "纪传",
+      "西汉",
+      "制度",
+      "正统"
+    ],
+    "summary": "中国第一部纪传体断代史，体例严整、史料宏富，与《史记》并称史学双璧。"
+  },
+  {
+    "id": "zizhitongjian",
+    "title": "资治通鉴",
+    "author": "司马光",
+    "country": "中国",
+    "era": "北宋",
+    "category": "文史哲",
+    "level": "殿堂级",
+    "batch": 4,
+    "readingMinutes": 3000,
+    "tags": [
+      "历史",
+      "编年",
+      "通史",
+      "治国",
+      "权谋"
+    ],
+    "summary": "三百万言编年通史，以“鉴于往事、有资于治道”为宗旨，是中国政治智慧的巨型宝库。"
+  },
+  {
+    "id": "chuanciluben",
+    "title": "传习录",
+    "author": "王阳明",
+    "country": "中国",
+    "era": "明代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 5,
+    "readingMinutes": 250,
+    "tags": [
+      "心学",
+      "知行合一",
+      "致良知",
+      "儒家",
+      "修身"
+    ],
+    "summary": "王阳明心学语录与书信汇编，以“致良知”“知行合一”推动儒学内向化转向。"
+  },
+  {
+    "id": "caigentan",
+    "title": "菜根谭",
+    "author": "洪应明",
+    "country": "中国",
+    "era": "明代",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 5,
+    "readingMinutes": 120,
+    "tags": [
+      "处世",
+      "修养",
+      "格言",
+      "儒道释",
+      "人生"
+    ],
+    "summary": "以清言小品写成的人生格言集，融儒道释于一体，谈处世、修养与心境。"
+  },
+  {
+    "id": "zengguofanjiashu",
+    "title": "曾国藩家书",
+    "author": "曾国藩",
+    "country": "中国",
+    "era": "清代",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 5,
+    "readingMinutes": 300,
+    "tags": [
+      "家书",
+      "修身",
+      "治家",
+      "为官",
+      "教育"
+    ],
+    "summary": "曾国藩写给家人的书信，讲修身、治学、治家与为官，是晚清士大夫的自我修炼样本。"
+  },
+  {
+    "id": "sanshiliuji",
+    "title": "三十六计",
+    "author": "佚名",
+    "country": "中国",
+    "era": "明清",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 5,
+    "readingMinutes": 100,
+    "tags": [
+      "谋略",
+      "兵学",
+      "策略",
+      "竞争",
+      "智慧"
+    ],
+    "summary": "以三十六条计策概括古代谋略智慧，在军事、商业与人际博弈中流传甚广。"
+  },
+  {
+    "id": "shishuoxinyu",
+    "title": "世说新语",
+    "author": "刘义庆",
+    "country": "中国",
+    "era": "南朝",
+    "category": "古典小说",
+    "level": "经典",
+    "batch": 5,
+    "readingMinutes": 250,
+    "tags": [
+      "笔记",
+      "魏晋",
+      "人物",
+      "清谈",
+      "风趣"
+    ],
+    "summary": "记录魏晋名士言行风度的笔记小说，寥寥数语写尽一个时代的精神气质。"
+  },
+  {
+    "id": "soushenji",
+    "title": "搜神记",
+    "author": "干宝",
+    "country": "中国",
+    "era": "东晋",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 5,
+    "readingMinutes": 200,
+    "tags": [
+      "志怪",
+      "神话",
+      "民间",
+      "鬼神",
+      "叙事"
+    ],
+    "summary": "中国早期志怪小说集，保存了大量神话传说与民间信仰，是后世小说的源头之一。"
+  },
+  {
+    "id": "yueweicaotangbiji",
+    "title": "阅微草堂笔记",
+    "author": "纪昀",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 5,
+    "readingMinutes": 300,
+    "tags": [
+      "志怪",
+      "笔记",
+      "讽刺",
+      "因果",
+      "文言"
+    ],
+    "summary": "纪昀晚年所著文言笔记志怪，议论精警、叙事简淡，与《聊斋》双峰并峙。"
+  },
+  {
+    "id": "fushengliuji",
+    "title": "浮生六记",
+    "author": "沈复",
+    "country": "中国",
+    "era": "清代",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 5,
+    "readingMinutes": 150,
+    "tags": [
+      "自传",
+      "爱情",
+      "生活",
+      "回忆",
+      "散文"
+    ],
+    "summary": "以自传散文追忆与妻子芸娘的平凡生活，写尽中国式爱情与生活的清欢。"
+  },
+  {
+    "id": "nahan",
+    "title": "呐喊",
+    "author": "鲁迅",
+    "country": "中国",
+    "era": "1923年",
+    "category": "近现代文学",
+    "level": "殿堂级",
+    "batch": 5,
+    "readingMinutes": 200,
+    "tags": [
+      "白话",
+      "启蒙",
+      "国民性",
+      "讽刺",
+      "现实主义"
+    ],
+    "summary": "鲁迅第一部小说集，以《狂人日记》《阿Q正传》等名篇解剖国民性，是中国现代文学的开端。"
+  },
+  {
+    "id": "zhaohuaxishi",
+    "title": "朝花夕拾",
+    "author": "鲁迅",
+    "country": "中国",
+    "era": "1928年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 5,
+    "readingMinutes": 120,
+    "tags": [
+      "散文",
+      "回忆",
+      "童年",
+      "教育",
+      "批判"
+    ],
+    "summary": "鲁迅回忆性散文集，在温情回忆中夹带对旧制度与旧教育的冷峻批判。"
+  },
+  {
+    "id": "panghuang",
+    "title": "彷徨",
+    "author": "鲁迅",
+    "country": "中国",
+    "era": "1926年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 6,
+    "readingMinutes": 200,
+    "tags": [
+      "小说",
+      "启蒙",
+      "女性",
+      "知识分子",
+      "苦闷"
+    ],
+    "summary": "鲁迅第二部小说集，写五四退潮后知识者的彷徨与底层女性的悲剧。"
+  },
+  {
+    "id": "gushixinbian",
+    "title": "故事新编",
+    "author": "鲁迅",
+    "country": "中国",
+    "era": "1936年",
+    "category": "近现代文学",
+    "level": "重要",
+    "batch": 6,
+    "readingMinutes": 180,
+    "tags": [
+      "历史小说",
+      "神话",
+      "讽刺",
+      "解构",
+      "幽默"
+    ],
+    "summary": "鲁迅以现代视角重写神话与历史，在荒诞幽默中寄寓现实批判。"
+  },
+  {
+    "id": "luotuoxiangzi",
+    "title": "骆驼祥子",
+    "author": "老舍",
+    "country": "中国",
+    "era": "1937年",
+    "category": "近现代文学",
+    "level": "殿堂级",
+    "batch": 6,
+    "readingMinutes": 300,
+    "tags": [
+      "市民",
+      "底层",
+      "人力车夫",
+      "命运",
+      "现实主义"
+    ],
+    "summary": "写人力车夫祥子三起三落的买车梦，展现旧北平底层人物的挣扎与沉沦。"
+  },
+  {
+    "id": "chaguan",
+    "title": "茶馆",
+    "author": "老舍",
+    "country": "中国",
+    "era": "1957年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 6,
+    "readingMinutes": 120,
+    "tags": [
+      "话剧",
+      "历史",
+      "市井",
+      "变迁",
+      "群像"
+    ],
+    "summary": "以裕泰茶馆的兴衰串起清末到民国的半个世纪，是中国话剧的经典。"
+  },
+  {
+    "id": "biancheng",
+    "title": "边城",
+    "author": "沈从文",
+    "country": "中国",
+    "era": "1934年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 6,
+    "readingMinutes": 120,
+    "tags": [
+      "乡土",
+      "爱情",
+      "湘西",
+      "人性",
+      "抒情"
+    ],
+    "summary": "以湘西茶峒的渡口少女翠翠为中心，写淳朴人情与不可捉摸的命运。"
+  },
+  {
+    "id": "jia",
+    "title": "家",
+    "author": "巴金",
+    "country": "中国",
+    "era": "1933年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 6,
+    "readingMinutes": 350,
+    "tags": [
+      "家族",
+      "反封建",
+      "青春",
+      "爱情",
+      "觉醒"
+    ],
+    "summary": "写高家三代人的冲突，展现五四青年在旧礼教中的觉醒与出走。"
+  },
+  {
+    "id": "leiyu",
+    "title": "雷雨",
+    "author": "曹禺",
+    "country": "中国",
+    "era": "1934年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 6,
+    "readingMinutes": 120,
+    "tags": [
+      "话剧",
+      "家族",
+      "命运",
+      "伦理",
+      "悲剧"
+    ],
+    "summary": "以周、鲁两家三十年的恩怨，在一天之内爆发，是中国现代话剧的奠基作。"
+  },
+  {
+    "id": "weicheng",
+    "title": "围城",
+    "author": "钱钟书",
+    "country": "中国",
+    "era": "1947年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 6,
+    "readingMinutes": 300,
+    "tags": [
+      "讽刺",
+      "知识分子",
+      "婚姻",
+      "幽默",
+      "漂泊"
+    ],
+    "summary": "以方鸿渐的求学、求职与婚姻写知识分子的困局，“围城”成为人生困境的隐喻。"
+  },
+  {
+    "id": "qingchengzhilian",
+    "title": "倾城之恋",
+    "author": "张爱玲",
+    "country": "中国",
+    "era": "1943年",
+    "category": "近现代文学",
+    "level": "重要",
+    "batch": 6,
+    "readingMinutes": 100,
+    "tags": [
+      "爱情",
+      "都市",
+      "人性",
+      "苍凉",
+      "婚恋"
+    ],
+    "summary": "上海与香港双城之间，白流苏与范柳原的婚恋博弈因战火而成全。"
+  },
+  {
+    "id": "pingfandeshijie",
+    "title": "平凡的世界",
+    "author": "路遥",
+    "country": "中国",
+    "era": "1986年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 6,
+    "readingMinutes": 1100,
+    "tags": [
+      "乡土",
+      "奋斗",
+      "青春",
+      "改革",
+      "现实"
+    ],
+    "summary": "以孙少安、孙少平兄弟为中心，写普通人在时代变迁中的奋斗与尊严。"
+  },
+  {
+    "id": "huozhe",
+    "title": "活着",
+    "author": "余华",
+    "country": "中国",
+    "era": "1992年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 7,
+    "readingMinutes": 200,
+    "tags": [
+      "苦难",
+      "命运",
+      "家庭",
+      "生存",
+      "现实"
+    ],
+    "summary": "福贵一生历尽亲人离散，以最朴素的叙述写出活着本身的力量。"
+  },
+  {
+    "id": "bailuyuan",
+    "title": "白鹿原",
+    "author": "陈忠实",
+    "country": "中国",
+    "era": "1993年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 7,
+    "readingMinutes": 600,
+    "tags": [
+      "乡土",
+      "家族",
+      "历史",
+      "文化",
+      "命运"
+    ],
+    "summary": "以白鹿两家的恩怨写关中五十年变迁，是民族秘史的厚重书写。"
+  },
+  {
+    "id": "woyuditan",
+    "title": "我与地坛",
+    "author": "史铁生",
+    "country": "中国",
+    "era": "2002年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 7,
+    "readingMinutes": 120,
+    "tags": [
+      "散文",
+      "生命",
+      "苦难",
+      "亲情",
+      "哲思"
+    ],
+    "summary": "以地坛为精神空间，写残疾、母亲与生死，是中国当代散文的高峰。"
+  },
+  {
+    "id": "hema-shishi",
+    "title": "荷马史诗",
+    "author": "荷马",
+    "country": "古希腊",
+    "era": "公元前8世纪",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 7,
+    "readingMinutes": 1500,
+    "tags": [
+      "史诗",
+      "战争",
+      "英雄",
+      "神话",
+      "命运"
+    ],
+    "summary": "包括《伊利亚特》与《奥德赛》，是西方文学与英雄传统的源头。"
+  },
+  {
+    "id": "shenqu",
+    "title": "神曲",
+    "author": "但丁",
+    "country": "意大利",
+    "era": "14世纪",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 7,
+    "readingMinutes": 600,
+    "tags": [
+      "史诗",
+      "宗教",
+      "地狱",
+      "炼狱",
+      "天堂"
+    ],
+    "summary": "以三界游历写灵魂的救赎，是中世纪思想的百科全书与意大利语的奠基作。"
+  },
+  {
+    "id": "tangjikede",
+    "title": "堂吉诃德",
+    "author": "塞万提斯",
+    "country": "西班牙",
+    "era": "1605年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 7,
+    "readingMinutes": 900,
+    "tags": [
+      "骑士",
+      "讽刺",
+      "理想",
+      "现实",
+      "幽默"
+    ],
+    "summary": "以疯骑士的冒险解构骑士文学，在笑声中写出理想主义的悲壮。"
+  },
+  {
+    "id": "hamuleite",
+    "title": "哈姆雷特",
+    "author": "莎士比亚",
+    "country": "英国",
+    "era": "1601年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 7,
+    "readingMinutes": 180,
+    "tags": [
+      "戏剧",
+      "复仇",
+      "犹豫",
+      "人性",
+      "悲剧"
+    ],
+    "summary": "丹麦王子的复仇与延宕，是西方文学中最著名的人性深思。"
+  },
+  {
+    "id": "luomiou",
+    "title": "罗密欧与朱丽叶",
+    "author": "莎士比亚",
+    "country": "英国",
+    "era": "1597年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 7,
+    "readingMinutes": 120,
+    "tags": [
+      "戏剧",
+      "爱情",
+      "家族",
+      "青春",
+      "悲剧"
+    ],
+    "summary": "两个世仇家族的青年以死殉情，成为西方爱情悲剧的原型。"
+  },
+  {
+    "id": "aoman",
+    "title": "傲慢与偏见",
+    "author": "简·奥斯汀",
+    "country": "英国",
+    "era": "1813年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 7,
+    "readingMinutes": 300,
+    "tags": [
+      "爱情",
+      "婚姻",
+      "阶级",
+      "讽刺",
+      "女性"
+    ],
+    "summary": "以伊丽莎白与达西的相互偏见写婚恋市场，机智风趣又洞察世情。"
+  },
+  {
+    "id": "jianai",
+    "title": "简·爱",
+    "author": "夏洛蒂·勃朗特",
+    "country": "英国",
+    "era": "1847年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 7,
+    "readingMinutes": 400,
+    "tags": [
+      "爱情",
+      "女性",
+      "独立",
+      "尊严",
+      "成长"
+    ],
+    "summary": "孤儿简·爱在困境中追求平等与尊严，是现代女性成长小说的经典。"
+  },
+  {
+    "id": "huxiaoshanzhuang",
+    "title": "呼啸山庄",
+    "author": "艾米莉·勃朗特",
+    "country": "英国",
+    "era": "1847年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 8,
+    "readingMinutes": 300,
+    "tags": [
+      "爱情",
+      "复仇",
+      "荒原",
+      "阶级",
+      "哥特"
+    ],
+    "summary": "两代人的爱恨在荒原上轮回，以狂暴情感写人性与命运。"
+  },
+  {
+    "id": "wuduguer",
+    "title": "雾都孤儿",
+    "author": "狄更斯",
+    "country": "英国",
+    "era": "1838年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 8,
+    "readingMinutes": 400,
+    "tags": [
+      "底层",
+      "孤儿",
+      "社会",
+      "悬疑",
+      "批判"
+    ],
+    "summary": "孤儿奥利弗在伦敦底层挣扎，揭露维多利亚时代的社会阴暗。"
+  },
+  {
+    "id": "shuangchengji",
+    "title": "双城记",
+    "author": "狄更斯",
+    "country": "英国",
+    "era": "1859年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 8,
+    "readingMinutes": 400,
+    "tags": [
+      "历史",
+      "革命",
+      "爱情",
+      "牺牲",
+      "双城"
+    ],
+    "summary": "以伦敦与巴黎为舞台，在法国大革命的绞索下写爱与牺牲。"
+  },
+  {
+    "id": "lubinxun",
+    "title": "鲁滨逊漂流记",
+    "author": "笛福",
+    "country": "英国",
+    "era": "1719年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 8,
+    "readingMinutes": 250,
+    "tags": [
+      "冒险",
+      "荒岛",
+      "生存",
+      "殖民",
+      "个人"
+    ],
+    "summary": "以荒岛求生写现代个人的自立与开拓，是英国小说的奠基作之一。"
+  },
+  {
+    "id": "geliefo",
+    "title": "格列佛游记",
+    "author": "斯威夫特",
+    "country": "英国",
+    "era": "1726年",
+    "category": "外国文学",
+    "level": "重要",
+    "batch": 8,
+    "readingMinutes": 250,
+    "tags": [
+      "游记",
+      "讽刺",
+      "奇幻",
+      "社会",
+      "政治"
+    ],
+    "summary": "借小人国、大人国等奇异旅程，讽刺英国政治与人性的局限。"
+  },
+  {
+    "id": "fushide",
+    "title": "浮士德",
+    "author": "歌德",
+    "country": "德国",
+    "era": "1808年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 8,
+    "readingMinutes": 500,
+    "tags": [
+      "诗剧",
+      "灵魂",
+      "欲望",
+      "救赎",
+      "知识"
+    ],
+    "summary": "以浮士德与魔鬼的赌约写现代人的精神追求与困境。"
+  },
+  {
+    "id": "shaonianweite",
+    "title": "少年维特之烦恼",
+    "author": "歌德",
+    "country": "德国",
+    "era": "1774年",
+    "category": "外国文学",
+    "level": "重要",
+    "batch": 8,
+    "readingMinutes": 120,
+    "tags": [
+      "书信体",
+      "爱情",
+      "青春",
+      "忧郁",
+      "自我"
+    ],
+    "summary": "以维特的书信写无望爱情与个体苦闷，引发欧洲“维特热”。"
+  },
+  {
+    "id": "beican",
+    "title": "悲惨世界",
+    "author": "雨果",
+    "country": "法国",
+    "era": "1862年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 8,
+    "readingMinutes": 1200,
+    "tags": [
+      "苦难",
+      "救赎",
+      "革命",
+      "人道",
+      "法律"
+    ],
+    "summary": "冉阿让的救赎与芳汀母女的苦难，构成一部人道主义史诗。"
+  },
+  {
+    "id": "bali",
+    "title": "巴黎圣母院",
+    "author": "雨果",
+    "country": "法国",
+    "era": "1831年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 8,
+    "readingMinutes": 450,
+    "tags": [
+      "历史",
+      "爱情",
+      "美丑",
+      "宗教",
+      "命运"
+    ],
+    "summary": "以钟楼怪人卡西莫多与吉普赛女郎的悲剧，写美与丑的辩证。"
+  },
+  {
+    "id": "hongyuei",
+    "title": "红与黑",
+    "author": "司汤达",
+    "country": "法国",
+    "era": "1830年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 8,
+    "readingMinutes": 400,
+    "tags": [
+      "现实主义",
+      "野心",
+      "爱情",
+      "阶级",
+      "心理"
+    ],
+    "summary": "于连在复辟时代以野心攀爬社会，最终走向毁灭。"
+  },
+  {
+    "id": "gaolao",
+    "title": "高老头",
+    "author": "巴尔扎克",
+    "country": "法国",
+    "era": "1835年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 9,
+    "readingMinutes": 300,
+    "tags": [
+      "现实主义",
+      "父爱",
+      "金钱",
+      "社会",
+      "悲剧"
+    ],
+    "summary": "以高老头被女儿榨干写金钱社会对亲情的吞噬。"
+  },
+  {
+    "id": "baofali",
+    "title": "包法利夫人",
+    "author": "福楼拜",
+    "country": "法国",
+    "era": "1856年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 9,
+    "readingMinutes": 300,
+    "tags": [
+      "现实主义",
+      "爱情",
+      "欲望",
+      "幻灭",
+      "女性"
+    ],
+    "summary": "爱玛在浪漫幻想与现实婚姻的落差中走向毁灭。"
+  },
+  {
+    "id": "jidushan",
+    "title": "基督山伯爵",
+    "author": "大仲马",
+    "country": "法国",
+    "era": "1844年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 9,
+    "readingMinutes": 1100,
+    "tags": [
+      "复仇",
+      "冒险",
+      "冤屈",
+      "财富",
+      "正义"
+    ],
+    "summary": "以唐泰斯的蒙冤与复仇写一部酣畅淋漓的通俗史诗。"
+  },
+  {
+    "id": "sangehuoqiangshou",
+    "title": "三个火枪手",
+    "author": "大仲马",
+    "country": "法国",
+    "era": "1844年",
+    "category": "外国文学",
+    "level": "重要",
+    "batch": 9,
+    "readingMinutes": 500,
+    "tags": [
+      "冒险",
+      "友谊",
+      "历史",
+      "阴谋",
+      "英雄"
+    ],
+    "summary": "以达达尼昂与三位火枪手的友谊和冒险写骑士精神。"
+  },
+  {
+    "id": "chahuanv",
+    "title": "茶花女",
+    "author": "小仲马",
+    "country": "法国",
+    "era": "1848年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 9,
+    "readingMinutes": 120,
+    "tags": [
+      "爱情",
+      "悲剧",
+      "社会",
+      "女性",
+      "牺牲"
+    ],
+    "summary": "以交际花玛格丽特与阿尔芒的爱情悲剧控诉社会偏见。"
+  },
+  {
+    "id": "zhanzheng",
+    "title": "战争与和平",
+    "author": "托尔斯泰",
+    "country": "俄国",
+    "era": "1869年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 9,
+    "readingMinutes": 2000,
+    "tags": [
+      "历史",
+      "战争",
+      "家族",
+      "爱情",
+      "人生"
+    ],
+    "summary": "以拿破仑战争为背景，写贵族家庭与个体在历史洪流中的命运。"
+  },
+  {
+    "id": "anna",
+    "title": "安娜·卡列尼娜",
+    "author": "托尔斯泰",
+    "country": "俄国",
+    "era": "1878年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 9,
+    "readingMinutes": 1100,
+    "tags": [
+      "爱情",
+      "婚姻",
+      "社会",
+      "悲剧",
+      "心理"
+    ],
+    "summary": "两条平行线索写安娜的婚外情悲剧与列文的精神探索。"
+  },
+  {
+    "id": "zuifa",
+    "title": "罪与罚",
+    "author": "陀思妥耶夫斯基",
+    "country": "俄国",
+    "era": "1866年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 9,
+    "readingMinutes": 600,
+    "tags": [
+      "犯罪",
+      "良心",
+      "救赎",
+      "心理",
+      "宗教"
+    ],
+    "summary": "穷大学生杀人后陷入精神煎熬，在苦难中走向救赎。"
+  },
+  {
+    "id": "kalamazuofu",
+    "title": "卡拉马佐夫兄弟",
+    "author": "陀思妥耶夫斯基",
+    "country": "俄国",
+    "era": "1880年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 9,
+    "readingMinutes": 800,
+    "tags": [
+      "家族",
+      "信仰",
+      "道德",
+      "自由",
+      "谋杀"
+    ],
+    "summary": "以父兄与私生子之间的谋杀案展开信仰与道德的终极追问。"
+  },
+  {
+    "id": "jingjing",
+    "title": "静静的顿河",
+    "author": "肖洛霍夫",
+    "country": "苏联",
+    "era": "1940年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 9,
+    "readingMinutes": 1400,
+    "tags": [
+      "史诗",
+      "战争",
+      "乡土",
+      "爱情",
+      "命运"
+    ],
+    "summary": "以哥萨克青年葛利高里的一生写顿河草原上的战争与动荡。"
+  },
+  {
+    "id": "gangtie",
+    "title": "钢铁是怎样炼成的",
+    "author": "奥斯特洛夫斯基",
+    "country": "苏联",
+    "era": "1934年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 10,
+    "readingMinutes": 400,
+    "tags": [
+      "成长",
+      "理想",
+      "奋斗",
+      "革命",
+      "青春"
+    ],
+    "summary": "以保尔·柯察金的成长写一代青年的理想主义与钢铁意志。"
+  },
+  {
+    "id": "bainian",
+    "title": "百年孤独",
+    "author": "马尔克斯",
+    "country": "哥伦比亚",
+    "era": "1967年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 10,
+    "readingMinutes": 400,
+    "tags": [
+      "魔幻现实",
+      "家族",
+      "孤独",
+      "历史",
+      "轮回"
+    ],
+    "summary": "布恩迪亚家族七代人的兴衰，是拉美历史与孤独的魔幻寓言。"
+  },
+  {
+    "id": "laoren",
+    "title": "老人与海",
+    "author": "海明威",
+    "country": "美国",
+    "era": "1952年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 10,
+    "readingMinutes": 120,
+    "tags": [
+      "海洋",
+      "坚持",
+      "尊严",
+      "孤独",
+      "寓言"
+    ],
+    "summary": "老渔夫与大鱼搏斗的简单故事，写人的尊严与“可以被毁灭但不能被打败”。"
+  },
+  {
+    "id": "xiaowangzi",
+    "title": "小王子",
+    "author": "圣埃克苏佩里",
+    "country": "法国",
+    "era": "1943年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 10,
+    "readingMinutes": 100,
+    "tags": [
+      "童话",
+      "成长",
+      "爱",
+      "责任",
+      "哲理"
+    ],
+    "summary": "来自小行星的王子旅行诸星，以童真之眼揭示成人世界的荒诞。"
+  },
+  {
+    "id": "1984",
+    "title": "1984",
+    "author": "乔治·奥威尔",
+    "country": "英国",
+    "era": "1949年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 10,
+    "readingMinutes": 300,
+    "tags": [
+      "反乌托邦",
+      "极权",
+      "自由",
+      "语言",
+      "政治"
+    ],
+    "summary": "老大哥注视下的世界，是20世纪最著名的反极权寓言。"
+  },
+  {
+    "id": "bianxingji",
+    "title": "变形记",
+    "author": "卡夫卡",
+    "country": "奥地利",
+    "era": "1915年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 10,
+    "readingMinutes": 100,
+    "tags": [
+      "荒诞",
+      "异化",
+      "家庭",
+      "现代",
+      "寓言"
+    ],
+    "summary": "格里高尔一觉醒来变成甲虫，写现代人的异化与孤独。"
+  },
+  {
+    "id": "piao",
+    "title": "飘",
+    "author": "玛格丽特·米切尔",
+    "country": "美国",
+    "era": "1936年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 10,
+    "readingMinutes": 1000,
+    "tags": [
+      "爱情",
+      "战争",
+      "女性",
+      "成长",
+      "历史"
+    ],
+    "summary": "以斯嘉丽在南北战争中的生存与爱情写美国南方的兴衰。"
+  },
+  {
+    "id": "shasi",
+    "title": "杀死一只知更鸟",
+    "author": "哈珀·李",
+    "country": "美国",
+    "era": "1960年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 10,
+    "readingMinutes": 300,
+    "tags": [
+      "成长",
+      "正义",
+      "种族",
+      "教育",
+      "法律"
+    ],
+    "summary": "以女孩斯库特的视角看父亲的辩护，写良知与勇气的教育。"
+  },
+  {
+    "id": "maidian",
+    "title": "麦田里的守望者",
+    "author": "塞林格",
+    "country": "美国",
+    "era": "1951年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 10,
+    "readingMinutes": 200,
+    "tags": [
+      "青春",
+      "叛逆",
+      "孤独",
+      "成长",
+      "心理"
+    ],
+    "summary": "少年霍尔顿的纽约漫游，写青春期的迷茫与对纯真的守护。"
+  },
+  {
+    "id": "juren",
+    "title": "局外人",
+    "author": "加缪",
+    "country": "法国",
+    "era": "1942年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 10,
+    "readingMinutes": 100,
+    "tags": [
+      "荒诞",
+      "存在",
+      "自由",
+      "审判",
+      "哲思"
+    ],
+    "summary": "默尔索在母亲葬礼后成为“局外人”，以冷峻叙事揭示存在的荒诞。"
+  },
+  {
+    "id": "shangshu",
+    "title": "尚书",
+    "author": "佚名",
+    "country": "中国",
+    "era": "先秦",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 11,
+    "readingMinutes": 300,
+    "tags": [
+      "政书",
+      "历史",
+      "尧舜",
+      "治国",
+      "天命"
+    ],
+    "summary": "中国最早的政书总集，收录虞夏商周的政治文献，是理解上古治理思想的重要源头。"
+  },
+  {
+    "id": "liji",
+    "title": "礼记",
+    "author": "戴圣",
+    "country": "中国",
+    "era": "西汉",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 11,
+    "readingMinutes": 300,
+    "tags": [
+      "礼制",
+      "儒家",
+      "礼运",
+      "教育",
+      "修身"
+    ],
+    "summary": "儒家礼学的重要汇编，讲礼制、伦理与教育，其中《礼运》《学记》影响深远。"
+  },
+  {
+    "id": "zhouyi",
+    "title": "周易",
+    "author": "佚名",
+    "country": "中国",
+    "era": "先秦",
+    "category": "文史哲",
+    "level": "殿堂级",
+    "batch": 11,
+    "readingMinutes": 250,
+    "tags": [
+      "易经",
+      "阴阳",
+      "变易",
+      "哲学",
+      "占卜"
+    ],
+    "summary": "以卦爻推演天地人事之变，是中国思想史上影响最深远的经典之一。"
+  },
+  {
+    "id": "shanhaijing",
+    "title": "山海经",
+    "author": "佚名",
+    "country": "中国",
+    "era": "先秦",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 11,
+    "readingMinutes": 250,
+    "tags": [
+      "神话",
+      "地理",
+      "异兽",
+      "上古",
+      "博物"
+    ],
+    "summary": "保存上古神话、地理与异兽的奇书，是理解中国神话体系的重要源头。"
+  },
+  {
+    "id": "huangdineijing",
+    "title": "黄帝内经",
+    "author": "佚名",
+    "country": "中国",
+    "era": "先秦至西汉",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 11,
+    "readingMinutes": 400,
+    "tags": [
+      "中医",
+      "养生",
+      "阴阳",
+      "经络",
+      "天人"
+    ],
+    "summary": "中医理论奠基之作，以阴阳五行解释人体与自然，讲养生、诊法与治则。"
+  },
+  {
+    "id": "mengxibitan",
+    "title": "梦溪笔谈",
+    "author": "沈括",
+    "country": "中国",
+    "era": "北宋",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 11,
+    "readingMinutes": 300,
+    "tags": [
+      "笔记",
+      "科技",
+      "博物",
+      "地理",
+      "考据"
+    ],
+    "summary": "沈括晚年笔记，记录天文、地理、数学、工艺等知识，是中国古代科技史的重要文献。"
+  },
+  {
+    "id": "tiangongkaiwu",
+    "title": "天工开物",
+    "author": "宋应星",
+    "country": "中国",
+    "era": "明代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 11,
+    "readingMinutes": 300,
+    "tags": [
+      "工艺",
+      "农业",
+      "科技",
+      "制造",
+      "实业"
+    ],
+    "summary": "系统记录明代的农业与手工业生产技术，被誉为中国十七世纪的工艺百科全书。"
+  },
+  {
+    "id": "bencaogangmu",
+    "title": "本草纲目",
+    "author": "李时珍",
+    "country": "中国",
+    "era": "明代",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 11,
+    "readingMinutes": 600,
+    "tags": [
+      "医药",
+      "本草",
+      "博物",
+      "分类",
+      "养生"
+    ],
+    "summary": "李时珍历时数十年编成的药物学巨著，收药千余种，兼具科学价值与博物趣味。"
+  },
+  {
+    "id": "xuxiakeyouji",
+    "title": "徐霞客游记",
+    "author": "徐霞客",
+    "country": "中国",
+    "era": "明代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 11,
+    "readingMinutes": 300,
+    "tags": [
+      "游记",
+      "地理",
+      "山水",
+      "考察",
+      "探险"
+    ],
+    "summary": "徐霞客三十余年远游的考察记录，兼具地理学价值与山水文学之美。"
+  },
+  {
+    "id": "rongzhaishuibi",
+    "title": "容斋随笔",
+    "author": "洪迈",
+    "country": "中国",
+    "era": "宋代",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 11,
+    "readingMinutes": 250,
+    "tags": [
+      "笔记",
+      "考证",
+      "文史",
+      "掌故",
+      "议论"
+    ],
+    "summary": "洪迈积数十年所写的读书札记，涉及经史、典章、诗文与见闻，是宋代笔记的代表。"
+  },
+  {
+    "id": "guanchangxianxingji",
+    "title": "官场现形记",
+    "author": "李宝嘉",
+    "country": "中国",
+    "era": "1903年",
+    "category": "古典小说",
+    "level": "经典",
+    "batch": 12,
+    "readingMinutes": 500,
+    "tags": [
+      "讽刺",
+      "官场",
+      "晚清",
+      "群像",
+      "现实"
+    ],
+    "summary": "晚清谴责小说的代表作，以连环故事揭露官场的贪腐与虚伪。"
+  },
+  {
+    "id": "ershinianmuduzhiguaixianzhuang",
+    "title": "二十年目睹之怪现状",
+    "author": "吴趼人",
+    "country": "中国",
+    "era": "1903年",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 12,
+    "readingMinutes": 450,
+    "tags": [
+      "讽刺",
+      "社会",
+      "晚清",
+      "见闻",
+      "批判"
+    ],
+    "summary": "以第一人称见闻串起晚清社会的种种怪现状，讽刺尖锐而具体。"
+  },
+  {
+    "id": "laocanyouji",
+    "title": "老残游记",
+    "author": "刘鹗",
+    "country": "中国",
+    "era": "1903年",
+    "category": "古典小说",
+    "level": "经典",
+    "batch": 12,
+    "readingMinutes": 200,
+    "tags": [
+      "游记",
+      "讽刺",
+      "晚清",
+      "山水",
+      "社会"
+    ],
+    "summary": "以江湖医生老残的游历写晚清社会，笔触清丽，兼有山水与批判。"
+  },
+  {
+    "id": "niehaihua",
+    "title": "孽海花",
+    "author": "曾朴",
+    "country": "中国",
+    "era": "1905年",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 12,
+    "readingMinutes": 350,
+    "tags": [
+      "讽刺",
+      "历史",
+      "晚清",
+      "士人",
+      "社会"
+    ],
+    "summary": "以状元金雯青与名妓傅彩云的故事，串起晚清三十年的人情与政局。"
+  },
+  {
+    "id": "sanxiawuyi",
+    "title": "三侠五义",
+    "author": "石玉昆",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "经典",
+    "batch": 12,
+    "readingMinutes": 400,
+    "tags": [
+      "侠义",
+      "公案",
+      "民间",
+      "包公",
+      "传奇"
+    ],
+    "summary": "以包公断案与江湖侠义为主线，是晚清侠义公案小说的代表作。"
+  },
+  {
+    "id": "jigongzhuan",
+    "title": "济公全传",
+    "author": "佚名",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 12,
+    "readingMinutes": 350,
+    "tags": [
+      "神魔",
+      "民间",
+      "济公",
+      "幽默",
+      "因果"
+    ],
+    "summary": "以疯僧济公济困扶危的故事为核心，幽默诙谐，民间气息浓厚。"
+  },
+  {
+    "id": "shuoyuequanzhuan",
+    "title": "说岳全传",
+    "author": "钱彩",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 12,
+    "readingMinutes": 400,
+    "tags": [
+      "英雄",
+      "历史",
+      "岳飞",
+      "忠义",
+      "民间"
+    ],
+    "summary": "以岳飞抗金为主线，塑造岳家军群像，是流传极广的民间英雄演义。"
+  },
+  {
+    "id": "suitangyanyi",
+    "title": "隋唐演义",
+    "author": "褚人获",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 12,
+    "readingMinutes": 500,
+    "tags": [
+      "历史",
+      "隋唐",
+      "英雄",
+      "演义",
+      "权谋"
+    ],
+    "summary": "演绎隋末群雄并起至唐玄宗时期的历史，秦琼、程咬金等人物深入人心。"
+  },
+  {
+    "id": "lvyexianzong",
+    "title": "绿野仙踪",
+    "author": "李百川",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 12,
+    "readingMinutes": 350,
+    "tags": [
+      "神魔",
+      "道教",
+      "修行",
+      "奇幻",
+      "世情"
+    ],
+    "summary": "以冷于冰修道成仙为主线，兼写世情与神魔，是清代长篇神魔小说的代表。"
+  },
+  {
+    "id": "dongyouji",
+    "title": "东游记",
+    "author": "吴元泰",
+    "country": "中国",
+    "era": "明代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 12,
+    "readingMinutes": 300,
+    "tags": [
+      "神魔",
+      "八仙",
+      "神话",
+      "民间",
+      "修行"
+    ],
+    "summary": "以八仙得道为主线，汇集民间八仙传说，是神魔小说中影响较大的一部。"
+  },
+  {
+    "id": "qianjiashi",
+    "title": "千家诗",
+    "author": "谢枋得与王相",
+    "country": "中国",
+    "era": "宋代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 13,
+    "readingMinutes": 120,
+    "tags": [
+      "诗歌",
+      "启蒙",
+      "选本",
+      "格律",
+      "童蒙"
+    ],
+    "summary": "古代流传极广的诗歌启蒙选本，篇目浅近，是许多人接触古典诗的第一本书。"
+  },
+  {
+    "id": "gushishijiushou",
+    "title": "古诗十九首",
+    "author": "佚名",
+    "country": "中国",
+    "era": "东汉",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 13,
+    "readingMinutes": 80,
+    "tags": [
+      "诗歌",
+      "抒情",
+      "人生",
+      "离别",
+      "五言"
+    ],
+    "summary": "东汉末年文人五言诗的代表，语言浅近而情感深沉，被誉为五言之冠冕。"
+  },
+  {
+    "id": "yutaixinyong",
+    "title": "玉台新咏",
+    "author": "徐陵",
+    "country": "中国",
+    "era": "南朝",
+    "category": "诗词曲赋",
+    "level": "重要",
+    "batch": 13,
+    "readingMinutes": 200,
+    "tags": [
+      "诗歌",
+      "爱情",
+      "女性",
+      "选本",
+      "宫体"
+    ],
+    "summary": "南朝诗歌选本，保存大量爱情诗与女性题材作品，是研究六朝诗歌的重要文献。"
+  },
+  {
+    "id": "huajianji",
+    "title": "花间集",
+    "author": "赵崇祚",
+    "country": "中国",
+    "era": "五代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 13,
+    "readingMinutes": 150,
+    "tags": [
+      "词",
+      "婉约",
+      "花间",
+      "爱情",
+      "格律"
+    ],
+    "summary": "中国第一部文人词总集，以婉约绮丽著称，奠定了词的审美基调。"
+  },
+  {
+    "id": "nalanci",
+    "title": "纳兰词",
+    "author": "纳兰性德",
+    "country": "中国",
+    "era": "清代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 13,
+    "readingMinutes": 120,
+    "tags": [
+      "词",
+      "爱情",
+      "悼亡",
+      "清初",
+      "性灵"
+    ],
+    "summary": "纳兰性德的词集，以真性情写爱情与悼亡，清丽哀婉，深受后世喜爱。"
+  },
+  {
+    "id": "xinqijicixuan",
+    "title": "辛弃疾词选",
+    "author": "辛弃疾",
+    "country": "中国",
+    "era": "宋代",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 13,
+    "readingMinutes": 150,
+    "tags": [
+      "宋词",
+      "豪放",
+      "爱国",
+      "英雄",
+      "悲愤"
+    ],
+    "summary": "辛弃疾词选，以英雄气与家国之痛开拓豪放词境，沉郁顿挫。"
+  },
+  {
+    "id": "liqingzhaocixuan",
+    "title": "李清照词选",
+    "author": "李清照",
+    "country": "中国",
+    "era": "宋代",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 13,
+    "readingMinutes": 120,
+    "tags": [
+      "宋词",
+      "婉约",
+      "女性",
+      "家国",
+      "身世"
+    ],
+    "summary": "李清照词选，以细腻笔触写少女、相思与南渡后的身世之感，婉约而不纤弱。"
+  },
+  {
+    "id": "liuyongcixuan",
+    "title": "柳永词选",
+    "author": "柳永",
+    "country": "中国",
+    "era": "宋代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 13,
+    "readingMinutes": 120,
+    "tags": [
+      "宋词",
+      "婉约",
+      "市井",
+      "羁旅",
+      "慢词"
+    ],
+    "summary": "柳永词选，以慢词写市井与羁旅，铺叙细腻，是宋词通俗化的重要推手。"
+  },
+  {
+    "id": "wenxindiaolong",
+    "title": "文心雕龙",
+    "author": "刘勰",
+    "country": "中国",
+    "era": "南朝",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 13,
+    "readingMinutes": 400,
+    "tags": [
+      "文论",
+      "文学",
+      "批评",
+      "修辞",
+      "体系"
+    ],
+    "summary": "中国第一部体系完整的文学理论著作，论文体、创作与批评，影响深远。"
+  },
+  {
+    "id": "renjiancihua",
+    "title": "人间词话",
+    "author": "王国维",
+    "country": "中国",
+    "era": "清代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 13,
+    "readingMinutes": 150,
+    "tags": [
+      "词话",
+      "境界",
+      "美学",
+      "批评",
+      "人生"
+    ],
+    "summary": "王国维以境界说论词，短短数十则，成为中国现代美学与文学批评的经典。"
+  },
+  {
+    "id": "sishitongtang",
+    "title": "四世同堂",
+    "author": "老舍",
+    "country": "中国",
+    "era": "1944年",
+    "category": "近现代文学",
+    "level": "殿堂级",
+    "batch": 14,
+    "readingMinutes": 800,
+    "tags": [
+      "抗战",
+      "家族",
+      "北平",
+      "市民",
+      "民族"
+    ],
+    "summary": "以小羊圈胡同祁家四代人的命运，写北平沦陷区普通人的屈辱与坚守。"
+  },
+  {
+    "id": "ziyes",
+    "title": "子夜",
+    "author": "茅盾",
+    "country": "中国",
+    "era": "1933年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 14,
+    "readingMinutes": 500,
+    "tags": [
+      "都市",
+      "资本",
+      "民族工业",
+      "社会",
+      "现实主义"
+    ],
+    "summary": "以民族资本家吴荪甫的挣扎，展现二十世纪三十年代上海的社会结构与时代困境。"
+  },
+  {
+    "id": "chun",
+    "title": "春",
+    "author": "巴金",
+    "country": "中国",
+    "era": "1938年",
+    "category": "近现代文学",
+    "level": "重要",
+    "batch": 14,
+    "readingMinutes": 300,
+    "tags": [
+      "家族",
+      "青春",
+      "反抗",
+      "爱情",
+      "觉醒"
+    ],
+    "summary": "《激流三部曲》第二部，写高家年轻一代在旧礼教中的挣扎与出走。"
+  },
+  {
+    "id": "qiu",
+    "title": "秋",
+    "author": "巴金",
+    "country": "中国",
+    "era": "1940年",
+    "category": "近现代文学",
+    "level": "重要",
+    "batch": 14,
+    "readingMinutes": 300,
+    "tags": [
+      "家族",
+      "衰败",
+      "青春",
+      "离别",
+      "觉醒"
+    ],
+    "summary": "《激流三部曲》第三部，写高家最终的分崩离析与新一代的选择。"
+  },
+  {
+    "id": "hulanhezhuan",
+    "title": "呼兰河传",
+    "author": "萧红",
+    "country": "中国",
+    "era": "1941年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 14,
+    "readingMinutes": 200,
+    "tags": [
+      "乡土",
+      "童年",
+      "女性",
+      "回忆",
+      "抒情"
+    ],
+    "summary": "以童年视角写呼兰河小城的日常生活，温情与悲凉交织，是现代乡土文学的杰作。"
+  },
+  {
+    "id": "shengcichang",
+    "title": "生死场",
+    "author": "萧红",
+    "country": "中国",
+    "era": "1935年",
+    "category": "近现代文学",
+    "level": "重要",
+    "batch": 14,
+    "readingMinutes": 200,
+    "tags": [
+      "乡土",
+      "女性",
+      "抗战",
+      "苦难",
+      "生存"
+    ],
+    "summary": "写东北农村在生死线上的挣扎，笔触冷峻，是萧红早期代表作。"
+  },
+  {
+    "id": "jinsuoji",
+    "title": "金锁记",
+    "author": "张爱玲",
+    "country": "中国",
+    "era": "1943年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 14,
+    "readingMinutes": 120,
+    "tags": [
+      "女性",
+      "家族",
+      "金钱",
+      "心理",
+      "悲剧"
+    ],
+    "summary": "以曹七巧的一生写金钱与欲望如何扭曲人性，是张爱玲最锋利的中篇。"
+  },
+  {
+    "id": "hongyan",
+    "title": "红岩",
+    "author": "罗广斌与杨益言",
+    "country": "中国",
+    "era": "1961年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 14,
+    "readingMinutes": 400,
+    "tags": [
+      "革命",
+      "信仰",
+      "狱中",
+      "英雄",
+      "群像"
+    ],
+    "summary": "以重庆渣滓洞、白公馆的狱中斗争为背景，写革命者的信念与牺牲。"
+  },
+  {
+    "id": "linhaixueyuan",
+    "title": "林海雪原",
+    "author": "曲波",
+    "country": "中国",
+    "era": "1957年",
+    "category": "近现代文学",
+    "level": "重要",
+    "batch": 14,
+    "readingMinutes": 400,
+    "tags": [
+      "剿匪",
+      "东北",
+      "英雄",
+      "传奇",
+      "战争"
+    ],
+    "summary": "写东北剿匪小分队的智勇斗争，杨子荣等形象深入人心。"
+  },
+  {
+    "id": "qingchunzhige",
+    "title": "青春之歌",
+    "author": "杨沫",
+    "country": "中国",
+    "era": "1958年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 14,
+    "readingMinutes": 450,
+    "tags": [
+      "青春",
+      "革命",
+      "成长",
+      "女性",
+      "知识分子"
+    ],
+    "summary": "以林道静的成长写青年知识分子在时代洪流中的选择与觉醒。"
+  },
+  {
+    "id": "santi",
+    "title": "三体",
+    "author": "刘慈欣",
+    "country": "中国",
+    "era": "2006年",
+    "category": "近现代文学",
+    "level": "殿堂级",
+    "batch": 15,
+    "readingMinutes": 600,
+    "tags": [
+      "科幻",
+      "宇宙",
+      "文明",
+      "人性",
+      "技术"
+    ],
+    "summary": "以地球文明与三体文明的博弈，展开中国科幻最具影响力的宇宙叙事。"
+  },
+  {
+    "id": "xusanguanmaixueji",
+    "title": "许三观卖血记",
+    "author": "余华",
+    "country": "中国",
+    "era": "1995年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 15,
+    "readingMinutes": 250,
+    "tags": [
+      "苦难",
+      "家庭",
+      "生存",
+      "幽默",
+      "现实"
+    ],
+    "summary": "许三观一次次卖血渡难关，以朴素的叙述写普通人的韧性与温情。"
+  },
+  {
+    "id": "xiongdi",
+    "title": "兄弟",
+    "author": "余华",
+    "country": "中国",
+    "era": "2005年",
+    "category": "近现代文学",
+    "level": "重要",
+    "batch": 15,
+    "readingMinutes": 500,
+    "tags": [
+      "时代",
+      "兄弟",
+      "荒诞",
+      "苦难",
+      "现实"
+    ],
+    "summary": "写两兄弟在时代巨变中的命运分岔，上半部沉痛，下半部荒诞。"
+  },
+  {
+    "id": "honggaoliang",
+    "title": "红高粱家族",
+    "author": "莫言",
+    "country": "中国",
+    "era": "1987年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 15,
+    "readingMinutes": 350,
+    "tags": [
+      "乡土",
+      "抗战",
+      "民间",
+      "生命力",
+      "叙事"
+    ],
+    "summary": "以高密东北乡的家族记忆写抗战与民间生命力，叙事浓烈而自由。"
+  },
+  {
+    "id": "fengrufeitun",
+    "title": "丰乳肥臀",
+    "author": "莫言",
+    "country": "中国",
+    "era": "1995年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 15,
+    "readingMinutes": 600,
+    "tags": [
+      "家族",
+      "女性",
+      "历史",
+      "苦难",
+      "民间"
+    ],
+    "summary": "以母亲上官鲁氏的一生串起中国二十世纪的历史动荡。"
+  },
+  {
+    "id": "wa",
+    "title": "蛙",
+    "author": "莫言",
+    "country": "中国",
+    "era": "2009年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 15,
+    "readingMinutes": 350,
+    "tags": [
+      "乡土",
+      "生育",
+      "历史",
+      "反思",
+      "现实"
+    ],
+    "summary": "以乡村妇产科医生姑姑的一生，写计划生育政策下的个体命运。"
+  },
+  {
+    "id": "yijudingyiwanyiju",
+    "title": "一句顶一万句",
+    "author": "刘震云",
+    "country": "中国",
+    "era": "2009年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 15,
+    "readingMinutes": 350,
+    "tags": [
+      "乡土",
+      "孤独",
+      "语言",
+      "寻找",
+      "现实"
+    ],
+    "summary": "写两代人为说得着的人四处奔走，以日常语言触及中国人的精神孤独。"
+  },
+  {
+    "id": "changhenge",
+    "title": "长恨歌",
+    "author": "王安忆",
+    "country": "中国",
+    "era": "1995年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 15,
+    "readingMinutes": 400,
+    "tags": [
+      "都市",
+      "女性",
+      "上海",
+      "命运",
+      "怀旧"
+    ],
+    "summary": "以王琦瑶的一生写上海四十年的城市变迁与女性命运。"
+  },
+  {
+    "id": "musilindezangli",
+    "title": "穆斯林的葬礼",
+    "author": "霍达",
+    "country": "中国",
+    "era": "1988年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 15,
+    "readingMinutes": 500,
+    "tags": [
+      "家族",
+      "宗教",
+      "爱情",
+      "命运",
+      "文化"
+    ],
+    "summary": "写一个穆斯林家族三代人的悲欢，兼有民族志与爱情悲剧的双重质地。"
+  },
+  {
+    "id": "chenailuoding",
+    "title": "尘埃落定",
+    "author": "阿来",
+    "country": "中国",
+    "era": "1998年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 15,
+    "readingMinutes": 350,
+    "tags": [
+      "藏族",
+      "土司",
+      "历史",
+      "家族",
+      "魔幻"
+    ],
+    "summary": "以傻子二少爷的视角写土司制度的崩溃，诗意而苍凉。"
+  },
+  {
+    "id": "fuhuo",
+    "title": "复活",
+    "author": "托尔斯泰",
+    "country": "俄国",
+    "era": "1899年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 16,
+    "readingMinutes": 600,
+    "tags": [
+      "救赎",
+      "道德",
+      "社会",
+      "爱情",
+      "宗教"
+    ],
+    "summary": "聂赫留朵夫的忏悔与玛丝洛娃的觉醒，构成一部关于良知与救赎的长篇。"
+  },
+  {
+    "id": "sihunling",
+    "title": "死魂灵",
+    "author": "果戈理",
+    "country": "俄国",
+    "era": "1842年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 16,
+    "readingMinutes": 400,
+    "tags": [
+      "讽刺",
+      "官僚",
+      "农奴",
+      "社会",
+      "荒诞"
+    ],
+    "summary": "乞乞科夫收购死魂灵的荒诞故事，讽刺俄国官僚与农奴制度。"
+  },
+  {
+    "id": "yefugaini",
+    "title": "叶甫盖尼·奥涅金",
+    "author": "普希金",
+    "country": "俄国",
+    "era": "1833年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 16,
+    "readingMinutes": 300,
+    "tags": [
+      "诗体小说",
+      "爱情",
+      "多余人",
+      "社会",
+      "命运"
+    ],
+    "summary": "以诗体写奥涅金与达吉雅娜的爱情悲剧，塑造了俄国文学中的多余人。"
+  },
+  {
+    "id": "fuyuzi",
+    "title": "父与子",
+    "author": "屠格涅夫",
+    "country": "俄国",
+    "era": "1862年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 16,
+    "readingMinutes": 300,
+    "tags": [
+      "代际",
+      "虚无主义",
+      "爱情",
+      "社会",
+      "思想"
+    ],
+    "summary": "写父辈与子辈的观念冲突，塑造了虚无主义者巴扎罗夫这一经典形象。"
+  },
+  {
+    "id": "tongnian",
+    "title": "童年",
+    "author": "高尔基",
+    "country": "俄国",
+    "era": "1913年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 16,
+    "readingMinutes": 250,
+    "tags": [
+      "自传",
+      "成长",
+      "苦难",
+      "亲情",
+      "社会"
+    ],
+    "summary": "高尔基自传体三部曲第一部，写阿廖沙在苦难中成长的童年。"
+  },
+  {
+    "id": "riwageyisheng",
+    "title": "日瓦戈医生",
+    "author": "帕斯捷尔纳克",
+    "country": "苏联",
+    "era": "1957年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 16,
+    "readingMinutes": 600,
+    "tags": [
+      "革命",
+      "爱情",
+      "知识分子",
+      "命运",
+      "诗性"
+    ],
+    "summary": "以医生日瓦戈的一生写革命年代的个体命运，兼具史诗与抒情。"
+  },
+  {
+    "id": "meilixinshijie",
+    "title": "美丽新世界",
+    "author": "赫胥黎",
+    "country": "英国",
+    "era": "1932年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 16,
+    "readingMinutes": 300,
+    "tags": [
+      "反乌托邦",
+      "科技",
+      "消费",
+      "自由",
+      "控制"
+    ],
+    "summary": "以基因分级与感官快乐构建的乌托邦，警示技术对人的驯化。"
+  },
+  {
+    "id": "women",
+    "title": "我们",
+    "author": "扎米亚京",
+    "country": "俄国",
+    "era": "1924年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 16,
+    "readingMinutes": 250,
+    "tags": [
+      "反乌托邦",
+      "极权",
+      "理性",
+      "自由",
+      "个体"
+    ],
+    "summary": "以大一统国的编号公民写极权对个体的吞没，是反乌托邦文学的先声。"
+  },
+  {
+    "id": "dongwunongchang",
+    "title": "动物农场",
+    "author": "奥威尔",
+    "country": "英国",
+    "era": "1945年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 16,
+    "readingMinutes": 150,
+    "tags": [
+      "寓言",
+      "政治",
+      "革命",
+      "权力",
+      "讽刺"
+    ],
+    "summary": "以农场动物革命写权力如何腐化，是二十世纪最锋利的政治寓言之一。"
+  },
+  {
+    "id": "huashi451",
+    "title": "华氏451",
+    "author": "布拉德伯里",
+    "country": "美国",
+    "era": "1953年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 16,
+    "readingMinutes": 200,
+    "tags": [
+      "反乌托邦",
+      "阅读",
+      "审查",
+      "自由",
+      "科技"
+    ],
+    "summary": "在一个禁止读书的未来，消防员烧书，而有人选择把书背下来。"
+  },
+  {
+    "id": "yulixisi",
+    "title": "尤利西斯",
+    "author": "乔伊斯",
+    "country": "爱尔兰",
+    "era": "1922年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 17,
+    "readingMinutes": 800,
+    "tags": [
+      "意识流",
+      "都市",
+      "现代",
+      "神话",
+      "实验"
+    ],
+    "summary": "以都柏林一天写三个人物的意识流动，是现代主义小说的里程碑。"
+  },
+  {
+    "id": "zhuiyisishuinianhua",
+    "title": "追忆似水年华",
+    "author": "普鲁斯特",
+    "country": "法国",
+    "era": "1913年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 17,
+    "readingMinutes": 1500,
+    "tags": [
+      "意识流",
+      "记忆",
+      "时间",
+      "爱情",
+      "现代"
+    ],
+    "summary": "以记忆与时间为轴，展开对贵族社会与自我内心的漫长追索。"
+  },
+  {
+    "id": "xuanhuayusaodong",
+    "title": "喧哗与骚动",
+    "author": "福克纳",
+    "country": "美国",
+    "era": "1929年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 17,
+    "readingMinutes": 400,
+    "tags": [
+      "意识流",
+      "家族",
+      "南方",
+      "时间",
+      "叙事"
+    ],
+    "summary": "以多视角与意识流写美国南方家族的衰败，叙事实验影响深远。"
+  },
+  {
+    "id": "yongbieliaowuqi",
+    "title": "永别了，武器",
+    "author": "海明威",
+    "country": "美国",
+    "era": "1929年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 17,
+    "readingMinutes": 300,
+    "tags": [
+      "战争",
+      "爱情",
+      "幻灭",
+      "克制",
+      "自传"
+    ],
+    "summary": "以一战为背景写爱情与幻灭，海明威式克制文风的代表作。"
+  },
+  {
+    "id": "sangzhong",
+    "title": "丧钟为谁而鸣",
+    "author": "海明威",
+    "country": "美国",
+    "era": "1940年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 17,
+    "readingMinutes": 450,
+    "tags": [
+      "战争",
+      "爱情",
+      "牺牲",
+      "西班牙",
+      "人性"
+    ],
+    "summary": "以西班牙内战中的爆破任务写个人在战争中的选择与牺牲。"
+  },
+  {
+    "id": "gaicibi",
+    "title": "了不起的盖茨比",
+    "author": "菲茨杰拉德",
+    "country": "美国",
+    "era": "1925年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 17,
+    "readingMinutes": 200,
+    "tags": [
+      "爵士时代",
+      "爱情",
+      "幻梦",
+      "阶级",
+      "美国梦"
+    ],
+    "summary": "以盖茨比的痴情与幻灭写爵士时代的繁华与空虚。"
+  },
+  {
+    "id": "fennudeputao",
+    "title": "愤怒的葡萄",
+    "author": "斯坦贝克",
+    "country": "美国",
+    "era": "1939年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 17,
+    "readingMinutes": 500,
+    "tags": [
+      "大萧条",
+      "迁徙",
+      "底层",
+      "家庭",
+      "社会"
+    ],
+    "summary": "写大萧条时期农民一家西迁求生的艰难旅程，厚重而人道。"
+  },
+  {
+    "id": "diershier",
+    "title": "第二十二条军规",
+    "author": "海勒",
+    "country": "美国",
+    "era": "1961年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 17,
+    "readingMinutes": 400,
+    "tags": [
+      "黑色幽默",
+      "战争",
+      "荒诞",
+      "制度",
+      "自由"
+    ],
+    "summary": "以荒诞的军规写战争体制对个人的围困，是黑色幽默文学的代表。"
+  },
+  {
+    "id": "huoluan",
+    "title": "霍乱时期的爱情",
+    "author": "马尔克斯",
+    "country": "哥伦比亚",
+    "era": "1985年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 17,
+    "readingMinutes": 400,
+    "tags": [
+      "爱情",
+      "时间",
+      "等待",
+      "老年",
+      "拉美"
+    ],
+    "summary": "写一场跨越半个多世纪的爱情等待，把爱情的各种形态写尽。"
+  },
+  {
+    "id": "tiepigu",
+    "title": "铁皮鼓",
+    "author": "格拉斯",
+    "country": "德国",
+    "era": "1959年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 17,
+    "readingMinutes": 500,
+    "tags": [
+      "历史",
+      "荒诞",
+      "童年",
+      "战争",
+      "叙事"
+    ],
+    "summary": "以不愿长大的奥斯卡写德国二十世纪的历史，荒诞而尖锐。"
+  },
+  {
+    "id": "shiritan",
+    "title": "十日谈",
+    "author": "薄伽丘",
+    "country": "意大利",
+    "era": "1353年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 18,
+    "readingMinutes": 400,
+    "tags": [
+      "故事集",
+      "人性",
+      "爱情",
+      "讽刺",
+      "文艺复兴"
+    ],
+    "summary": "十名青年避疫山间讲述百则故事，以世俗人性对抗中世纪禁欲。"
+  },
+  {
+    "id": "jurenzhuan",
+    "title": "巨人传",
+    "author": "拉伯雷",
+    "country": "法国",
+    "era": "1532年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 18,
+    "readingMinutes": 500,
+    "tags": [
+      "讽刺",
+      "巨人",
+      "狂欢",
+      "教育",
+      "文艺复兴"
+    ],
+    "summary": "以巨人家族的荒诞冒险写文艺复兴的解放精神，语言狂欢。"
+  },
+  {
+    "id": "antusheng",
+    "title": "安徒生童话",
+    "author": "安徒生",
+    "country": "丹麦",
+    "era": "1835年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 18,
+    "readingMinutes": 250,
+    "tags": [
+      "童话",
+      "成长",
+      "苦难",
+      "想象",
+      "人性"
+    ],
+    "summary": "包括《海的女儿》《丑小鸭》等名篇，以童话写人类的孤独与善良。"
+  },
+  {
+    "id": "gelin",
+    "title": "格林童话",
+    "author": "格林兄弟",
+    "country": "德国",
+    "era": "1812年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 18,
+    "readingMinutes": 250,
+    "tags": [
+      "童话",
+      "民间",
+      "魔法",
+      "成长",
+      "原型"
+    ],
+    "summary": "采集民间故事编成，保存了大量童话母题，影响世界儿童文学。"
+  },
+  {
+    "id": "yiqianlingyiye",
+    "title": "一千零一夜",
+    "author": "佚名",
+    "country": "阿拉伯",
+    "era": "中世纪",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 18,
+    "readingMinutes": 500,
+    "tags": [
+      "故事集",
+      "民间",
+      "奇幻",
+      "爱情",
+      "智慧"
+    ],
+    "summary": "以山鲁佐德讲故事求生的框架，汇集阿拉伯与东方民间叙事。"
+  },
+  {
+    "id": "yisuo",
+    "title": "伊索寓言",
+    "author": "伊索",
+    "country": "古希腊",
+    "era": "公元前6世纪",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 18,
+    "readingMinutes": 120,
+    "tags": [
+      "寓言",
+      "动物",
+      "智慧",
+      "讽刺",
+      "教育"
+    ],
+    "summary": "以动物寓言讲处世智慧，篇篇短小，流传两千余年。"
+  },
+  {
+    "id": "yuanshiwuyu",
+    "title": "源氏物语",
+    "author": "紫式部",
+    "country": "日本",
+    "era": "11世纪",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 18,
+    "readingMinutes": 800,
+    "tags": [
+      "贵族",
+      "爱情",
+      "女性",
+      "物哀",
+      "宫廷"
+    ],
+    "summary": "以光源氏的一生写平安朝贵族生活，是世界最早的长篇小说之一。"
+  },
+  {
+    "id": "zhencaozi",
+    "title": "枕草子",
+    "author": "清少纳言",
+    "country": "日本",
+    "era": "11世纪",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 18,
+    "readingMinutes": 200,
+    "tags": [
+      "随笔",
+      "宫廷",
+      "审美",
+      "生活",
+      "物哀"
+    ],
+    "summary": "以清丽笔触记录宫廷见闻与生活趣味，是日本随笔文学的开山之作。"
+  },
+  {
+    "id": "pingjiawuyu",
+    "title": "平家物语",
+    "author": "佚名",
+    "country": "日本",
+    "era": "13世纪",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 18,
+    "readingMinutes": 400,
+    "tags": [
+      "史诗",
+      "战争",
+      "家族",
+      "无常",
+      "佛教"
+    ],
+    "summary": "以平氏家族的兴衰写武士时代的战争与无常，是日本军记文学的代表。"
+  },
+  {
+    "id": "waerdeng",
+    "title": "瓦尔登湖",
+    "author": "梭罗",
+    "country": "美国",
+    "era": "1854年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 18,
+    "readingMinutes": 250,
+    "tags": [
+      "自然",
+      "隐居",
+      "简朴",
+      "哲思",
+      "生态"
+    ],
+    "summary": "梭罗在瓦尔登湖畔独居两年的记录，思考简朴生活与自然的关系。"
+  },
+  {
+    "id": "taiyangzhaochangshengqi",
+    "title": "太阳照常升起",
+    "author": "海明威",
+    "country": "美国",
+    "era": "1926年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 19,
+    "readingMinutes": 250,
+    "tags": [
+      "迷惘一代",
+      "爱情",
+      "旅行",
+      "战争",
+      "克制"
+    ],
+    "summary": "写战后迷惘的一代在巴黎与西班牙的漂泊，文风克制而有力。"
+  },
+  {
+    "id": "peideluobalamo",
+    "title": "佩德罗·巴拉莫",
+    "author": "鲁尔福",
+    "country": "墨西哥",
+    "era": "1955年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 19,
+    "readingMinutes": 200,
+    "tags": [
+      "魔幻",
+      "死亡",
+      "乡土",
+      "叙事",
+      "孤独"
+    ],
+    "summary": "以鬼魂叙事写科马拉的衰败，是拉美魔幻现实主义的先声。"
+  },
+  {
+    "id": "chengshiyugou",
+    "title": "城市与狗",
+    "author": "略萨",
+    "country": "秘鲁",
+    "era": "1963年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 19,
+    "readingMinutes": 350,
+    "tags": [
+      "军校",
+      "暴力",
+      "成长",
+      "社会",
+      "结构"
+    ],
+    "summary": "以军校学员的残酷生活写权力与暴力，叙事结构实验性强。"
+  },
+  {
+    "id": "lvfangzi",
+    "title": "绿房子",
+    "author": "略萨",
+    "country": "秘鲁",
+    "era": "1966年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 19,
+    "readingMinutes": 400,
+    "tags": [
+      "结构",
+      "社会",
+      "欲望",
+      "历史",
+      "叙事"
+    ],
+    "summary": "以多线并置写秘鲁北部城市的社会变迁，是结构现实主义的代表。"
+  },
+  {
+    "id": "zongtongxiansheng",
+    "title": "总统先生",
+    "author": "阿斯图里亚斯",
+    "country": "危地马拉",
+    "era": "1946年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 19,
+    "readingMinutes": 400,
+    "tags": [
+      "独裁",
+      "权力",
+      "恐惧",
+      "社会",
+      "魔幻"
+    ],
+    "summary": "以独裁者周围的恐惧与阴谋写拉美政治，是独裁小说的重要作品。"
+  },
+  {
+    "id": "zhizhunvzhiwen",
+    "title": "蜘蛛女之吻",
+    "author": "普伊格",
+    "country": "阿根廷",
+    "era": "1976年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 19,
+    "readingMinutes": 250,
+    "tags": [
+      "对话",
+      "政治",
+      "性别",
+      "监狱",
+      "叙事"
+    ],
+    "summary": "以两名囚犯的对话串起电影故事与政治隐喻。"
+  },
+  {
+    "id": "xiaojingfencha",
+    "title": "小径分岔的花园",
+    "author": "博尔赫斯",
+    "country": "阿根廷",
+    "era": "1941年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 19,
+    "readingMinutes": 120,
+    "tags": [
+      "短篇",
+      "时间",
+      "迷宫",
+      "哲学",
+      "想象"
+    ],
+    "summary": "以迷宫与无限写时间与可能性，是博尔赫斯最具代表性的短篇集。"
+  },
+  {
+    "id": "xiangeierjionghuashu",
+    "title": "献给阿尔吉侬的花束",
+    "author": "凯斯",
+    "country": "美国",
+    "era": "1966年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 19,
+    "readingMinutes": 200,
+    "tags": [
+      "科幻",
+      "智力",
+      "人性",
+      "实验",
+      "悲剧"
+    ],
+    "summary": "以智力实验写一个心智障碍者的觉醒与坠落，温柔而悲伤。"
+  },
+  {
+    "id": "shinvdegushi",
+    "title": "使女的故事",
+    "author": "阿特伍德",
+    "country": "加拿大",
+    "era": "1985年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 19,
+    "readingMinutes": 300,
+    "tags": [
+      "反乌托邦",
+      "女性",
+      "极权",
+      "身体",
+      "自由"
+    ],
+    "summary": "以女性视角写极权社会对生育与身体的掌控。"
+  },
+  {
+    "id": "jidi",
+    "title": "基地",
+    "author": "阿西莫夫",
+    "country": "美国",
+    "era": "1951年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 19,
+    "readingMinutes": 500,
+    "tags": [
+      "科幻",
+      "文明",
+      "历史",
+      "心理史学",
+      "帝国"
+    ],
+    "summary": "以心理史学预言帝国崩溃，用一个小基地保存文明火种。"
+  },
+  {
+    "id": "sufeideshijie",
+    "title": "苏菲的世界",
+    "author": "乔斯坦·贾德",
+    "country": "挪威",
+    "era": "1991年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 20,
+    "readingMinutes": 400,
+    "tags": [
+      "哲学",
+      "启蒙",
+      "悬疑",
+      "成长",
+      "西方思想"
+    ],
+    "summary": "以少女苏菲收到的神秘课程串起西方哲学史，是极受欢迎的哲学入门。"
+  },
+  {
+    "id": "shengmingzhilqing",
+    "title": "不能承受的生命之轻",
+    "author": "昆德拉",
+    "country": "捷克",
+    "era": "1984年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 20,
+    "readingMinutes": 300,
+    "tags": [
+      "哲学",
+      "爱情",
+      "政治",
+      "轻与重",
+      "现代"
+    ],
+    "summary": "以四个人的情感与选择探讨轻与重、自由与责任。"
+  },
+  {
+    "id": "wanxiao",
+    "title": "玩笑",
+    "author": "昆德拉",
+    "country": "捷克",
+    "era": "1967年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 20,
+    "readingMinutes": 300,
+    "tags": [
+      "政治",
+      "讽刺",
+      "青春",
+      "报复",
+      "荒诞"
+    ],
+    "summary": "以一句玩笑毁掉一生写极权年代的荒诞与个人命运。"
+  },
+  {
+    "id": "chengbao",
+    "title": "城堡",
+    "author": "卡夫卡",
+    "country": "奥地利",
+    "era": "1926年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 20,
+    "readingMinutes": 300,
+    "tags": [
+      "荒诞",
+      "官僚",
+      "存在",
+      "孤独",
+      "现代"
+    ],
+    "summary": "以土地测量员进不了城堡写现代人的无力与荒诞。"
+  },
+  {
+    "id": "shenpan",
+    "title": "审判",
+    "author": "卡夫卡",
+    "country": "奥地利",
+    "era": "1925年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 20,
+    "readingMinutes": 250,
+    "tags": [
+      "荒诞",
+      "法律",
+      "罪责",
+      "存在",
+      "现代"
+    ],
+    "summary": "约瑟夫·K莫名其妙被审判，写现代制度对个体的围困。"
+  },
+  {
+    "id": "shuyi",
+    "title": "鼠疫",
+    "author": "加缪",
+    "country": "法国",
+    "era": "1947年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 20,
+    "readingMinutes": 300,
+    "tags": [
+      "荒诞",
+      "灾难",
+      "反抗",
+      "人性",
+      "存在"
+    ],
+    "summary": "以奥兰城的鼠疫封城写人在灾难中的选择与反抗。"
+  },
+  {
+    "id": "xixifushenhua",
+    "title": "西西弗神话",
+    "author": "加缪",
+    "country": "法国",
+    "era": "1942年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 20,
+    "readingMinutes": 150,
+    "tags": [
+      "哲学",
+      "荒诞",
+      "反抗",
+      "自由",
+      "存在"
+    ],
+    "summary": "以西西弗推石写荒诞处境中的清醒与反抗。"
+  },
+  {
+    "id": "shijianjianshi",
+    "title": "时间简史",
+    "author": "霍金",
+    "country": "英国",
+    "era": "1988年",
+    "category": "科普新知",
+    "level": "经典",
+    "batch": 20,
+    "readingMinutes": 250,
+    "tags": [
+      "宇宙",
+      "物理",
+      "时间",
+      "黑洞",
+      "科普"
+    ],
+    "summary": "以通俗语言讲宇宙起源、时间与黑洞，是影响最广的科普经典之一。"
+  },
+  {
+    "id": "renleijianshi",
+    "title": "人类简史",
+    "author": "赫拉利",
+    "country": "以色列",
+    "era": "2011年",
+    "category": "科普新知",
+    "level": "经典",
+    "batch": 20,
+    "readingMinutes": 400,
+    "tags": [
+      "历史",
+      "人类",
+      "文明",
+      "科技",
+      "宏观"
+    ],
+    "summary": "从认知革命到科技革命，以宏观视角重述人类历史。"
+  },
+  {
+    "id": "wanli15nian",
+    "title": "万历十五年",
+    "author": "黄仁宇",
+    "country": "中国",
+    "era": "1982年",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 20,
+    "readingMinutes": 250,
+    "tags": [
+      "历史",
+      "明代",
+      "制度",
+      "人物",
+      "大历史"
+    ],
+    "summary": "以万历十五年前后的几个人物写明代制度困境，开创大历史写法。"
+  },
+  {
+    "id": "guoyu",
+    "title": "国语",
+    "author": "左丘明",
+    "country": "中国",
+    "era": "先秦",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 21,
+    "readingMinutes": 300,
+    "tags": [
+      "国别体",
+      "历史",
+      "辞令",
+      "春秋",
+      "政治"
+    ],
+    "summary": "中国第一部国别体史书，记西周末至春秋各国君臣言论，尤以辞令与劝谏见长。"
+  },
+  {
+    "id": "yanzichunqiu",
+    "title": "晏子春秋",
+    "author": "晏婴",
+    "country": "中国",
+    "era": "先秦",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 21,
+    "readingMinutes": 250,
+    "tags": [
+      "晏子",
+      "谏诤",
+      "故事",
+      "齐国",
+      "智慧"
+    ],
+    "summary": "以晏婴言行编成的故事集，短小精悍，展现一位诤臣的机敏与风骨。"
+  },
+  {
+    "id": "lvshichunqiu",
+    "title": "吕氏春秋",
+    "author": "吕不韦",
+    "country": "中国",
+    "era": "战国",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 21,
+    "readingMinutes": 350,
+    "tags": [
+      "杂家",
+      "诸子",
+      "治国",
+      "寓言",
+      "百科"
+    ],
+    "summary": "吕不韦组织门客编成的杂家巨著，兼采诸子，以寓言说理，体系宏富。"
+  },
+  {
+    "id": "liezi",
+    "title": "列子",
+    "author": "列御寇",
+    "country": "中国",
+    "era": "战国",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 21,
+    "readingMinutes": 250,
+    "tags": [
+      "道家",
+      "寓言",
+      "虚静",
+      "自然",
+      "想象"
+    ],
+    "summary": "道家重要典籍，多寓言故事，写虚静自然与超脱生死，想象奇崛。"
+  },
+  {
+    "id": "baopuzi",
+    "title": "抱朴子",
+    "author": "葛洪",
+    "country": "中国",
+    "era": "东晋",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 21,
+    "readingMinutes": 300,
+    "tags": [
+      "道教",
+      "炼丹",
+      "养生",
+      "神仙",
+      "方术"
+    ],
+    "summary": "葛洪所著道教名著，内篇讲神仙方药，外篇论社会人事，是道教史的重要文献。"
+  },
+  {
+    "id": "yanshijiaxun",
+    "title": "颜氏家训",
+    "author": "颜之推",
+    "country": "中国",
+    "era": "南北朝",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 21,
+    "readingMinutes": 250,
+    "tags": [
+      "家训",
+      "教育",
+      "修身",
+      "治家",
+      "处世"
+    ],
+    "summary": "中国第一部体系完整的家训，讲教子、治家、读书与处世，影响千年。"
+  },
+  {
+    "id": "zhuziyulei",
+    "title": "朱子语类",
+    "author": "朱熹",
+    "country": "中国",
+    "era": "宋代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 21,
+    "readingMinutes": 400,
+    "tags": [
+      "理学",
+      "朱熹",
+      "教育",
+      "四书",
+      "哲学"
+    ],
+    "summary": "朱熹讲学语录的汇编，以白话问答阐释理学体系，是理解宋代理学的入门书。"
+  },
+  {
+    "id": "jinsilu",
+    "title": "近思录",
+    "author": "朱熹与吕祖谦",
+    "country": "中国",
+    "era": "宋代",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 21,
+    "readingMinutes": 250,
+    "tags": [
+      "理学",
+      "修身",
+      "四书",
+      "工夫",
+      "伦理"
+    ],
+    "summary": "朱熹与吕祖谦合编的理学入门选本，辑录北宋四子语录，讲修身工夫。"
+  },
+  {
+    "id": "rizhilu",
+    "title": "日知录",
+    "author": "顾炎武",
+    "country": "中国",
+    "era": "清代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 21,
+    "readingMinutes": 400,
+    "tags": [
+      "考据",
+      "经世",
+      "历史",
+      "政治",
+      "学术"
+    ],
+    "summary": "顾炎武积三十年读书札记，考经史、论治道，开清代朴学与经世之风。"
+  },
+  {
+    "id": "mingyidaifanglu",
+    "title": "明夷待访录",
+    "author": "黄宗羲",
+    "country": "中国",
+    "era": "清代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 21,
+    "readingMinutes": 200,
+    "tags": [
+      "政治",
+      "民主",
+      "批判",
+      "制度",
+      "启蒙"
+    ],
+    "summary": "黄宗羲对君主专制的系统批判，提出学校议政与法治主张，是中国早期启蒙思想代表作。"
+  },
+  {
+    "id": "houhanshu",
+    "title": "后汉书",
+    "author": "范晔",
+    "country": "中国",
+    "era": "南朝",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 22,
+    "readingMinutes": 900,
+    "tags": [
+      "历史",
+      "东汉",
+      "纪传",
+      "制度",
+      "人物"
+    ],
+    "summary": "记载东汉一朝历史的纪传体史书，与《史记》《汉书》《三国志》并称前四史。"
+  },
+  {
+    "id": "sanguozhi",
+    "title": "三国志",
+    "author": "陈寿",
+    "country": "中国",
+    "era": "西晋",
+    "category": "文史哲",
+    "level": "殿堂级",
+    "batch": 22,
+    "readingMinutes": 700,
+    "tags": [
+      "历史",
+      "三国",
+      "纪传",
+      "人物",
+      "政治"
+    ],
+    "summary": "记载魏蜀吴三国历史的纪传体史书，叙事简洁，人物鲜明，是三国故事的史源。"
+  },
+  {
+    "id": "jinshu",
+    "title": "晋书",
+    "author": "房玄龄等",
+    "country": "中国",
+    "era": "唐代",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 22,
+    "readingMinutes": 800,
+    "tags": [
+      "历史",
+      "两晋",
+      "纪传",
+      "门阀",
+      "人物"
+    ],
+    "summary": "唐初官修的晋代史，兼收志怪与清谈，保存两晋政治与士族面貌。"
+  },
+  {
+    "id": "jiutangshu",
+    "title": "旧唐书",
+    "author": "刘昫等",
+    "country": "中国",
+    "era": "五代",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 22,
+    "readingMinutes": 900,
+    "tags": [
+      "历史",
+      "唐代",
+      "纪传",
+      "制度",
+      "人物"
+    ],
+    "summary": "后晋官修的唐代史，史料原始，保存大量诏令与传记。"
+  },
+  {
+    "id": "xintangshu",
+    "title": "新唐书",
+    "author": "欧阳修与宋祁",
+    "country": "中国",
+    "era": "宋代",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 22,
+    "readingMinutes": 900,
+    "tags": [
+      "历史",
+      "唐代",
+      "纪传",
+      "志表",
+      "正统"
+    ],
+    "summary": "北宋重修唐史，体例严整，重春秋笔法，与《旧唐书》互为补充。"
+  },
+  {
+    "id": "songshi",
+    "title": "宋史",
+    "author": "脱脱等",
+    "country": "中国",
+    "era": "元代",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 22,
+    "readingMinutes": 1200,
+    "tags": [
+      "历史",
+      "宋代",
+      "纪传",
+      "制度",
+      "文化"
+    ],
+    "summary": "元修宋代史，卷帙浩繁，保存宋代政治、经济与文化的大量史料。"
+  },
+  {
+    "id": "mingshi",
+    "title": "明史",
+    "author": "张廷玉等",
+    "country": "中国",
+    "era": "清代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 22,
+    "readingMinutes": 1000,
+    "tags": [
+      "历史",
+      "明代",
+      "纪传",
+      "制度",
+      "人物"
+    ],
+    "summary": "清修明代史，体例严谨，叙事清晰，是研究明代历史的基本文献。"
+  },
+  {
+    "id": "qingshigao",
+    "title": "清史稿",
+    "author": "赵尔巽等",
+    "country": "中国",
+    "era": "民国",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 22,
+    "readingMinutes": 1000,
+    "tags": [
+      "历史",
+      "清代",
+      "纪传",
+      "近代",
+      "史料"
+    ],
+    "summary": "民国初年所修清史，未及定稿，但保存清代至民初的丰富史料。"
+  },
+  {
+    "id": "tongzhi",
+    "title": "通志",
+    "author": "郑樵",
+    "country": "中国",
+    "era": "宋代",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 22,
+    "readingMinutes": 800,
+    "tags": [
+      "通史",
+      "制度",
+      "纪传",
+      "典志",
+      "学术"
+    ],
+    "summary": "郑樵所撰纪传体通史，其中二十略尤具创见，是古代典章制度史的重要著作。"
+  },
+  {
+    "id": "wenxiantongkao",
+    "title": "文献通考",
+    "author": "马端临",
+    "country": "中国",
+    "era": "元代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 22,
+    "readingMinutes": 1000,
+    "tags": [
+      "典制",
+      "历史",
+      "经济",
+      "制度",
+      "考证"
+    ],
+    "summary": "马端临所撰典章制度通史，分二十四考，资料宏富，是研究中国古代制度的核心文献。"
+  },
+  {
+    "id": "xingshiyinyuanzhuan",
+    "title": "醒世姻缘传",
+    "author": "西周生",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "经典",
+    "batch": 23,
+    "readingMinutes": 600,
+    "tags": [
+      "世情",
+      "婚姻",
+      "家庭",
+      "因果",
+      "讽刺"
+    ],
+    "summary": "以两世姻缘写家庭伦理与世态人情，是清代长篇世情小说的重要作品。"
+  },
+  {
+    "id": "qiludeng",
+    "title": "歧路灯",
+    "author": "李绿园",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 23,
+    "readingMinutes": 500,
+    "tags": [
+      "教育",
+      "家庭",
+      "世情",
+      "劝善",
+      "现实"
+    ],
+    "summary": "写书香子弟误入歧途又回头的故事，细致记录清代中州的社会生活。"
+  },
+  {
+    "id": "ernvyingxiongzhuan",
+    "title": "儿女英雄传",
+    "author": "文康",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 23,
+    "readingMinutes": 450,
+    "tags": [
+      "侠义",
+      "爱情",
+      "家庭",
+      "英雄",
+      "劝善"
+    ],
+    "summary": "融合侠义与言情，写何玉凤、安骥等人的命运，语言活泼，人物鲜明。"
+  },
+  {
+    "id": "haishanghualiezhuan",
+    "title": "海上花列传",
+    "author": "韩邦庆",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "经典",
+    "batch": 23,
+    "readingMinutes": 400,
+    "tags": [
+      "上海",
+      "妓院",
+      "方言",
+      "世情",
+      "都市"
+    ],
+    "summary": "以吴语对白写上海妓院生态，笔触冷静细腻，是晚清都市文学的杰作。"
+  },
+  {
+    "id": "huayuehen",
+    "title": "花月痕",
+    "author": "魏秀仁",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 23,
+    "readingMinutes": 300,
+    "tags": [
+      "爱情",
+      "文人",
+      "狎邪",
+      "悲剧",
+      "诗词"
+    ],
+    "summary": "写才子与名妓的爱情悲剧，诗词穿插，是近代狭邪小说的代表。"
+  },
+  {
+    "id": "pinhuaibaojian",
+    "title": "品花宝鉴",
+    "author": "陈森",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 23,
+    "readingMinutes": 400,
+    "tags": [
+      "京城",
+      "伶人",
+      "世情",
+      "男性",
+      "情感"
+    ],
+    "summary": "以清代京城伶人生活为题材，写士人与伶人的交往，是狭邪小说的开山之作。"
+  },
+  {
+    "id": "jiuweigui",
+    "title": "九尾龟",
+    "author": "漱六山房",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 23,
+    "readingMinutes": 400,
+    "tags": [
+      "上海",
+      "妓院",
+      "讽刺",
+      "都市",
+      "世情"
+    ],
+    "summary": "以章回体写上海妓院与官场，讽刺与暴露并重，是晚清社会小说的一种。"
+  },
+  {
+    "id": "wenmingxiaoshi",
+    "title": "文明小史",
+    "author": "李宝嘉",
+    "country": "中国",
+    "era": "1905年",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 23,
+    "readingMinutes": 350,
+    "tags": [
+      "晚清",
+      "维新",
+      "讽刺",
+      "社会",
+      "官场"
+    ],
+    "summary": "以多个故事写晚清维新时期的社会怪象，讽刺官场与新派人物。"
+  },
+  {
+    "id": "huodiyu",
+    "title": "活地狱",
+    "author": "李宝嘉",
+    "country": "中国",
+    "era": "1906年",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 23,
+    "readingMinutes": 250,
+    "tags": [
+      "晚清",
+      "监狱",
+      "酷吏",
+      "批判",
+      "社会"
+    ],
+    "summary": "揭露晚清州县监狱与衙门黑暗，笔触冷峻，是谴责小说的代表作之一。"
+  },
+  {
+    "id": "xinzhongguoweilaiji",
+    "title": "新中国未来记",
+    "author": "梁启超",
+    "country": "中国",
+    "era": "1902年",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 23,
+    "readingMinutes": 150,
+    "tags": [
+      "未来",
+      "政治",
+      "维新",
+      "理想",
+      "启蒙"
+    ],
+    "summary": "梁启超以小说设想中国未来，开政治小说先河，宣传维新理想。"
+  },
+  {
+    "id": "doueyuan",
+    "title": "窦娥冤",
+    "author": "关汉卿",
+    "country": "中国",
+    "era": "元代",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 24,
+    "readingMinutes": 200,
+    "tags": [
+      "戏曲",
+      "悲剧",
+      "冤案",
+      "反抗",
+      "社会"
+    ],
+    "summary": "关汉卿代表作，写窦娥蒙冤赴死，以三桩誓愿控诉社会不公，是中国悲剧的巅峰。"
+  },
+  {
+    "id": "hangangqiu",
+    "title": "汉宫秋",
+    "author": "马致远",
+    "country": "中国",
+    "era": "元代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 24,
+    "readingMinutes": 180,
+    "tags": [
+      "戏曲",
+      "历史",
+      "昭君",
+      "爱情",
+      "家国"
+    ],
+    "summary": "以王昭君出塞为题材，写汉元帝的离别之痛，曲词苍凉，寄托故国之思。"
+  },
+  {
+    "id": "wutongyu",
+    "title": "梧桐雨",
+    "author": "白朴",
+    "country": "中国",
+    "era": "元代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 24,
+    "readingMinutes": 180,
+    "tags": [
+      "戏曲",
+      "爱情",
+      "唐明皇",
+      "悲剧",
+      "历史"
+    ],
+    "summary": "写唐明皇与杨贵妃的故事，以梧桐夜雨写思念，与《长生殿》同一题材。"
+  },
+  {
+    "id": "zhaoshiguer",
+    "title": "赵氏孤儿",
+    "author": "纪君祥",
+    "country": "中国",
+    "era": "元代",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 24,
+    "readingMinutes": 200,
+    "tags": [
+      "戏曲",
+      "复仇",
+      "忠义",
+      "悲剧",
+      "历史"
+    ],
+    "summary": "以春秋赵氏灭门与孤儿复仇为主线，悲壮激烈，是最早传入欧洲的中国戏剧之一。"
+  },
+  {
+    "id": "qiannvlihun",
+    "title": "倩女离魂",
+    "author": "郑光祖",
+    "country": "中国",
+    "era": "元代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 24,
+    "readingMinutes": 180,
+    "tags": [
+      "戏曲",
+      "爱情",
+      "魂魄",
+      "科举",
+      "团圆"
+    ],
+    "summary": "写张倩女因思念离魂追随爱人，想象奇崛，是元杂剧爱情戏的代表。"
+  },
+  {
+    "id": "pipaji",
+    "title": "琵琶记",
+    "author": "高明",
+    "country": "中国",
+    "era": "元代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 24,
+    "readingMinutes": 250,
+    "tags": [
+      "戏曲",
+      "孝道",
+      "爱情",
+      "科举",
+      "悲剧"
+    ],
+    "summary": "写蔡伯喈与赵五娘的故事，以琵琶行乞寻夫，被称为“南戏之祖”。"
+  },
+  {
+    "id": "leifengta",
+    "title": "雷峰塔",
+    "author": "方成培",
+    "country": "中国",
+    "era": "清代",
+    "category": "诗词曲赋",
+    "level": "重要",
+    "batch": 24,
+    "readingMinutes": 200,
+    "tags": [
+      "戏曲",
+      "白蛇",
+      "爱情",
+      "法海",
+      "传说"
+    ],
+    "summary": "以白娘子与许仙的故事为题材，是白蛇传说在戏曲中的重要定型。"
+  },
+  {
+    "id": "baituji",
+    "title": "白兔记",
+    "author": "佚名",
+    "country": "中国",
+    "era": "元代",
+    "category": "诗词曲赋",
+    "level": "重要",
+    "batch": 24,
+    "readingMinutes": 180,
+    "tags": [
+      "戏曲",
+      "家庭",
+      "离别",
+      "团圆",
+      "民间"
+    ],
+    "summary": "写刘知远与李三娘的故事，情节曲折，是四大南戏之一。"
+  },
+  {
+    "id": "baiyueting",
+    "title": "拜月亭",
+    "author": "关汉卿",
+    "country": "中国",
+    "era": "元代",
+    "category": "诗词曲赋",
+    "level": "重要",
+    "batch": 24,
+    "readingMinutes": 180,
+    "tags": [
+      "戏曲",
+      "爱情",
+      "战乱",
+      "重逢",
+      "南戏"
+    ],
+    "summary": "写战乱中蒋世隆与王瑞兰的爱情，是四大南戏之一，影响后世爱情戏。"
+  },
+  {
+    "id": "jingchaiji",
+    "title": "荆钗记",
+    "author": "柯丹丘",
+    "country": "中国",
+    "era": "元代",
+    "category": "诗词曲赋",
+    "level": "重要",
+    "batch": 24,
+    "readingMinutes": 180,
+    "tags": [
+      "戏曲",
+      "爱情",
+      "婚姻",
+      "坚守",
+      "南戏"
+    ],
+    "summary": "写王十朋与钱玉莲以荆钗定情、历经磨难终得团圆，是四大南戏之一。"
+  },
+  {
+    "id": "ruanji",
+    "title": "阮籍咏怀",
+    "author": "阮籍",
+    "country": "中国",
+    "era": "魏晋",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 25,
+    "readingMinutes": 150,
+    "tags": [
+      "诗歌",
+      "咏怀",
+      "忧思",
+      "玄学",
+      "含蓄"
+    ],
+    "summary": "阮籍八十二首咏怀诗，以隐晦笔法写忧生之嗟与政治苦闷，开咏怀诗传统。"
+  },
+  {
+    "id": "zuosi",
+    "title": "左思咏史",
+    "author": "左思",
+    "country": "中国",
+    "era": "西晋",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 25,
+    "readingMinutes": 150,
+    "tags": [
+      "诗歌",
+      "咏史",
+      "寒士",
+      "抱负",
+      "不平"
+    ],
+    "summary": "左思以咏史写寒士不平，借古人抒己志，开创咏史诗的新写法。"
+  },
+  {
+    "id": "xielingyun",
+    "title": "谢灵运诗选",
+    "author": "谢灵运",
+    "country": "中国",
+    "era": "南朝",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 25,
+    "readingMinutes": 180,
+    "tags": [
+      "山水",
+      "诗歌",
+      "自然",
+      "玄言",
+      "游记"
+    ],
+    "summary": "谢灵运是山水诗的开创者，以精细笔触写山川，把自然变成独立的审美对象。"
+  },
+  {
+    "id": "baozhao",
+    "title": "鲍照诗选",
+    "author": "鲍照",
+    "country": "中国",
+    "era": "南朝",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 25,
+    "readingMinutes": 150,
+    "tags": [
+      "诗歌",
+      "乐府",
+      "寒门",
+      "边塞",
+      "慷慨"
+    ],
+    "summary": "鲍照出身寒门，诗风俊逸豪放，七言乐府尤有开创之功。"
+  },
+  {
+    "id": "wangwei",
+    "title": "王维诗选",
+    "author": "王维",
+    "country": "中国",
+    "era": "唐代",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 25,
+    "readingMinutes": 180,
+    "tags": [
+      "唐诗",
+      "山水",
+      "田园",
+      "禅意",
+      "绘画"
+    ],
+    "summary": "王维诗中有画，以山水田园写空灵禅意，是盛唐山水田园诗的代表。"
+  },
+  {
+    "id": "menghaoran",
+    "title": "孟浩然诗选",
+    "author": "孟浩然",
+    "country": "中国",
+    "era": "唐代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 25,
+    "readingMinutes": 150,
+    "tags": [
+      "唐诗",
+      "田园",
+      "隐逸",
+      "自然",
+      "清淡"
+    ],
+    "summary": "孟浩然以清淡自然的笔写田园与行旅，是唐代山水田园诗的开创者之一。"
+  },
+  {
+    "id": "lishangyin",
+    "title": "李商隐诗选",
+    "author": "李商隐",
+    "country": "中国",
+    "era": "唐代",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 25,
+    "readingMinutes": 180,
+    "tags": [
+      "唐诗",
+      "爱情",
+      "朦胧",
+      "用典",
+      "感伤"
+    ],
+    "summary": "李商隐以朦胧意象与精密典故写爱情与身世，开创中国诗歌的幽微之美。"
+  },
+  {
+    "id": "dumu",
+    "title": "杜牧诗选",
+    "author": "杜牧",
+    "country": "中国",
+    "era": "唐代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 25,
+    "readingMinutes": 150,
+    "tags": [
+      "唐诗",
+      "咏史",
+      "江南",
+      "俊爽",
+      "爱情"
+    ],
+    "summary": "杜牧诗风俊爽，咏史与江南景物尤佳，七绝成就突出。"
+  },
+  {
+    "id": "baijuyi",
+    "title": "白居易诗选",
+    "author": "白居易",
+    "country": "中国",
+    "era": "唐代",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 25,
+    "readingMinutes": 200,
+    "tags": [
+      "唐诗",
+      "新乐府",
+      "通俗",
+      "民生",
+      "叙事"
+    ],
+    "summary": "白居易主张文章合为时而著，以通俗语言写民生，新乐府与长恨歌影响深远。"
+  },
+  {
+    "id": "hanyu",
+    "title": "韩愈诗选",
+    "author": "韩愈",
+    "country": "中国",
+    "era": "唐代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 25,
+    "readingMinutes": 180,
+    "tags": [
+      "唐诗",
+      "古文",
+      "奇险",
+      "议论",
+      "革新"
+    ],
+    "summary": "韩愈以文为诗，诗风奇险雄健，开中唐诗歌新变，与孟郊并称韩孟。"
+  },
+  {
+    "id": "yecao",
+    "title": "野草",
+    "author": "鲁迅",
+    "country": "中国",
+    "era": "1927年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 26,
+    "readingMinutes": 150,
+    "tags": [
+      "散文诗",
+      "象征",
+      "孤独",
+      "抗争",
+      "哲思"
+    ],
+    "summary": "鲁迅唯一的散文诗集，以梦境与象征写黑暗中的抗争与自我解剖。"
+  },
+  {
+    "id": "chenduo",
+    "title": "沉沦",
+    "author": "郁达夫",
+    "country": "中国",
+    "era": "1921年",
+    "category": "近现代文学",
+    "level": "重要",
+    "batch": 26,
+    "readingMinutes": 150,
+    "tags": [
+      "自传",
+      "青春",
+      "苦闷",
+      "留学",
+      "抒情"
+    ],
+    "summary": "郁达夫代表作，写留日青年的性苦闷与家国之痛，是创造社浪漫主义的代表。"
+  },
+  {
+    "id": "chunfeng",
+    "title": "春风沉醉的晚上",
+    "author": "郁达夫",
+    "country": "中国",
+    "era": "1923年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 26,
+    "readingMinutes": 100,
+    "tags": [
+      "短篇",
+      "都市",
+      "底层",
+      "同情",
+      "抒情"
+    ],
+    "summary": "写落魄文人与烟厂女工的短暂相遇，在困顿中写出微弱的人情温暖。"
+  },
+  {
+    "id": "nihuanzhi",
+    "title": "倪焕之",
+    "author": "叶圣陶",
+    "country": "中国",
+    "era": "1929年",
+    "category": "近现代文学",
+    "level": "重要",
+    "batch": 26,
+    "readingMinutes": 350,
+    "tags": [
+      "教育",
+      "理想",
+      "革命",
+      "知识分子",
+      "现实"
+    ],
+    "summary": "写小学教师倪焕之的教育理想与时代挫折，是早期长篇教育小说的代表。"
+  },
+  {
+    "id": "eryue",
+    "title": "二月",
+    "author": "柔石",
+    "country": "中国",
+    "era": "1929年",
+    "category": "近现代文学",
+    "level": "重要",
+    "batch": 26,
+    "readingMinutes": 200,
+    "tags": [
+      "知识分子",
+      "彷徨",
+      "爱情",
+      "革命",
+      "江南"
+    ],
+    "summary": "写青年知识分子在江南小镇的苦闷与选择，笔调清冷，是左翼文学的重要作品。"
+  },
+  {
+    "id": "shafei",
+    "title": "莎菲女士的日记",
+    "author": "丁玲",
+    "country": "中国",
+    "era": "1928年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 26,
+    "readingMinutes": 120,
+    "tags": [
+      "女性",
+      "日记",
+      "爱情",
+      "身体",
+      "觉醒"
+    ],
+    "summary": "以日记体写新女性莎菲的情感与身体经验，是五四后女性文学的重要文本。"
+  },
+  {
+    "id": "taiyangzhaosangganhe",
+    "title": "太阳照在桑干河上",
+    "author": "丁玲",
+    "country": "中国",
+    "era": "1948年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 26,
+    "readingMinutes": 400,
+    "tags": [
+      "土改",
+      "农村",
+      "阶级",
+      "群像",
+      "现实"
+    ],
+    "summary": "以土地改革为背景写农村社会关系的变动，获斯大林文学奖。"
+  },
+  {
+    "id": "baofengzhouyu",
+    "title": "暴风骤雨",
+    "author": "周立波",
+    "country": "中国",
+    "era": "1948年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 26,
+    "readingMinutes": 400,
+    "tags": [
+      "土改",
+      "东北",
+      "农民",
+      "斗争",
+      "现实"
+    ],
+    "summary": "写东北元茂屯土地改革的全过程，人物鲜活，是土改题材的代表作。"
+  },
+  {
+    "id": "chuangyeshi",
+    "title": "创业史",
+    "author": "柳青",
+    "country": "中国",
+    "era": "1960年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 26,
+    "readingMinutes": 500,
+    "tags": [
+      "农村",
+      "合作化",
+      "奋斗",
+      "创业",
+      "现实"
+    ],
+    "summary": "以关中蛤蟆滩写农业合作化运动，塑造梁生宝等创业者形象。"
+  },
+  {
+    "id": "hongri",
+    "title": "红日",
+    "author": "吴强",
+    "country": "中国",
+    "era": "1957年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 26,
+    "readingMinutes": 450,
+    "tags": [
+      "战争",
+      "解放战争",
+      "英雄",
+      "群像",
+      "历史"
+    ],
+    "summary": "以孟良崮战役为主线写解放战争，塑造军人群像，是红色经典之一。"
+  },
+  {
+    "id": "heijunma",
+    "title": "黑骏马",
+    "author": "张承志",
+    "country": "中国",
+    "era": "1982年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 27,
+    "readingMinutes": 150,
+    "tags": [
+      "草原",
+      "爱情",
+      "寻根",
+      "忏悔",
+      "抒情"
+    ],
+    "summary": "写青年在白音宝力格草原的成长与失去，充满诗意与忏悔意识。"
+  },
+  {
+    "id": "qiwang",
+    "title": "棋王",
+    "author": "阿城",
+    "country": "中国",
+    "era": "1984年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 27,
+    "readingMinutes": 120,
+    "tags": [
+      "知青",
+      "象棋",
+      "道家",
+      "生存",
+      "传奇"
+    ],
+    "summary": "以棋呆子王一生写知青生活与道家式生存哲学，是寻根文学的代表。"
+  },
+  {
+    "id": "bababa",
+    "title": "爸爸爸",
+    "author": "韩少功",
+    "country": "中国",
+    "era": "1985年",
+    "category": "近现代文学",
+    "level": "重要",
+    "batch": 27,
+    "readingMinutes": 150,
+    "tags": [
+      "寻根",
+      "寓言",
+      "乡土",
+      "荒诞",
+      "文化"
+    ],
+    "summary": "以丙崽与鸡头寨写封闭乡土的文化寓言，是寻根文学的重要作品。"
+  },
+  {
+    "id": "zaixiyuzhonghuhan",
+    "title": "在细雨中呼喊",
+    "author": "余华",
+    "country": "中国",
+    "era": "1991年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 27,
+    "readingMinutes": 250,
+    "tags": [
+      "成长",
+      "记忆",
+      "家庭",
+      "孤独",
+      "叙事"
+    ],
+    "summary": "以少年回忆写家庭与乡村的冷漠，叙事跳跃，是余华转型期的重要长篇。"
+  },
+  {
+    "id": "diqitian",
+    "title": "第七天",
+    "author": "余华",
+    "country": "中国",
+    "era": "2013年",
+    "category": "近现代文学",
+    "level": "重要",
+    "batch": 27,
+    "readingMinutes": 200,
+    "tags": [
+      "荒诞",
+      "死亡",
+      "现实",
+      "讽刺",
+      "悲悯"
+    ],
+    "summary": "以死后七天的游荡写现实社会的荒诞与不公，冷峻中带悲悯。"
+  },
+  {
+    "id": "huangqueji",
+    "title": "黄雀记",
+    "author": "苏童",
+    "country": "中国",
+    "era": "2013年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 27,
+    "readingMinutes": 350,
+    "tags": [
+      "青春",
+      "罪与罚",
+      "江南",
+      "命运",
+      "叙事"
+    ],
+    "summary": "写三个少年因一桩案件纠缠一生，是苏童“香椿树街”系列的代表长篇。"
+  },
+  {
+    "id": "qiqiechengqun",
+    "title": "妻妾成群",
+    "author": "苏童",
+    "country": "中国",
+    "era": "1990年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 27,
+    "readingMinutes": 150,
+    "tags": [
+      "女性",
+      "家族",
+      "婚姻",
+      "压抑",
+      "悲剧"
+    ],
+    "summary": "写颂莲嫁入陈家后的妻妾争斗，笔触冷艳，后被改编为电影《大红灯笼高高挂》。"
+  },
+  {
+    "id": "yumi",
+    "title": "玉米",
+    "author": "毕飞宇",
+    "country": "中国",
+    "era": "2003年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 27,
+    "readingMinutes": 250,
+    "tags": [
+      "乡村",
+      "女性",
+      "权力",
+      "成长",
+      "现实"
+    ],
+    "summary": "写玉米在乡村权力结构中的成长与代价，是毕飞宇的代表作之一。"
+  },
+  {
+    "id": "tuina",
+    "title": "推拿",
+    "author": "毕飞宇",
+    "country": "中国",
+    "era": "2008年",
+    "category": "近现代文学",
+    "level": "殿堂级",
+    "batch": 27,
+    "readingMinutes": 300,
+    "tags": [
+      "盲人",
+      "尊严",
+      "爱情",
+      "群像",
+      "现实"
+    ],
+    "summary": "以盲人推拿师的生活写尊严与情感，视角独特，获茅盾文学奖。"
+  },
+  {
+    "id": "fanhua",
+    "title": "繁花",
+    "author": "金宇澄",
+    "country": "中国",
+    "era": "2012年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 27,
+    "readingMinutes": 400,
+    "tags": [
+      "上海",
+      "市井",
+      "方言",
+      "时代",
+      "怀旧"
+    ],
+    "summary": "以沪语腔调写上海几十年的人情变迁，获茅盾文学奖，是城市文学的杰作。"
+  },
+  {
+    "id": "daweikeboer",
+    "title": "大卫·科波菲尔",
+    "author": "狄更斯",
+    "country": "英国",
+    "era": "1850年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 28,
+    "readingMinutes": 800,
+    "tags": [
+      "成长",
+      "自传",
+      "社会",
+      "爱情",
+      "命运"
+    ],
+    "summary": "以大卫的一生写维多利亚时代的社会百态，是狄更斯最钟爱的作品。"
+  },
+  {
+    "id": "yuandaqiancheng",
+    "title": "远大前程",
+    "author": "狄更斯",
+    "country": "英国",
+    "era": "1861年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 28,
+    "readingMinutes": 500,
+    "tags": [
+      "成长",
+      "阶级",
+      "爱情",
+      "幻灭",
+      "社会"
+    ],
+    "summary": "写孤儿皮普的阶层跃升与幻灭，探讨金钱与人格的关系。"
+  },
+  {
+    "id": "jiannanshishi",
+    "title": "艰难时世",
+    "author": "狄更斯",
+    "country": "英国",
+    "era": "1854年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 28,
+    "readingMinutes": 400,
+    "tags": [
+      "工业",
+      "教育",
+      "功利",
+      "社会",
+      "批判"
+    ],
+    "summary": "以焦煤镇写工业革命时期的功利主义教育与社会问题。"
+  },
+  {
+    "id": "minglifu",
+    "title": "名利场",
+    "author": "萨克雷",
+    "country": "英国",
+    "era": "1848年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 28,
+    "readingMinutes": 600,
+    "tags": [
+      "讽刺",
+      "女性",
+      "阶级",
+      "社会",
+      "名利"
+    ],
+    "summary": "以蓓基·夏泼的钻营写英国上流社会，是讽刺小说的经典。"
+  },
+  {
+    "id": "niumeng",
+    "title": "牛虻",
+    "author": "伏尼契",
+    "country": "爱尔兰",
+    "era": "1897年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 28,
+    "readingMinutes": 350,
+    "tags": [
+      "革命",
+      "信仰",
+      "爱情",
+      "牺牲",
+      "成长"
+    ],
+    "summary": "写青年亚瑟在信仰破灭后投身革命，是影响几代中国读者的作品。"
+  },
+  {
+    "id": "taisi",
+    "title": "德伯家的苔丝",
+    "author": "哈代",
+    "country": "英国",
+    "era": "1891年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 28,
+    "readingMinutes": 450,
+    "tags": [
+      "女性",
+      "命运",
+      "乡村",
+      "悲剧",
+      "社会"
+    ],
+    "summary": "写苔丝在礼教与命运夹缝中的毁灭，是哈代最著名的悲剧。"
+  },
+  {
+    "id": "wumingqiude",
+    "title": "无名的裘德",
+    "author": "哈代",
+    "country": "英国",
+    "era": "1895年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 28,
+    "readingMinutes": 450,
+    "tags": [
+      "理想",
+      "阶级",
+      "爱情",
+      "教育",
+      "悲剧"
+    ],
+    "summary": "写石匠裘德求学与爱情的失败，批判维多利亚时代的阶级与婚姻制度。"
+  },
+  {
+    "id": "chatailai",
+    "title": "查泰莱夫人的情人",
+    "author": "劳伦斯",
+    "country": "英国",
+    "era": "1928年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 28,
+    "readingMinutes": 300,
+    "tags": [
+      "爱情",
+      "阶级",
+      "身体",
+      "工业",
+      "自由"
+    ],
+    "summary": "写康妮在工业文明与死寂婚姻中的觉醒，探讨身体与生命的关系。"
+  },
+  {
+    "id": "erziyuqingren",
+    "title": "儿子与情人",
+    "author": "劳伦斯",
+    "country": "英国",
+    "era": "1913年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 28,
+    "readingMinutes": 400,
+    "tags": [
+      "成长",
+      "母爱",
+      "爱情",
+      "心理",
+      "工业"
+    ],
+    "summary": "以保罗与母亲的复杂关系写成长与情感困境，带有自传色彩。"
+  },
+  {
+    "id": "huanxiang",
+    "title": "还乡",
+    "author": "哈代",
+    "country": "英国",
+    "era": "1878年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 28,
+    "readingMinutes": 400,
+    "tags": [
+      "乡村",
+      "爱情",
+      "命运",
+      "荒野",
+      "悲剧"
+    ],
+    "summary": "以爱敦荒原为背景写游苔莎的悲剧，荒原本身成为命运象征。"
+  },
+  {
+    "id": "jiubachangtan",
+    "title": "酒吧长谈",
+    "author": "略萨",
+    "country": "秘鲁",
+    "era": "1969年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 29,
+    "readingMinutes": 500,
+    "tags": [
+      "对话",
+      "独裁",
+      "社会",
+      "结构",
+      "政治"
+    ],
+    "summary": "以酒吧中的长谈串起秘鲁独裁时期的社会图景，是结构现实主义的高峰。"
+  },
+  {
+    "id": "xueguo",
+    "title": "雪国",
+    "author": "川端康成",
+    "country": "日本",
+    "era": "1948年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 29,
+    "readingMinutes": 200,
+    "tags": [
+      "爱情",
+      "虚无",
+      "雪国",
+      "美",
+      "物哀"
+    ],
+    "summary": "写岛村与驹子、叶子的相遇，以雪国景物写虚无之美，是川端康成的代表作。"
+  },
+  {
+    "id": "gudu",
+    "title": "古都",
+    "author": "川端康成",
+    "country": "日本",
+    "era": "1962年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 29,
+    "readingMinutes": 250,
+    "tags": [
+      "京都",
+      "姐妹",
+      "传统",
+      "美",
+      "命运"
+    ],
+    "summary": "写千重子与苗子这对孪生姐妹在京都的相遇与分离，充满古典美。"
+  },
+  {
+    "id": "qianzhihe",
+    "title": "千只鹤",
+    "author": "川端康成",
+    "country": "日本",
+    "era": "1952年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 29,
+    "readingMinutes": 200,
+    "tags": [
+      "茶道",
+      "爱情",
+      "罪孽",
+      "美",
+      "物哀"
+    ],
+    "summary": "以茶道器具与两代人的情感纠葛写罪与美，是川端康成后期代表作。"
+  },
+  {
+    "id": "jingesi",
+    "title": "金阁寺",
+    "author": "三岛由纪夫",
+    "country": "日本",
+    "era": "1956年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 29,
+    "readingMinutes": 300,
+    "tags": [
+      "美",
+      "毁灭",
+      "青年",
+      "哲学",
+      "心理"
+    ],
+    "summary": "以僧人烧毁金阁寺的真实事件写美与毁灭的悖论，是三岛的代表作。"
+  },
+  {
+    "id": "naweidesenlin",
+    "title": "挪威的森林",
+    "author": "村上春树",
+    "country": "日本",
+    "era": "1987年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 29,
+    "readingMinutes": 350,
+    "tags": [
+      "青春",
+      "爱情",
+      "死亡",
+      "孤独",
+      "成长"
+    ],
+    "summary": "写青年在爱与死之间的成长，是村上春树最畅销的作品。"
+  },
+  {
+    "id": "haibiandekafuka",
+    "title": "海边的卡夫卡",
+    "author": "村上春树",
+    "country": "日本",
+    "era": "2002年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 29,
+    "readingMinutes": 400,
+    "tags": [
+      "成长",
+      "命运",
+      "隐喻",
+      "孤独",
+      "奇幻"
+    ],
+    "summary": "以少年与老人的双线叙事写命运与自我寻找，结构复杂，意象丰富。"
+  },
+  {
+    "id": "luoshengmen",
+    "title": "罗生门",
+    "author": "芥川龙之介",
+    "country": "日本",
+    "era": "1915年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 29,
+    "readingMinutes": 150,
+    "tags": [
+      "短篇",
+      "人性",
+      "荒诞",
+      "利己",
+      "叙事"
+    ],
+    "summary": "以罗生门下的故事写人性在生存面前的崩坏，是芥川短篇的代表。"
+  },
+  {
+    "id": "xiegongchuan",
+    "title": "蟹工船",
+    "author": "小林多喜二",
+    "country": "日本",
+    "era": "1929年",
+    "category": "外国文学",
+    "level": "重要",
+    "batch": 29,
+    "readingMinutes": 200,
+    "tags": [
+      "劳工",
+      "剥削",
+      "反抗",
+      "海洋",
+      "现实"
+    ],
+    "summary": "写蟹工船上工人的非人劳动与觉醒，是日本无产阶级文学的代表。"
+  },
+  {
+    "id": "xixue",
+    "title": "细雪",
+    "author": "谷崎润一郎",
+    "country": "日本",
+    "era": "1948年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 29,
+    "readingMinutes": 500,
+    "tags": [
+      "家族",
+      "女性",
+      "关西",
+      "婚恋",
+      "美学"
+    ],
+    "summary": "以莳冈家四姐妹的婚恋写关西风俗与家族衰落，是谷崎的美学代表作。"
+  },
+  {
+    "id": "fulankenshitan",
+    "title": "弗兰肯斯坦",
+    "author": "玛丽·雪莱",
+    "country": "英国",
+    "era": "1818年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 30,
+    "readingMinutes": 250,
+    "tags": [
+      "科幻",
+      "创造",
+      "责任",
+      "怪物",
+      "伦理"
+    ],
+    "summary": "被视为科幻小说的开山之作，写创造者的责任与被造者的孤独。"
+  },
+  {
+    "id": "huashenboshi",
+    "title": "化身博士",
+    "author": "史蒂文森",
+    "country": "英国",
+    "era": "1886年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 30,
+    "readingMinutes": 150,
+    "tags": [
+      "人性",
+      "双重",
+      "实验",
+      "恐怖",
+      "伦理"
+    ],
+    "summary": "以医生与海德先生的双重人格写人性善恶，是心理悬疑的经典。"
+  },
+  {
+    "id": "shijianjiqi",
+    "title": "时间机器",
+    "author": "威尔斯",
+    "country": "英国",
+    "era": "1895年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 30,
+    "readingMinutes": 150,
+    "tags": [
+      "科幻",
+      "时间",
+      "未来",
+      "阶级",
+      "进化"
+    ],
+    "summary": "以时间旅行写未来世界的阶级分化与文明衰亡，是早期科幻的代表。"
+  },
+  {
+    "id": "xingjizhanzheng",
+    "title": "星际战争",
+    "author": "威尔斯",
+    "country": "英国",
+    "era": "1898年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 30,
+    "readingMinutes": 200,
+    "tags": [
+      "科幻",
+      "外星",
+      "战争",
+      "科技",
+      "生存"
+    ],
+    "summary": "写火星人入侵地球，开创外星入侵题材，影响深远。"
+  },
+  {
+    "id": "yinheximanyou",
+    "title": "银河系漫游指南",
+    "author": "亚当斯",
+    "country": "英国",
+    "era": "1979年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 30,
+    "readingMinutes": 250,
+    "tags": [
+      "科幻",
+      "幽默",
+      "宇宙",
+      "荒诞",
+      "冒险"
+    ],
+    "summary": "以荒诞幽默的笔调写宇宙冒险，是科幻喜剧的经典。"
+  },
+  {
+    "id": "shaqiu",
+    "title": "沙丘",
+    "author": "赫伯特",
+    "country": "美国",
+    "era": "1965年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 30,
+    "readingMinutes": 500,
+    "tags": [
+      "科幻",
+      "生态",
+      "政治",
+      "宗教",
+      "史诗"
+    ],
+    "summary": "以沙漠星球写资源、宗教与权力的史诗，是科幻文学的高峰。"
+  },
+  {
+    "id": "shenjingmanyouzhe",
+    "title": "神经漫游者",
+    "author": "吉布森",
+    "country": "美国",
+    "era": "1984年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 30,
+    "readingMinutes": 300,
+    "tags": [
+      "赛博朋克",
+      "网络",
+      "人工智能",
+      "未来",
+      "身体"
+    ],
+    "summary": "开创赛博朋克流派，写网络空间与人工智能时代的生存。"
+  },
+  {
+    "id": "suolalisixing",
+    "title": "索拉里斯星",
+    "author": "莱姆",
+    "country": "波兰",
+    "era": "1961年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 30,
+    "readingMinutes": 300,
+    "tags": [
+      "科幻",
+      "外星",
+      "意识",
+      "不可知",
+      "哲学"
+    ],
+    "summary": "写人类面对无法理解的异星生命，探讨认知的边界与接触的可能。"
+  },
+  {
+    "id": "heiandeyuoshou",
+    "title": "黑暗的左手",
+    "author": "勒古恩",
+    "country": "美国",
+    "era": "1969年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 30,
+    "readingMinutes": 350,
+    "tags": [
+      "科幻",
+      "性别",
+      "社会",
+      "政治",
+      "人类学"
+    ],
+    "summary": "以无性别的异星社会写性别与政治，是科幻社会批判的代表。"
+  },
+  {
+    "id": "yiwusuoyou",
+    "title": "一无所有",
+    "author": "勒古恩",
+    "country": "美国",
+    "era": "1974年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 30,
+    "readingMinutes": 400,
+    "tags": [
+      "科幻",
+      "乌托邦",
+      "社会",
+      "政治",
+      "选择"
+    ],
+    "summary": "以两个对立社会的对照写自由与秩序，是勒古恩“海恩宇宙”的代表作。"
+  },
+  {
+    "id": "guiguzi",
+    "title": "鬼谷子",
+    "author": "王诩",
+    "country": "中国",
+    "era": "战国",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 31,
+    "readingMinutes": 200,
+    "tags": [
+      "纵横",
+      "谋略",
+      "游说",
+      "权术",
+      "心理"
+    ],
+    "summary": "纵横家的理论总集，讲捭阖、反应、揣摩与游说之术，是古代沟通与谋略的重要文本。"
+  },
+  {
+    "id": "sushu",
+    "title": "素书",
+    "author": "黄石公",
+    "country": "中国",
+    "era": "秦汉",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 31,
+    "readingMinutes": 120,
+    "tags": [
+      "谋略",
+      "处世",
+      "修身",
+      "用人",
+      "黄石公"
+    ],
+    "summary": "相传黄石公授张良的谋略奇书，以简约格言讲道、德、仁、义、礼与用人之术。"
+  },
+  {
+    "id": "yantielun",
+    "title": "盐铁论",
+    "author": "桓宽",
+    "country": "中国",
+    "era": "西汉",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 31,
+    "readingMinutes": 350,
+    "tags": [
+      "经济",
+      "政治",
+      "儒法",
+      "辩论",
+      "民生"
+    ],
+    "summary": "记录汉昭帝盐铁会议的辩论，儒生与法吏围绕国家垄断、民生与边防展开交锋。"
+  },
+  {
+    "id": "qianfulun",
+    "title": "潜夫论",
+    "author": "王符",
+    "country": "中国",
+    "era": "东汉",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 31,
+    "readingMinutes": 250,
+    "tags": [
+      "政治",
+      "批判",
+      "民生",
+      "用人",
+      "社会"
+    ],
+    "summary": "东汉王符的政论集，批评时政、吏治与社会风气，主张务本、尚贤、爱民。"
+  },
+  {
+    "id": "lunheng",
+    "title": "论衡",
+    "author": "王充",
+    "country": "中国",
+    "era": "东汉",
+    "category": "文史哲",
+    "level": "殿堂级",
+    "batch": 31,
+    "readingMinutes": 400,
+    "tags": [
+      "哲学",
+      "怀疑",
+      "无神",
+      "逻辑",
+      "批判"
+    ],
+    "summary": "王充的哲学巨著，以“疾虚妄”为宗旨，批判谶纬迷信，主张实证与理性。"
+  },
+  {
+    "id": "chunqiufanlu",
+    "title": "春秋繁露",
+    "author": "董仲舒",
+    "country": "中国",
+    "era": "西汉",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 31,
+    "readingMinutes": 350,
+    "tags": [
+      "儒学",
+      "天人",
+      "政治",
+      "伦理",
+      "经学"
+    ],
+    "summary": "董仲舒的儒学著作，以天人感应、阴阳五行构建政治伦理体系，影响汉代经学。"
+  },
+  {
+    "id": "zhengmeng",
+    "title": "正蒙",
+    "author": "张载",
+    "country": "中国",
+    "era": "北宋",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 31,
+    "readingMinutes": 250,
+    "tags": [
+      "理学",
+      "气",
+      "天人",
+      "伦理",
+      "关学"
+    ],
+    "summary": "张载的哲学著作，以“气”为本体，提出民胞物与、为天地立心的理想。"
+  },
+  {
+    "id": "fenshu",
+    "title": "焚书",
+    "author": "李贽",
+    "country": "中国",
+    "era": "明代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 31,
+    "readingMinutes": 250,
+    "tags": [
+      "批判",
+      "思想",
+      "个性",
+      "反传统",
+      "启蒙"
+    ],
+    "summary": "李贽的批判文集，反对以孔子之是非为是非，主张童心与个性，屡遭禁毁。"
+  },
+  {
+    "id": "mingruxuean",
+    "title": "明儒学案",
+    "author": "黄宗羲",
+    "country": "中国",
+    "era": "清代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 31,
+    "readingMinutes": 500,
+    "tags": [
+      "学术史",
+      "理学",
+      "心学",
+      "流派",
+      "思想"
+    ],
+    "summary": "中国第一部系统的学术思想史，按流派梳理明代儒学，资料宏富，识见独立。"
+  },
+  {
+    "id": "datongshu",
+    "title": "大同书",
+    "author": "康有为",
+    "country": "中国",
+    "era": "清代",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 31,
+    "readingMinutes": 300,
+    "tags": [
+      "大同",
+      "乌托邦",
+      "维新",
+      "社会",
+      "理想"
+    ],
+    "summary": "康有为设想无国界、无阶级、无家庭的大同世界，是中国近代乌托邦思想的代表。"
+  },
+  {
+    "id": "luoyangqielanji",
+    "title": "洛阳伽蓝记",
+    "author": "杨衒之",
+    "country": "中国",
+    "era": "北魏",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 32,
+    "readingMinutes": 300,
+    "tags": [
+      "佛教",
+      "洛阳",
+      "历史",
+      "地理",
+      "笔记"
+    ],
+    "summary": "以洛阳佛寺为线索记录北魏都城风貌，兼写政治兴衰与市井生活，文笔清丽。"
+  },
+  {
+    "id": "dongjingmenghualu",
+    "title": "东京梦华录",
+    "author": "孟元老",
+    "country": "中国",
+    "era": "宋代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 32,
+    "readingMinutes": 300,
+    "tags": [
+      "汴京",
+      "市井",
+      "风俗",
+      "饮食",
+      "回忆"
+    ],
+    "summary": "追忆北宋汴京的繁华，记录城市布局、节令风俗、饮食娱乐，是宋代城市史的重要文献。"
+  },
+  {
+    "id": "wulinjiushi",
+    "title": "武林旧事",
+    "author": "周密",
+    "country": "中国",
+    "era": "宋代",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 32,
+    "readingMinutes": 300,
+    "tags": [
+      "临安",
+      "风俗",
+      "节令",
+      "技艺",
+      "城市"
+    ],
+    "summary": "记录南宋临安的城市生活与节庆技艺，与《东京梦华录》并称宋代城市笔记双璧。"
+  },
+  {
+    "id": "taozhaimengyi",
+    "title": "陶庵梦忆",
+    "author": "张岱",
+    "country": "中国",
+    "era": "清代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 32,
+    "readingMinutes": 250,
+    "tags": [
+      "晚明",
+      "回忆",
+      "风俗",
+      "山水",
+      "散文"
+    ],
+    "summary": "张岱回忆晚明生活的散文集，写园林、戏曲、茶食与人物，繁华与苍凉并存。"
+  },
+  {
+    "id": "xihumengxun",
+    "title": "西湖梦寻",
+    "author": "张岱",
+    "country": "中国",
+    "era": "清代",
+    "category": "文史哲",
+    "level": "重要",
+    "batch": 32,
+    "readingMinutes": 250,
+    "tags": [
+      "西湖",
+      "游记",
+      "历史",
+      "风物",
+      "怀旧"
+    ],
+    "summary": "以西湖名胜为线索写杭州风物与历史掌故，寄托明清易代后的故国之思。"
+  },
+  {
+    "id": "suiyuanshidan",
+    "title": "随园食单",
+    "author": "袁枚",
+    "country": "中国",
+    "era": "清代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 32,
+    "readingMinutes": 200,
+    "tags": [
+      "饮食",
+      "烹饪",
+      "生活",
+      "美食",
+      "笔记"
+    ],
+    "summary": "袁枚的饮食名著，记录三百多种菜肴与烹饪原则，是中国饮食文学的经典。"
+  },
+  {
+    "id": "xianqingouji",
+    "title": "闲情偶寄",
+    "author": "李渔",
+    "country": "中国",
+    "era": "清代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 32,
+    "readingMinutes": 350,
+    "tags": [
+      "生活",
+      "戏曲",
+      "园林",
+      "审美",
+      "闲情"
+    ],
+    "summary": "李渔的生活美学著作，讨论戏曲、园林、服饰、饮食、养生，充满实用与趣味。"
+  },
+  {
+    "id": "changwuzhi",
+    "title": "长物志",
+    "author": "文震亨",
+    "country": "中国",
+    "era": "明代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 32,
+    "readingMinutes": 250,
+    "tags": [
+      "器物",
+      "园林",
+      "审美",
+      "生活",
+      "雅趣"
+    ],
+    "summary": "文震亨论室庐、花木、器具、书画的著作，是晚明文人生活美学的代表。"
+  },
+  {
+    "id": "yuanye",
+    "title": "园冶",
+    "author": "计成",
+    "country": "中国",
+    "era": "明代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 32,
+    "readingMinutes": 250,
+    "tags": [
+      "园林",
+      "建筑",
+      "审美",
+      "技艺",
+      "自然"
+    ],
+    "summary": "中国第一部系统园林理论著作，讲相地、立基、掇山、借景，影响深远。"
+  },
+  {
+    "id": "chajing",
+    "title": "茶经",
+    "author": "陆羽",
+    "country": "中国",
+    "era": "唐代",
+    "category": "文史哲",
+    "level": "经典",
+    "batch": 32,
+    "readingMinutes": 150,
+    "tags": [
+      "茶",
+      "文化",
+      "技艺",
+      "生活",
+      "博物"
+    ],
+    "summary": "陆羽所著中国第一部茶学专著，系统讲茶的源流、器具、煮法与品鉴。"
+  },
+  {
+    "id": "xiyoubu",
+    "title": "西游补",
+    "author": "董说",
+    "country": "中国",
+    "era": "明代",
+    "category": "古典小说",
+    "level": "经典",
+    "batch": 33,
+    "readingMinutes": 200,
+    "tags": [
+      "神魔",
+      "梦境",
+      "讽刺",
+      "西游",
+      "奇幻"
+    ],
+    "summary": "以孙悟空入梦为框架的《西游记》续书，借梦境讽刺世情，想象奇诡，是现代主义色彩很强的古典小说。"
+  },
+  {
+    "id": "beiyouji",
+    "title": "北游记",
+    "author": "余象斗",
+    "country": "中国",
+    "era": "明代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 33,
+    "readingMinutes": 300,
+    "tags": [
+      "神魔",
+      "真武",
+      "民间",
+      "修行",
+      "传奇"
+    ],
+    "summary": "写真武大帝降妖修行的神魔小说，与《南游记》等同属明代民间神魔系列。"
+  },
+  {
+    "id": "nanyouji",
+    "title": "南游记",
+    "author": "余象斗",
+    "country": "中国",
+    "era": "明代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 33,
+    "readingMinutes": 300,
+    "tags": [
+      "神魔",
+      "华光",
+      "民间",
+      "反抗",
+      "传奇"
+    ],
+    "summary": "写华光天王的故事，想象奔放，是明代民间神魔小说的重要作品。"
+  },
+  {
+    "id": "nvxianwaishi",
+    "title": "女仙外史",
+    "author": "吕熊",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 33,
+    "readingMinutes": 400,
+    "tags": [
+      "神魔",
+      "历史",
+      "女性",
+      "起义",
+      "传奇"
+    ],
+    "summary": "以唐赛儿起义为背景，融合神魔与历史，塑造一位女性领袖形象。"
+  },
+  {
+    "id": "doupengxianhua",
+    "title": "豆棚闲话",
+    "author": "艾衲居士",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "经典",
+    "batch": 33,
+    "readingMinutes": 200,
+    "tags": [
+      "短篇",
+      "讽刺",
+      "民间",
+      "议论",
+      "白话"
+    ],
+    "summary": "以豆棚下众人闲话为框架的短篇小说集，借故事讽刺世情，形式新颖。"
+  },
+  {
+    "id": "shierlou",
+    "title": "十二楼",
+    "author": "李渔",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "经典",
+    "batch": 33,
+    "readingMinutes": 300,
+    "tags": [
+      "短篇",
+      "爱情",
+      "喜剧",
+      "世情",
+      "结构"
+    ],
+    "summary": "李渔的短篇小说集，十二个故事各自围绕一座楼，情节精巧，喜剧性强。"
+  },
+  {
+    "id": "wushengxi",
+    "title": "无声戏",
+    "author": "李渔",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "经典",
+    "batch": 33,
+    "readingMinutes": 300,
+    "tags": [
+      "短篇",
+      "世情",
+      "喜剧",
+      "讽刺",
+      "白话"
+    ],
+    "summary": "李渔的拟话本小说集，写市井男女与家庭伦理，语言俏皮，结构巧妙。"
+  },
+  {
+    "id": "lianchengbi",
+    "title": "连城璧",
+    "author": "李渔",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 33,
+    "readingMinutes": 300,
+    "tags": [
+      "短篇",
+      "世情",
+      "爱情",
+      "讽刺",
+      "白话"
+    ],
+    "summary": "李渔小说集，写才子佳人、市井人情与道德困境，兼具娱乐与劝惩。"
+  },
+  {
+    "id": "zhaoshibei",
+    "title": "照世杯",
+    "author": "酌元亭主人",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 33,
+    "readingMinutes": 250,
+    "tags": [
+      "短篇",
+      "世情",
+      "讽刺",
+      "公案",
+      "白话"
+    ],
+    "summary": "清代拟话本小说集，以四个故事写世态人情，结构完整，讽刺辛辣。"
+  },
+  {
+    "id": "zuixingshi",
+    "title": "醉醒石",
+    "author": "东鲁古狂生",
+    "country": "中国",
+    "era": "清代",
+    "category": "古典小说",
+    "level": "重要",
+    "batch": 33,
+    "readingMinutes": 300,
+    "tags": [
+      "短篇",
+      "劝惩",
+      "世情",
+      "公案",
+      "白话"
+    ],
+    "summary": "清代拟话本小说集，以因果劝惩为框架写社会新闻与市井故事。"
+  },
+  {
+    "id": "hanweiliuchao",
+    "title": "汉魏六朝诗选",
+    "author": "佚名",
+    "country": "中国",
+    "era": "汉魏六朝",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 34,
+    "readingMinutes": 300,
+    "tags": [
+      "诗歌",
+      "汉魏",
+      "六朝",
+      "乐府",
+      "选本"
+    ],
+    "summary": "选录汉魏六朝诗歌的经典选本，涵盖乐府、古诗、山水与宫体，呈现中古诗歌的演变。"
+  },
+  {
+    "id": "caozhi",
+    "title": "曹植诗选",
+    "author": "曹植",
+    "country": "中国",
+    "era": "三国",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 34,
+    "readingMinutes": 180,
+    "tags": [
+      "诗歌",
+      "建安",
+      "才情",
+      "悲愤",
+      "五言"
+    ],
+    "summary": "曹植诗选，以骨气奇高、词采华茂著称，是建安文学的代表。"
+  },
+  {
+    "id": "wangcan",
+    "title": "王粲诗选",
+    "author": "王粲",
+    "country": "中国",
+    "era": "东汉",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 34,
+    "readingMinutes": 150,
+    "tags": [
+      "诗歌",
+      "建安",
+      "悲凉",
+      "七哀",
+      "流亡"
+    ],
+    "summary": "王粲诗选，以《七哀诗》写乱世流亡，悲凉沉痛，是建安七子中的佼佼者。"
+  },
+  {
+    "id": "xietiao",
+    "title": "谢朓诗选",
+    "author": "谢朓",
+    "country": "中国",
+    "era": "南朝",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 34,
+    "readingMinutes": 150,
+    "tags": [
+      "山水",
+      "诗歌",
+      "清丽",
+      "永明体",
+      "江南"
+    ],
+    "summary": "谢朓诗选，山水清丽，声律精严，是永明体与唐代近体诗之间的重要桥梁。"
+  },
+  {
+    "id": "yuxin",
+    "title": "庾信诗选",
+    "author": "庾信",
+    "country": "中国",
+    "era": "南北朝",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 34,
+    "readingMinutes": 200,
+    "tags": [
+      "诗歌",
+      "乡关",
+      "悲慨",
+      "骈文",
+      "集大成"
+    ],
+    "summary": "庾信诗选，由南入北，诗风从绮丽转向苍凉，融合南北，被称为集大成者。"
+  },
+  {
+    "id": "chutangsijie",
+    "title": "初唐四杰",
+    "author": "王勃等",
+    "country": "中国",
+    "era": "唐代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 34,
+    "readingMinutes": 300,
+    "tags": [
+      "唐诗",
+      "初唐",
+      "革新",
+      "骈文",
+      "青春"
+    ],
+    "summary": "王勃、杨炯、卢照邻、骆宾王的诗文合集，反对绮靡文风，为盛唐诗歌开辟道路。"
+  },
+  {
+    "id": "chenziang",
+    "title": "陈子昂诗选",
+    "author": "陈子昂",
+    "country": "中国",
+    "era": "唐代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 34,
+    "readingMinutes": 150,
+    "tags": [
+      "唐诗",
+      "复古",
+      "感遇",
+      "风骨",
+      "孤独"
+    ],
+    "summary": "陈子昂诗选，提倡汉魏风骨，以《登幽州台歌》写天地间的孤独，影响盛唐。"
+  },
+  {
+    "id": "gaoshi",
+    "title": "高适诗选",
+    "author": "高适",
+    "country": "中国",
+    "era": "唐代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 34,
+    "readingMinutes": 200,
+    "tags": [
+      "唐诗",
+      "边塞",
+      "豪迈",
+      "功名",
+      "战争"
+    ],
+    "summary": "高适诗选，以边塞诗写将士的豪情与苦寒，风格雄浑，是盛唐边塞诗的代表。"
+  },
+  {
+    "id": "censhen",
+    "title": "岑参诗选",
+    "author": "岑参",
+    "country": "中国",
+    "era": "唐代",
+    "category": "诗词曲赋",
+    "level": "经典",
+    "batch": 34,
+    "readingMinutes": 200,
+    "tags": [
+      "唐诗",
+      "边塞",
+      "奇丽",
+      "西域",
+      "想象"
+    ],
+    "summary": "岑参诗选，以奇丽想象写西域风光与军旅生活，是边塞诗中最富色彩的一家。"
+  },
+  {
+    "id": "liyu",
+    "title": "李煜词选",
+    "author": "李煜",
+    "country": "中国",
+    "era": "五代",
+    "category": "诗词曲赋",
+    "level": "殿堂级",
+    "batch": 34,
+    "readingMinutes": 150,
+    "tags": [
+      "词",
+      "亡国",
+      "哀愁",
+      "南唐",
+      "婉约"
+    ],
+    "summary": "李煜词选，以亡国之君的切身之痛写人生长恨，语言自然，情感极深。"
+  },
+  {
+    "id": "luxunzawen",
+    "title": "鲁迅杂文精选",
+    "author": "鲁迅",
+    "country": "中国",
+    "era": "1920年代",
+    "category": "近现代文学",
+    "level": "殿堂级",
+    "batch": 35,
+    "readingMinutes": 400,
+    "tags": [
+      "杂文",
+      "批判",
+      "国民性",
+      "战斗",
+      "白话"
+    ],
+    "summary": "鲁迅杂文精选，以匕首投枪般的文字批判社会与国民性，是中国现代杂文的巅峰。"
+  },
+  {
+    "id": "nvshen",
+    "title": "女神",
+    "author": "郭沫若",
+    "country": "中国",
+    "era": "1921年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 35,
+    "readingMinutes": 200,
+    "tags": [
+      "诗歌",
+      "浪漫",
+      "自我",
+      "五四",
+      "自由"
+    ],
+    "summary": "郭沫若诗集，以狂飙式的想象与自我扩张表现五四精神，是中国新诗的奠基作之一。"
+  },
+  {
+    "id": "xuzhimo",
+    "title": "徐志摩诗选",
+    "author": "徐志摩",
+    "country": "中国",
+    "era": "1920年代",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 35,
+    "readingMinutes": 150,
+    "tags": [
+      "诗歌",
+      "新月派",
+      "爱情",
+      "康桥",
+      "音乐性"
+    ],
+    "summary": "徐志摩诗选，以轻盈的节奏与音乐性写爱情与自然，是新月派诗歌的代表。"
+  },
+  {
+    "id": "daiwangshu",
+    "title": "戴望舒诗选",
+    "author": "戴望舒",
+    "country": "中国",
+    "era": "1920年代",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 35,
+    "readingMinutes": 150,
+    "tags": [
+      "诗歌",
+      "现代派",
+      "雨巷",
+      "忧郁",
+      "意象"
+    ],
+    "summary": "戴望舒诗选，以《雨巷》等作品写现代都市的忧郁与朦胧意象，是现代诗派代表。"
+  },
+  {
+    "id": "wenyiduo",
+    "title": "闻一多诗选",
+    "author": "闻一多",
+    "country": "中国",
+    "era": "1920年代",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 35,
+    "readingMinutes": 150,
+    "tags": [
+      "诗歌",
+      "新月派",
+      "爱国",
+      "格律",
+      "红烛"
+    ],
+    "summary": "闻一多诗选，主张新诗格律化，以《红烛》《死水》写爱国与愤懑。"
+  },
+  {
+    "id": "aiqing",
+    "title": "艾青诗选",
+    "author": "艾青",
+    "country": "中国",
+    "era": "1930年代",
+    "category": "近现代文学",
+    "level": "殿堂级",
+    "batch": 35,
+    "readingMinutes": 200,
+    "tags": [
+      "诗歌",
+      "土地",
+      "太阳",
+      "忧郁",
+      "人民"
+    ],
+    "summary": "艾青诗选，以土地与太阳为核心意象，写民族的苦难与希望，是中国现代诗的高峰。"
+  },
+  {
+    "id": "fuleijiashu",
+    "title": "傅雷家书",
+    "author": "傅雷",
+    "country": "中国",
+    "era": "1981年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 35,
+    "readingMinutes": 300,
+    "tags": [
+      "家书",
+      "教育",
+      "艺术",
+      "父子",
+      "修养"
+    ],
+    "summary": "傅雷写给儿子傅聪的家书，谈艺术、做人、爱情与修养，是中国式家庭教育的经典。"
+  },
+  {
+    "id": "ganxiaoliuji",
+    "title": "干校六记",
+    "author": "杨绛",
+    "country": "中国",
+    "era": "1981年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 35,
+    "readingMinutes": 120,
+    "tags": [
+      "散文",
+      "干校",
+      "苦难",
+      "克制",
+      "记忆"
+    ],
+    "summary": "杨绛记录干校生活的散文，以平静笔触写荒诞岁月，克制而有力。"
+  },
+  {
+    "id": "womensan",
+    "title": "我们仨",
+    "author": "杨绛",
+    "country": "中国",
+    "era": "2003年",
+    "category": "近现代文学",
+    "level": "殿堂级",
+    "batch": 35,
+    "readingMinutes": 150,
+    "tags": [
+      "回忆",
+      "家庭",
+      "亲情",
+      "离别",
+      "散文"
+    ],
+    "summary": "杨绛回忆与钱钟书、钱瑗的家庭生活，写尽相聚与失散，平淡而深痛。"
+  },
+  {
+    "id": "wenhuakulv",
+    "title": "文化苦旅",
+    "author": "余秋雨",
+    "country": "中国",
+    "era": "1992年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 35,
+    "readingMinutes": 300,
+    "tags": [
+      "散文",
+      "文化",
+      "历史",
+      "旅行",
+      "反思"
+    ],
+    "summary": "以旅行写中国文化遗迹与历史反思，语言华美，是九十年代文化散文的代表。"
+  },
+  {
+    "id": "tanxiangxing",
+    "title": "檀香刑",
+    "author": "莫言",
+    "country": "中国",
+    "era": "2001年",
+    "category": "近现代文学",
+    "level": "殿堂级",
+    "batch": 36,
+    "readingMinutes": 500,
+    "tags": [
+      "历史",
+      "酷刑",
+      "民间",
+      "戏曲",
+      "叙事"
+    ],
+    "summary": "以清末山东民间抗德事件为背景，用“檀香刑”与猫腔结构小说，叙事浓烈，获茅盾文学奖。"
+  },
+  {
+    "id": "shengzipilao",
+    "title": "生死疲劳",
+    "author": "莫言",
+    "country": "中国",
+    "era": "2006年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 36,
+    "readingMinutes": 600,
+    "tags": [
+      "轮回",
+      "农村",
+      "历史",
+      "荒诞",
+      "命运"
+    ],
+    "summary": "以西门闹六道轮回写中国农村五十年变迁，想象狂放，获茅盾文学奖。"
+  },
+  {
+    "id": "jiuguo",
+    "title": "酒国",
+    "author": "莫言",
+    "country": "中国",
+    "era": "1993年",
+    "category": "近现代文学",
+    "level": "重要",
+    "batch": 36,
+    "readingMinutes": 350,
+    "tags": [
+      "讽刺",
+      "饮食",
+      "官场",
+      "荒诞",
+      "现实"
+    ],
+    "summary": "以调查酒国吃婴儿的荒诞案件写官场与欲望，讽刺尖锐，结构复杂。"
+  },
+  {
+    "id": "qinqiang",
+    "title": "秦腔",
+    "author": "贾平凹",
+    "country": "中国",
+    "era": "2005年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 36,
+    "readingMinutes": 500,
+    "tags": [
+      "乡土",
+      "秦腔",
+      "农村",
+      "变迁",
+      "文化"
+    ],
+    "summary": "以清风街写农村在时代变迁中的衰落，秦腔成为传统文化的象征，获茅盾文学奖。"
+  },
+  {
+    "id": "feidu",
+    "title": "废都",
+    "author": "贾平凹",
+    "country": "中国",
+    "era": "1993年",
+    "category": "近现代文学",
+    "level": "重要",
+    "batch": 36,
+    "readingMinutes": 400,
+    "tags": [
+      "都市",
+      "文人",
+      "欲望",
+      "颓废",
+      "社会"
+    ],
+    "summary": "写西京文人的精神困顿与欲望沉沦，语言独特，曾引发巨大争议。"
+  },
+  {
+    "id": "guchuan",
+    "title": "古船",
+    "author": "张炜",
+    "country": "中国",
+    "era": "1986年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 36,
+    "readingMinutes": 450,
+    "tags": [
+      "乡土",
+      "家族",
+      "历史",
+      "苦难",
+      "反思"
+    ],
+    "summary": "写芦青河畔洼狸镇隋赵两家的恩怨，反思历史与人性，是当代长篇小说的重要作品。"
+  },
+  {
+    "id": "jiuyueyuyan",
+    "title": "九月寓言",
+    "author": "张炜",
+    "country": "中国",
+    "era": "1992年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 36,
+    "readingMinutes": 300,
+    "tags": [
+      "寓言",
+      "乡土",
+      "土地",
+      "工业",
+      "诗意"
+    ],
+    "summary": "以寓言笔法写小村的土地与迁徙，诗意浓郁，是张炜最具个人风格的长篇。"
+  },
+  {
+    "id": "meiguimen",
+    "title": "玫瑰门",
+    "author": "铁凝",
+    "country": "中国",
+    "era": "1989年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 36,
+    "readingMinutes": 400,
+    "tags": [
+      "女性",
+      "家族",
+      "历史",
+      "成长",
+      "命运"
+    ],
+    "summary": "写司猗纹与苏眉两代女性的命运，展现女性在家族与历史中的挣扎。"
+  },
+  {
+    "id": "benhua",
+    "title": "笨花",
+    "author": "铁凝",
+    "country": "中国",
+    "era": "2006年",
+    "category": "近现代文学",
+    "level": "经典",
+    "batch": 36,
+    "readingMinutes": 450,
+    "tags": [
+      "乡土",
+      "家族",
+      "抗战",
+      "女性",
+      "历史"
+    ],
+    "summary": "以笨花村向家的故事写冀中平原的百年变迁，厚重而温润。"
+  },
+  {
+    "id": "eerlungna",
+    "title": "额尔古纳河右岸",
+    "author": "迟子建",
+    "country": "中国",
+    "era": "2005年",
+    "category": "近现代文学",
+    "level": "殿堂级",
+    "batch": 36,
+    "readingMinutes": 300,
+    "tags": [
+      "鄂温克",
+      "民族",
+      "自然",
+      "史诗",
+      "命运"
+    ],
+    "summary": "以鄂温克族最后一位酋长女人的自述写民族百年变迁，诗意苍凉，获茅盾文学奖。"
+  },
+  {
+    "id": "hongzi",
+    "title": "红字",
+    "author": "霍桑",
+    "country": "美国",
+    "era": "1850年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 37,
+    "readingMinutes": 300,
+    "tags": [
+      "爱情",
+      "罪",
+      "清教",
+      "道德",
+      "心理"
+    ],
+    "summary": "以通奸罪与红字写清教社会的道德压迫，是十九世纪美国文学的经典。"
+  },
+  {
+    "id": "baijing",
+    "title": "白鲸",
+    "author": "梅尔维尔",
+    "country": "美国",
+    "era": "1851年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 37,
+    "readingMinutes": 700,
+    "tags": [
+      "海洋",
+      "复仇",
+      "命运",
+      "象征",
+      "史诗"
+    ],
+    "summary": "以捕鲸船长亚哈追杀白鲸的故事写执念与毁灭，是一部百科全书式的海洋史诗。"
+  },
+  {
+    "id": "tangmu",
+    "title": "汤姆叔叔的小屋",
+    "author": "斯托夫人",
+    "country": "美国",
+    "era": "1852年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 37,
+    "readingMinutes": 400,
+    "tags": [
+      "奴隶制",
+      "种族",
+      "信仰",
+      "苦难",
+      "社会"
+    ],
+    "summary": "写黑奴汤姆的遭遇，推动美国废奴运动，是十九世纪最有影响的社会小说之一。"
+  },
+  {
+    "id": "xiaofuren",
+    "title": "小妇人",
+    "author": "奥尔科特",
+    "country": "美国",
+    "era": "1868年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 37,
+    "readingMinutes": 350,
+    "tags": [
+      "成长",
+      "家庭",
+      "女性",
+      "爱情",
+      "独立"
+    ],
+    "summary": "写马奇家四姐妹的成长与选择，是女性成长小说的经典。"
+  },
+  {
+    "id": "junyou",
+    "title": "俊友",
+    "author": "莫泊桑",
+    "country": "法国",
+    "era": "1885年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 37,
+    "readingMinutes": 400,
+    "tags": [
+      "讽刺",
+      "野心",
+      "新闻",
+      "女性",
+      "社会"
+    ],
+    "summary": "写青年杜洛瓦靠女人与投机跻身上流社会，讽刺第三共和国的腐败。"
+  },
+  {
+    "id": "nana",
+    "title": "娜娜",
+    "author": "左拉",
+    "country": "法国",
+    "era": "1880年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 37,
+    "readingMinutes": 450,
+    "tags": [
+      "自然主义",
+      "女性",
+      "欲望",
+      "社会",
+      "悲剧"
+    ],
+    "summary": "以交际花娜娜的一生写第二帝国的腐化与崩塌，是自然主义的代表作。"
+  },
+  {
+    "id": "mengya",
+    "title": "萌芽",
+    "author": "左拉",
+    "country": "法国",
+    "era": "1885年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 37,
+    "readingMinutes": 400,
+    "tags": [
+      "劳工",
+      "罢工",
+      "社会",
+      "自然主义",
+      "团结"
+    ],
+    "summary": "写煤矿工人的罢工与苦难，是法国自然主义社会小说的代表。"
+  },
+  {
+    "id": "yangzhiqiu",
+    "title": "羊脂球",
+    "author": "莫泊桑",
+    "country": "法国",
+    "era": "1880年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 37,
+    "readingMinutes": 120,
+    "tags": [
+      "短篇",
+      "战争",
+      "女性",
+      "虚伪",
+      "讽刺"
+    ],
+    "summary": "以一辆马车上的乘客写战争中的虚伪与牺牲，是莫泊桑最著名的短篇。"
+  },
+  {
+    "id": "yisheng",
+    "title": "一生",
+    "author": "莫泊桑",
+    "country": "法国",
+    "era": "1883年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 37,
+    "readingMinutes": 350,
+    "tags": [
+      "女性",
+      "婚姻",
+      "幻灭",
+      "自然主义",
+      "命运"
+    ],
+    "summary": "写贵族女子让娜从憧憬到幻灭的一生，冷静而悲悯。"
+  },
+  {
+    "id": "bamaxiudaoyuan",
+    "title": "巴马修道院",
+    "author": "司汤达",
+    "country": "法国",
+    "era": "1839年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 37,
+    "readingMinutes": 450,
+    "tags": [
+      "爱情",
+      "政治",
+      "冒险",
+      "意大利",
+      "心理"
+    ],
+    "summary": "以法布里斯在意大利的冒险写爱情与政治，是司汤达的代表作之一。"
+  },
+  {
+    "id": "dubliners",
+    "title": "都柏林人",
+    "author": "乔伊斯",
+    "country": "爱尔兰",
+    "era": "1914年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 38,
+    "readingMinutes": 250,
+    "tags": [
+      "短篇",
+      "城市",
+      "瘫痪",
+      "成长",
+      "现代"
+    ],
+    "summary": "以十五个短篇写都柏林人的精神瘫痪，是乔伊斯现代主义创作的起点。"
+  },
+  {
+    "id": "qingnian",
+    "title": "青年艺术家的画像",
+    "author": "乔伊斯",
+    "country": "爱尔兰",
+    "era": "1916年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 38,
+    "readingMinutes": 300,
+    "tags": [
+      "成长",
+      "意识流",
+      "宗教",
+      "艺术",
+      "自我"
+    ],
+    "summary": "以斯蒂芬的成长写艺术家如何挣脱家庭、宗教与国家的束缚。"
+  },
+  {
+    "id": "daodengta",
+    "title": "到灯塔去",
+    "author": "伍尔夫",
+    "country": "英国",
+    "era": "1927年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 38,
+    "readingMinutes": 250,
+    "tags": [
+      "意识流",
+      "家庭",
+      "时间",
+      "艺术",
+      "女性"
+    ],
+    "summary": "以拉姆齐一家与灯塔之行写时间流逝与艺术救赎，是伍尔夫的代表作。"
+  },
+  {
+    "id": "daluowei",
+    "title": "达洛维夫人",
+    "author": "伍尔夫",
+    "country": "英国",
+    "era": "1925年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 38,
+    "readingMinutes": 250,
+    "tags": [
+      "意识流",
+      "都市",
+      "女性",
+      "一天",
+      "生命"
+    ],
+    "summary": "以克拉丽莎准备晚宴的一天写伦敦与人生，意识流手法的典范。"
+  },
+  {
+    "id": "yingwang",
+    "title": "蝇王",
+    "author": "戈尔丁",
+    "country": "英国",
+    "era": "1954年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 38,
+    "readingMinutes": 250,
+    "tags": [
+      "寓言",
+      "人性",
+      "文明",
+      "儿童",
+      "权力"
+    ],
+    "summary": "写一群男孩在荒岛上的堕落，揭示文明外壳下的人性之恶。"
+  },
+  {
+    "id": "fatiaocheng",
+    "title": "发条橙",
+    "author": "伯吉斯",
+    "country": "英国",
+    "era": "1962年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 38,
+    "readingMinutes": 250,
+    "tags": [
+      "反乌托邦",
+      "暴力",
+      "自由",
+      "改造",
+      "青春"
+    ],
+    "summary": "写少年亚历克斯的暴力与政府改造实验，追问自由意志的边界。"
+  },
+  {
+    "id": "beihuigui",
+    "title": "北回归线",
+    "author": "米勒",
+    "country": "美国",
+    "era": "1934年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 38,
+    "readingMinutes": 300,
+    "tags": [
+      "自传",
+      "都市",
+      "欲望",
+      "反叛",
+      "现代"
+    ],
+    "summary": "以巴黎生活写艺术家的贫困与欲望，语言粗犷，是反叛文学的代表。"
+  },
+  {
+    "id": "zailushang",
+    "title": "在路上",
+    "author": "凯鲁亚克",
+    "country": "美国",
+    "era": "1957年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 38,
+    "readingMinutes": 300,
+    "tags": [
+      "垮掉的一代",
+      "旅行",
+      "自由",
+      "青春",
+      "公路"
+    ],
+    "summary": "写萨尔与迪安横越美国的旅程，是垮掉的一代的宣言。"
+  },
+  {
+    "id": "luotiwucan",
+    "title": "裸体午餐",
+    "author": "巴勒斯",
+    "country": "美国",
+    "era": "1959年",
+    "category": "外国文学",
+    "level": "重要",
+    "batch": 38,
+    "readingMinutes": 200,
+    "tags": [
+      "实验",
+      "成瘾",
+      "荒诞",
+      "碎片",
+      "反乌托邦"
+    ],
+    "summary": "以碎片化叙事写成瘾与控制的噩梦，是实验文学的争议之作。"
+  },
+  {
+    "id": "wuhaotuchang",
+    "title": "五号屠场",
+    "author": "冯内古特",
+    "country": "美国",
+    "era": "1969年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 38,
+    "readingMinutes": 250,
+    "tags": [
+      "战争",
+      "科幻",
+      "时间",
+      "黑色幽默",
+      "创伤"
+    ],
+    "summary": "以德累斯顿轰炸与时间旅行写战争创伤，黑色幽默的代表作。"
+  },
+  {
+    "id": "kuzhibaiye",
+    "title": "枯枝败叶",
+    "author": "马尔克斯",
+    "country": "哥伦比亚",
+    "era": "1955年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 39,
+    "readingMinutes": 200,
+    "tags": [
+      "魔幻",
+      "家族",
+      "死亡",
+      "乡土",
+      "叙事"
+    ],
+    "summary": "以马孔多小镇与一个家庭的葬礼写孤独与衰败，是《百年孤独》的前奏。"
+  },
+  {
+    "id": "shangxiao",
+    "title": "没有人给他写信的上校",
+    "author": "马尔克斯",
+    "country": "哥伦比亚",
+    "era": "1961年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 39,
+    "readingMinutes": 150,
+    "tags": [
+      "等待",
+      "尊严",
+      "贫困",
+      "孤独",
+      "拉美"
+    ],
+    "summary": "写老上校等待抚恤金与斗鸡的困境，简洁有力，是马尔克斯最完美的小说之一。"
+  },
+  {
+    "id": "eshichen",
+    "title": "恶时辰",
+    "author": "马尔克斯",
+    "country": "哥伦比亚",
+    "era": "1962年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 39,
+    "readingMinutes": 250,
+    "tags": [
+      "独裁",
+      "暴力",
+      "小镇",
+      "秘密",
+      "政治"
+    ],
+    "summary": "写一个小镇在匿名贴与镇压中的恐惧，是马尔克斯早期政治小说。"
+  },
+  {
+    "id": "migongzhongdejiangjun",
+    "title": "迷宫中的将军",
+    "author": "马尔克斯",
+    "country": "哥伦比亚",
+    "era": "1989年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 39,
+    "readingMinutes": 350,
+    "tags": [
+      "历史",
+      "权力",
+      "孤独",
+      "玻利瓦尔",
+      "拉美"
+    ],
+    "summary": "以玻利瓦尔最后一段旅程写英雄的衰老与孤独，反思权力与解放。"
+  },
+  {
+    "id": "aiqingyumogui",
+    "title": "爱情与其他魔鬼",
+    "author": "马尔克斯",
+    "country": "哥伦比亚",
+    "era": "1994年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 39,
+    "readingMinutes": 250,
+    "tags": [
+      "爱情",
+      "宗教",
+      "驱魔",
+      "少女",
+      "悲剧"
+    ],
+    "summary": "写少女与被驱逐的神父之间的爱情，探讨信仰、欲望与自由。"
+  },
+  {
+    "id": "womenzuxian",
+    "title": "我们的祖先",
+    "author": "卡尔维诺",
+    "country": "意大利",
+    "era": "1960年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 39,
+    "readingMinutes": 300,
+    "tags": [
+      "寓言",
+      "祖先",
+      "三部曲",
+      "想象",
+      "现代"
+    ],
+    "summary": "由《分成两半的子爵》《树上的男爵》《不存在的骑士》组成，以寓言写现代人的完整与分裂。"
+  },
+  {
+    "id": "kanbujiandechengshi",
+    "title": "看不见的城市",
+    "author": "卡尔维诺",
+    "country": "意大利",
+    "era": "1972年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 39,
+    "readingMinutes": 200,
+    "tags": [
+      "城市",
+      "想象",
+      "哲学",
+      "旅行",
+      "结构"
+    ],
+    "summary": "以马可·波罗向忽必烈讲述五十五座城市，写记忆、欲望与语言，是后现代文学经典。"
+  },
+  {
+    "id": "handongyexingren",
+    "title": "寒冬夜行人",
+    "author": "卡尔维诺",
+    "country": "意大利",
+    "era": "1979年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 39,
+    "readingMinutes": 250,
+    "tags": [
+      "元小说",
+      "阅读",
+      "结构",
+      "悬疑",
+      "后现代"
+    ],
+    "summary": "以十个开头与读者介入写阅读本身，是元小说的代表作。"
+  },
+  {
+    "id": "mingyunjiaozhidechengbao",
+    "title": "命运交织的城堡",
+    "author": "卡尔维诺",
+    "country": "意大利",
+    "era": "1969年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 39,
+    "readingMinutes": 200,
+    "tags": [
+      "塔罗",
+      "叙事",
+      "命运",
+      "结构",
+      "想象"
+    ],
+    "summary": "以塔罗牌排列讲述旅人的故事，探索叙事的无限组合。"
+  },
+  {
+    "id": "paluomaer",
+    "title": "帕洛马尔",
+    "author": "卡尔维诺",
+    "country": "意大利",
+    "era": "1983年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 39,
+    "readingMinutes": 200,
+    "tags": [
+      "观察",
+      "哲思",
+      "日常",
+      "自我",
+      "碎片"
+    ],
+    "summary": "以帕洛马尔的观察写人与自然、语言与沉默，是卡尔维诺晚期的哲思之作。"
+  },
+  {
+    "id": "jieyouzahuodian",
+    "title": "解忧杂货店",
+    "author": "东野圭吾",
+    "country": "日本",
+    "era": "2012年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 40,
+    "readingMinutes": 250,
+    "tags": [
+      "温情",
+      "时间",
+      "命运",
+      "选择",
+      "治愈"
+    ],
+    "summary": "以杂货店的回信串起跨越时空的人生烦恼，温暖而有结构感。"
+  },
+  {
+    "id": "baiyexing",
+    "title": "白夜行",
+    "author": "东野圭吾",
+    "country": "日本",
+    "era": "1999年",
+    "category": "外国文学",
+    "level": "殿堂级",
+    "batch": 40,
+    "readingMinutes": 400,
+    "tags": [
+      "悬疑",
+      "罪恶",
+      "爱情",
+      "命运",
+      "社会"
+    ],
+    "summary": "以两个孩子的一生写罪与守护，冷峻而深刻，是东野圭吾的代表作。"
+  },
+  {
+    "id": "xianyirenx",
+    "title": "嫌疑人X的献身",
+    "author": "东野圭吾",
+    "country": "日本",
+    "era": "2005年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 40,
+    "readingMinutes": 250,
+    "tags": [
+      "推理",
+      "数学",
+      "爱情",
+      "牺牲",
+      "反转"
+    ],
+    "summary": "以数学家的完美犯罪写爱与牺牲，推理结构精妙。"
+  },
+  {
+    "id": "renjianshige",
+    "title": "人间失格",
+    "author": "太宰治",
+    "country": "日本",
+    "era": "1948年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 40,
+    "readingMinutes": 150,
+    "tags": [
+      "自传",
+      "颓废",
+      "孤独",
+      "人性",
+      "绝望"
+    ],
+    "summary": "以叶藏的自白写自我毁灭与人性疏离，是日本无赖派文学的代表。"
+  },
+  {
+    "id": "xieyang",
+    "title": "斜阳",
+    "author": "太宰治",
+    "country": "日本",
+    "era": "1947年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 40,
+    "readingMinutes": 200,
+    "tags": [
+      "贵族",
+      "没落",
+      "战后",
+      "女性",
+      "绝望"
+    ],
+    "summary": "写战后贵族家庭的没落与挣扎，是太宰治后期代表作。"
+  },
+  {
+    "id": "woshimao",
+    "title": "我是猫",
+    "author": "夏目漱石",
+    "country": "日本",
+    "era": "1905年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 40,
+    "readingMinutes": 300,
+    "tags": [
+      "讽刺",
+      "猫",
+      "知识分子",
+      "明治",
+      "幽默"
+    ],
+    "summary": "以猫的视角观察主人与知识分子圈，讽刺明治社会的浮华与空虚。"
+  },
+  {
+    "id": "xin",
+    "title": "心",
+    "author": "夏目漱石",
+    "country": "日本",
+    "era": "1914年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 40,
+    "readingMinutes": 200,
+    "tags": [
+      "人性",
+      "罪",
+      "孤独",
+      "爱情",
+      "明治"
+    ],
+    "summary": "以“先生”的自白写利己与罪疚，是夏目漱石后期代表作。"
+  },
+  {
+    "id": "wuji",
+    "title": "舞姬",
+    "author": "森鸥外",
+    "country": "日本",
+    "era": "1890年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 40,
+    "readingMinutes": 100,
+    "tags": [
+      "短篇",
+      "留学",
+      "爱情",
+      "悲剧",
+      "明治"
+    ],
+    "summary": "写留德青年与舞女的爱恋与抛弃，是日本浪漫主义文学的先声。"
+  },
+  {
+    "id": "mianbei",
+    "title": "棉被",
+    "author": "田山花袋",
+    "country": "日本",
+    "era": "1907年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 40,
+    "readingMinutes": 150,
+    "tags": [
+      "自然主义",
+      "私小说",
+      "欲望",
+      "压抑",
+      "明治"
+    ],
+    "summary": "以作家对女弟子的隐秘欲望写知识分子的压抑，是日本私小说的奠基作。"
+  },
+  {
+    "id": "shazhinv",
+    "title": "砂之女",
+    "author": "安部公房",
+    "country": "日本",
+    "era": "1962年",
+    "category": "外国文学",
+    "level": "经典",
+    "batch": 40,
+    "readingMinutes": 250,
+    "tags": [
+      "荒诞",
+      "存在",
+      "沙丘",
+      "自由",
+      "寓言"
+    ],
+    "summary": "写男人被困沙穴与女人的生活，以荒诞情境探讨自由与生存。"
+  }
+]
