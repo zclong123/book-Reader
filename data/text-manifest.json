@@ -1,16 +1,4 @@
 {
-  "bainian": {
-    "title": "了不起的盖茨比",
-    "source": "Project Gutenberg",
-    "sourceId": 64317,
-    "sourceUrl": "https://www.gutenberg.org/ebooks/64317",
-    "sourceTitle": "The Great Gatsby — 《了不起的盖茨比》（英文版）",
-    "file": "/books/bainian.txt",
-    "chars": 271095,
-    "downloadedAt": "2026-11-04",
-    "startLine": 33,
-    "bytes": 280645
-  },
   "bianxingji": {
     "title": "变形记",
     "source": "Project Gutenberg",
@@ -19,8 +7,7 @@
     "sourceTitle": "Metamorphosis — 《变形记》（英文版）",
     "file": "/books/bianxingji.txt",
     "chars": 119361,
-    "downloadedAt": "2026-11-04",
-    "bytes": 120708
+    "downloadedAt": "2026-11-05"
   },
   "gaolao": {
     "title": "高老头",
@@ -29,10 +16,8 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/1237",
     "sourceTitle": "Father Goriot — 《高老头》（英文版）",
     "file": "/books/gaolao.txt",
-    "chars": 571824,
-    "downloadedAt": "2026-11-04",
-    "startLine": 17,
-    "bytes": 582008
+    "chars": 572087,
+    "downloadedAt": "2026-11-05"
   },
   "baofali": {
     "title": "包法利夫人",
@@ -41,10 +26,8 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/2413",
     "sourceTitle": "Madame Bovary — 《包法利夫人》（英文版）",
     "file": "/books/baofali.txt",
-    "bytes": 693270,
-    "downloadedAt": "2026-11-04",
-    "chars": 683618,
-    "startLine": 3
+    "chars": 652180,
+    "downloadedAt": "2026-11-05"
   },
   "jidushan": {
     "title": "基督山伯爵",
@@ -53,10 +36,8 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/1184",
     "sourceTitle": "The Count of Monte Cristo — 《基督山伯爵》（英文版）",
     "file": "/books/jidushan.txt",
-    "chars": 1049341,
-    "downloadedAt": "2026-11-04",
-    "startLine": 141,
-    "bytes": 1078174
+    "chars": 673341,
+    "downloadedAt": "2026-11-05"
   },
   "zhanzheng": {
     "title": "战争与和平",
@@ -65,9 +46,8 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/2600",
     "sourceTitle": "War and Peace — 《战争与和平》（英文版）",
     "file": "/books/zhanzheng.txt",
-    "chars": 687753,
-    "downloadedAt": "2026-11-04",
-    "bytes": 704757
+    "chars": 1424252,
+    "downloadedAt": "2026-11-05"
   },
   "anna": {
     "title": "安娜·卡列尼娜",
@@ -76,10 +56,8 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/1399",
     "sourceTitle": "Anna Karenina — 《安娜·卡列尼娜》（英文版）",
     "file": "/books/anna.txt",
-    "chars": 690914,
-    "downloadedAt": "2026-11-04",
-    "startLine": 27,
-    "bytes": 706904
+    "chars": 1965603,
+    "downloadedAt": "2026-11-05"
   },
   "zuifa": {
     "title": "罪与罚",
@@ -89,8 +67,7 @@
     "sourceTitle": "Crime and Punishment — 《罪与罚》（英文版）",
     "file": "/books/zuifa.txt",
     "chars": 681473,
-    "downloadedAt": "2026-11-04",
-    "bytes": 696874
+    "downloadedAt": "2026-11-05"
   },
   "kalamazuofu": {
     "title": "卡拉马佐夫兄弟",
@@ -99,10 +76,8 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/28054",
     "sourceTitle": "The Brothers Karamazov — 《卡拉马佐夫兄弟》（英文版）",
     "file": "/books/kalamazuofu.txt",
-    "chars": 672990,
-    "downloadedAt": "2026-11-04",
-    "startLine": 146,
-    "bytes": 688555
+    "chars": 1445692,
+    "downloadedAt": "2026-11-05"
   },
   "fuhuo": {
     "title": "复活",
@@ -111,10 +86,8 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/1938",
     "sourceTitle": "Resurrection — 《复活》（英文版）",
     "file": "/books/fuhuo.txt",
-    "chars": 688191,
-    "downloadedAt": "2026-11-04",
-    "startLine": 11,
-    "bytes": 699883
+    "chars": 971375,
+    "downloadedAt": "2026-11-05"
   },
   "shiritan": {
     "title": "十日谈",
@@ -123,9 +96,8 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/23700",
     "sourceTitle": "The Decameron — 《十日谈》（英文版）",
     "file": "/books/shiritan.txt",
-    "chars": 677888,
-    "downloadedAt": "2026-11-04",
-    "bytes": 677959
+    "chars": 1701555,
+    "downloadedAt": "2026-11-05"
   },
   "fushide": {
     "title": "浮士德",
@@ -134,9 +106,8 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/14591",
     "sourceTitle": "Faust, Part I — 《浮士德》第一部（英译版）",
     "file": "/books/fushide.txt",
-    "chars": 226892,
-    "downloadedAt": "2026-11-04",
-    "bytes": 229701
+    "chars": 226922,
+    "downloadedAt": "2026-11-05"
   },
   "hamuleite": {
     "title": "哈姆雷特",
@@ -145,22 +116,8 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/1524",
     "sourceTitle": "Hamlet — 《哈姆雷特》（英文版）",
     "file": "/books/hamuleite.txt",
-    "chars": 178637,
-    "downloadedAt": "2026-11-04",
-    "startLine": 0,
-    "bytes": 181147
-  },
-  "wuduguer": {
-    "title": "呼啸山庄",
-    "source": "Project Gutenberg",
-    "sourceId": 768,
-    "sourceUrl": "https://www.gutenberg.org/ebooks/768",
-    "sourceTitle": "Wuthering Heights — 《呼啸山庄》（英文版）",
-    "file": "/books/wuduguer.txt",
-    "chars": 635075,
-    "downloadedAt": "2026-11-04",
-    "startLine": 8,
-    "bytes": 650955
+    "chars": 178668,
+    "downloadedAt": "2026-11-05"
   },
   "shuangchengji": {
     "title": "双城记",
@@ -169,10 +126,8 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/98",
     "sourceTitle": "A Tale of Two Cities — 《双城记》（英文版）",
     "file": "/books/shuangchengji.txt",
-    "chars": 667988,
-    "downloadedAt": "2026-11-04",
-    "startLine": 74,
-    "bytes": 679974
+    "chars": 758359,
+    "downloadedAt": "2026-11-05"
   },
   "beican": {
     "title": "悲惨世界",
@@ -181,10 +136,8 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/135",
     "sourceTitle": "Les Misérables — 《悲惨世界》（英文版）",
     "file": "/books/beican.txt",
-    "chars": 637333,
-    "downloadedAt": "2026-11-04",
-    "startLine": 0,
-    "bytes": 646030
+    "chars": 1355640,
+    "downloadedAt": "2026-11-05"
   },
   "luomiou": {
     "title": "罗密欧与朱丽叶",
@@ -194,9 +147,7 @@
     "sourceTitle": "Romeo and Juliet — 《罗密欧与朱丽叶》（英文版）",
     "file": "/books/luomiou.txt",
     "chars": 141324,
-    "downloadedAt": "2026-11-04",
-    "startLine": 52,
-    "bytes": 143222
+    "downloadedAt": "2026-11-05"
   },
   "yulixisi": {
     "title": "尤利西斯",
@@ -205,10 +156,8 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/4300",
     "sourceTitle": "Ulysses — 《尤利西斯》（英文版）",
     "file": "/books/yulixisi.txt",
-    "chars": 601914,
-    "downloadedAt": "2026-11-04",
-    "startLine": 44,
-    "bytes": 610508
+    "chars": 1520478,
+    "downloadedAt": "2026-11-05"
   },
   "zhuiyi": {
     "title": "追忆似水年华",
@@ -217,9 +166,27 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/7178",
     "sourceTitle": "Swann's Way — 《追忆似水年华·在斯万家那边》（英文版）",
     "file": "/books/zhuiyi.txt",
-    "chars": 662090,
-    "downloadedAt": "2026-11-04",
-    "startLine": 27,
-    "bytes": 662503
+    "chars": 1085670,
+    "downloadedAt": "2026-11-05"
+  },
+  "jianai": {
+    "title": "简·爱",
+    "source": "Project Gutenberg",
+    "sourceId": 1260,
+    "sourceUrl": "https://www.gutenberg.org/ebooks/1260",
+    "sourceTitle": "Jane Eyre — 《简·爱》（英文版）",
+    "file": "/books/jianai.txt",
+    "chars": 1023188,
+    "downloadedAt": "2026-11-05"
+  },
+  "huxiaoshanzhuang": {
+    "title": "呼啸山庄",
+    "source": "Project Gutenberg",
+    "sourceId": 768,
+    "sourceUrl": "https://www.gutenberg.org/ebooks/768",
+    "sourceTitle": "Wuthering Heights — 《呼啸山庄》（英文版）",
+    "file": "/books/huxiaoshanzhuang.txt",
+    "chars": 646357,
+    "downloadedAt": "2026-11-05"
   }
 }

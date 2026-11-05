@@ -1,0 +1,5 @@
+-cp
+D:/aiproject/huaweiagentarts/book/.android-verify/stubs
+-Xallow-kotlin-package
+-nowarn
+D:\aiproject\huaweiagentarts\book\.android-verify\stubs

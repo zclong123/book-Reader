@@ -29,7 +29,7 @@ const today = computed(() => todayBook())
     </main>
 
     <footer class="site-footer">
-      <p>古今名著精读馆 · 纯前端本地阅读空间</p>
+      <p>古今名著精读馆 · 读一部，懂一部</p>
       <p>所有朗读与录音均在本机完成，数据不会上传。</p>
     </footer>
   </div>

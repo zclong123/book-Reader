@@ -1,11 +1,11 @@
 <script setup>
-import { computed, onMounted, ref, watch } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import Recorder from '../components/Recorder.vue'
 import SpeechBar from '../components/SpeechBar.vue'
 import { useSpeech } from '../composables/useSpeech.js'
 import { getBook, getContent } from '../data/library.js'
-import textManifest from '../data/textManifest.json'
+import textManifest from '../../data/text-manifest.json'
 
 const props = defineProps({
   id: { type: String, required: true }
@@ -14,7 +14,8 @@ const props = defineProps({
 const route = useRoute()
 const bookId = computed(() => props.id || String(route.params.id))
 const book = computed(() => getBook(bookId.value))
-const content = computed(() => getContent(bookId.value))
+const content = ref(null)
+const contentError = ref('')
 
 const speech = useSpeech()
 const imported = ref(null)
@@ -108,7 +109,7 @@ function splitChapters(rawText, fallbackTitle = '全文') {
   if (!text) return []
 
   const headingRegex =
-    /^[ \t]*(第[0-9零〇一二三四五六七八九十百千万两]+[章回节卷篇部集][^\n]{0,60}|序章|序言|前言|楔子|引子|尾声|后记|附录[^\n]{0,30}|#{1,3}[ \t]+[^\n]{1,60})[ \t]*$/gm
+    /^[ \t]*(第[0-9零〇一二三四五六七八九十百千万两]+[章回节卷篇部集](?:[ \t\u3000:：、.．-]+[^\n]{0,60})?|序章|序言|前言|楔子|引子|尾声|后记|附录[^\n]{0,30}|#{1,3}[ \t]+[^\n]{1,60})[ \t]*$/gm
   const matches = [...text.matchAll(headingRegex)]
 
   if (matches.length >= 2) {
@@ -272,21 +273,38 @@ function playChapter() {
   speech.play(chapterSegments.value, { label: `正在朗读 · ${currentChapter.value?.title ?? book.value?.title ?? ''}` })
 }
 
-watch(bookId, () => {
-  speech.stop()
-  imported.value = null
-  currentIndex.value = 0
-  importInfo.value = ''
-  importError.value = ''
-  loadSaved()
-})
+watch(
+  bookId,
+  (id, _oldValue, onCleanup) => {
+    let cancelled = false
+    onCleanup(() => {
+      cancelled = true
+    })
+    speech.stop()
+    imported.value = null
+    currentIndex.value = 0
+    importInfo.value = ''
+    importError.value = ''
+    contentError.value = ''
+    content.value = null
+    getContent(id)
+      .then((detail) => {
+        if (cancelled) return
+        content.value = detail
+        loadSaved()
+      })
+      .catch((err) => {
+        if (!cancelled) contentError.value = `精读内容加载失败：${err?.message || err}`
+      })
+  },
+  { immediate: true }
+)
 
 watch(currentIndex, () => {
   saveProgress()
   if (speech.speaking) speech.stop()
 })
 
-onMounted(loadSaved)
 </script>
 
 <template>
@@ -349,6 +367,7 @@ onMounted(loadSaved)
 
     <p v-if="importInfo" class="inline-note">{{ importInfo }}</p>
     <p v-if="importError" class="inline-note error">{{ importError }}</p>
+    <p v-if="contentError" class="inline-note error">{{ contentError }}</p>
 
     <div class="reader-toolbar">
       <div class="reader-tools">

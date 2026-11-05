@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Android 界面预览 · 古今名著精读馆</title>
+    <style>
+      :root {
+        --bg: #f1eadc; --surface: #fbf7ee; --surface2: #f3ecdd; --ink: #2b2620; --ink-soft: #4a4339;
+        --muted: #7d7263; --line: #ddd1bc; --primary: #9c3b2c; --primary-soft: #f3dcd3; --jade: #3d685c;
+        --serif: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+        --sans: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: #d9d2c4; font-family: var(--sans); color: var(--ink); }
+      .stage { display: flex; justify-content: center; gap: 24px; padding: 24px; align-items: flex-start; flex-wrap: wrap; }
+      .phone { width: 390px; height: 844px; border-radius: 34px; background: var(--bg); overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 20px 60px rgba(40, 30, 15, .3); border: 8px solid #22201c; }
+      .topbar { padding: 14px 16px 6px; }
+      .topbar h1 { margin: 0; font-family: var(--serif); font-size: 20px; }
+      .topbar small { color: var(--muted); font-size: 11px; }
+      .body { flex: 1; overflow-y: auto; padding: 6px 16px 16px; display: flex; flex-direction: column; gap: 10px; }
+      .bottom { display: flex; border-top: 1px solid var(--line); background: var(--surface); }
+      .bottom div { flex: 1; text-align: center; padding: 8px 0 12px; font-size: 11px; color: var(--ink-soft); }
+      .bottom div.on { color: var(--primary); font-weight: 600; }
+      .bottom b { display: block; font-size: 16px; font-family: var(--serif); }
+      .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px; }
+      .hero { background: #f7eae0; border-radius: 18px; padding: 16px; }
+      .hero .eye { color: var(--primary); font-size: 11px; font-weight: 700; letter-spacing: .12em; }
+      .hero h2 { margin: 6px 0; font-family: var(--serif); font-size: 22px; }
+      .hero p { margin: 0 0 10px; font-size: 12px; color: var(--muted); }
+      .row { display: flex; gap: 8px; align-items: center; }
+      .btn { border-radius: 999px; padding: 8px 14px; font-size: 12px; font-weight: 600; border: 1px solid var(--line); background: var(--surface2); color: var(--ink); cursor: pointer; }
+      .btn.primary { background: var(--primary); color: #fdf8ec; border-color: transparent; }
+      .chip { display: inline-block; border-radius: 999px; padding: 4px 10px; font-size: 11px; background: var(--surface2); border: 1px solid var(--line); }
+      .chip.on { background: var(--primary); color: #fff; border-color: transparent; }
+      .chips { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; }
+      .search { width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); font-size: 13px; }
+      .cover { width: 64px; height: 92px; border-radius: 4px; background: linear-gradient(145deg, #6f2c25, #4a1d18); color: #f7efdd; padding: 8px 6px 6px 12px; font-family: var(--serif); font-size: 11px; line-height: 1.25; font-weight: 700; border: 1px solid rgba(198,154,99,.5); flex: none; display: flex; flex-direction: column; }
+      .cover.lg { width: 104px; height: 150px; font-size: 16px; }
+      .cover span.lv { font-size: 8px; color: #c69a63; font-weight: 400; margin-bottom: 4px; }
+      .cover span.au { margin-top: auto; font-size: 9px; color: rgba(247,239,221,.7); font-weight: 400; }
+      .book { display: flex; gap: 12px; }
+      .book h3 { margin: 4px 0 2px; font-size: 14px; }
+      .book .meta { font-size: 10px; color: var(--muted); }
+      .book .sum { font-size: 11px; line-height: 1.55; color: var(--ink-soft); margin: 4px 0 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+      .badge { font-size: 9px; border-radius: 999px; padding: 1px 6px; background: var(--surface2); color: var(--muted); }
+      .badge.ready { background: #dde9e3; color: #23463d; }
+      .muted { color: var(--muted); font-size: 11px; }
+      .pager { display: flex; justify-content: center; gap: 10px; align-items: center; padding: 6px 0; font-size: 11px; }
+      .tabs { display: flex; border-bottom: 1px solid var(--line); background: var(--surface); border-radius: 12px 12px 0 0; }
+      .tabs div { flex: 1; text-align: center; padding: 10px 0; font-size: 12px; font-weight: 600; color: var(--muted); border-bottom: 2px solid transparent; }
+      .tabs div.on { color: var(--primary); border-color: var(--primary); }
+      .sec { font-family: var(--serif); font-size: 16px; margin: 10px 0 6px; display: flex; align-items: center; gap: 8px; }
+      .sec::before { content: ""; width: 3px; height: 16px; background: var(--primary); border-radius: 2px; }
+      .p { background: var(--surface); border-radius: 10px; padding: 10px; font-size: 13px; line-height: 1.75; }
+      .quote { background: var(--surface); border-radius: 10px; padding: 12px; font-family: var(--serif); font-size: 14px; }
+      .speech { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; font-size: 11px; }
+      .speech .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--line); margin-right: 6px; }
+      .slider { width: 100%; }
+      .side { display: grid; gap: 10px; }
+      .kv { display: flex; font-size: 11px; padding: 2px 0; }
+      .kv b { width: 64px; color: var(--muted); font-weight: 400; }
+      .grid-sim { display: flex; gap: 10px; overflow-x: auto; }
+      .grid-sim div { width: 86px; flex: none; font-size: 10px; }
+      .list-link { padding: 6px 0; font-size: 12px; color: var(--primary); }
+      .recorder { display: flex; gap: 12px; align-items: center; }
+      .rec-btn { width: 60px; height: 60px; border-radius: 50%; background: var(--primary-soft); display: grid; place-items: center; flex: none; }
+      .rec-btn i { width: 22px; height: 22px; border-radius: 50%; background: var(--primary); }
+      .wave { display: flex; gap: 3px; align-items: center; margin-top: 6px; }
+      .wave i { width: 4px; height: 4px; background: var(--line); border-radius: 2px; }
+    </style>
+  </head>
+  <body>
+    <div class="stage" id="stage"></div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

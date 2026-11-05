@@ -5,7 +5,7 @@ import BookCover from '../components/BookCover.vue'
 import Recorder from '../components/Recorder.vue'
 import SpeechBar from '../components/SpeechBar.vue'
 import { useSpeech } from '../composables/useSpeech.js'
-import { getBook, getContent, getDossier, lectureBlocks, similarBooks, detailSource, saveDossier, removeDossier } from '../data/library.js'
+import { catalog, getBook, getContent, getDossier, lectureBlocks, similarBooks, detailSource, saveDossier, removeDossier } from '../data/library.js'
 import { generateDetailForBook, reviseDetailWithAI, loadAISettings } from '../services/ai.js'
 import { normalizeCustomBook } from '../data/customBooks.js'
 
@@ -17,12 +17,46 @@ const route = useRoute()
 const bookId = computed(() => props.id || String(route.params.id))
 const book = computed(() => getBook(bookId.value))
 const revision = ref(0)
-const content = computed(() => {
-  revision.value
-  const local = getDossier(bookId.value)
-  return local ? JSON.parse(JSON.stringify(local)) : getContent(bookId.value)
-})
+const content = ref(null)
+const contentError = ref('')
+
+watch(
+  [bookId, revision],
+  ([id], _oldValue, onCleanup) => {
+  let cancelled = false
+  onCleanup(() => {
+    cancelled = true
+  })
+  contentError.value = ''
+  const local = getDossier(id)
+  if (local) {
+    content.value = JSON.parse(JSON.stringify(local))
+    return
+  }
+  content.value = null
+  getContent(id)
+    .then((detail) => {
+      if (!cancelled) content.value = detail
+    })
+    .catch((err) => {
+      if (!cancelled) contentError.value = `精读详情加载失败：${err?.message || err}`
+    })
+  },
+  { immediate: true }
+)
 const similar = computed(() => similarBooks(book.value, 4))
+const authorWorks = computed(() => {
+  const author = book.value?.author
+  if (!author || ['佚名', '不详', '未知'].includes(author)) return []
+  return catalog.filter((item) => item.author === author && item.id !== bookId.value)
+})
+const authorWorksPreview = computed(() => authorWorks.value.slice(0, 6))
+const moreAuthorWorks = computed(() => authorWorks.value.slice(authorWorksPreview.value.length))
+const authorIntro = computed(() => {
+  const intro = content.value?.authorIntro?.trim()
+  if (!intro || intro.includes('作家或编者') || intro.includes('其写作常从具体的人和具体的处境出发')) return ''
+  return intro
+})
 const tab = ref('essence')
 const speech = useSpeech()
 const favorite = ref(isFavorite(bookId.value))
@@ -255,7 +289,7 @@ async function reviseWithAI() {
       settings: settings.value
     })
     persist({ ...content.value, ...raw })
-    aiNotice.value = '大模型已按你的要求完成修改。'
+    aiNotice.value = 'AI 已按你的要求完成修改。'
     showRevise.value = false
     reviseInstruction.value = ''
   } catch (err) {
@@ -281,10 +315,20 @@ watch(tab, () => {
 </script>
 
 <template>
-  <div v-if="!book || !content" class="empty-state page-block">
+  <div v-if="!book" class="empty-state page-block">
     <strong>没有找到这部作品</strong>
     <p>它可能还未收录，返回总目录看看其它名著。</p>
     <RouterLink class="primary-btn" to="/">返回总目录</RouterLink>
+  </div>
+
+  <div v-else-if="contentError" class="empty-state page-block">
+    <strong>精读详情加载失败</strong>
+    <p>{{ contentError }}</p>
+    <RouterLink class="primary-btn" to="/">返回总目录</RouterLink>
+  </div>
+
+  <div v-else-if="!content" class="empty-state page-block">
+    <strong>正在加载精读详情…</strong>
   </div>
 
   <div v-else class="detail-view">
@@ -303,10 +347,7 @@ watch(tab, () => {
         <span class="eyebrow">{{ book.country }} · {{ book.era }} · {{ book.category }}</span>
         <h1>{{ book.title }}</h1>
         <p class="book-subtitle">{{ content.subtitle || book.summary }}</p>
-        <p class="book-author">
-          {{ book.author }}
-          <span v-if="content.authorIntro"> · {{ content.authorIntro }}</span>
-        </p>
+        <p class="book-author">{{ book.author }}</p>
 
         <div class="meta-pills">
           <span>{{ book.category }}</span>
@@ -340,22 +381,22 @@ watch(tab, () => {
             :disabled="Boolean(aiBusy)"
             @click="generateDetail"
           >
-            {{ aiBusy === 'generate' ? '正在生成…' : '⚡ 调用大模型生成精读详情' }}
+            {{ aiBusy === 'generate' ? '正在生成…' : '⚡ AI 生成精读详情' }}
           </button>
           <button v-else class="ghost-btn small" type="button" @click="startEdit">✎ 编辑精读详情</button>
-          <button v-if="source !== 'none'" class="ghost-btn small" type="button" @click="showRevise = !showRevise">🤖 大模型修改</button>
+          <button v-if="source !== 'none'" class="ghost-btn small" type="button" @click="showRevise = !showRevise">🤖 AI 修改</button>
           <button v-if="source === 'local'" class="ghost-btn small" type="button" @click="resetLocal">恢复默认</button>
         </div>
 
-        <p v-if="aiBusy === 'generate'" class="inline-note">正在调用大模型生成，通常需要 1—3 分钟，请保持页面打开。</p>
-        <p v-if="aiBusy === 'revise'" class="inline-note">正在让大模型按你的要求修改…</p>
+        <p v-if="aiBusy === 'generate'" class="inline-note">正在生成精读内容，请保持页面打开。</p>
+        <p v-if="aiBusy === 'revise'" class="inline-note">正在按你的要求修改精读内容…</p>
         <p v-if="aiError" class="inline-note error">{{ aiError }}</p>
         <p v-if="aiNotice" class="inline-note">{{ aiNotice }}</p>
       </div>
     </section>
 
     <section v-if="showRevise && source !== 'none'" class="panel revise-panel">
-      <h3>让大模型修改这份精读</h3>
+      <h3>修改这份精读</h3>
       <div class="field-row">
         <label class="field">
           <span>修改范围</span>
@@ -377,7 +418,7 @@ watch(tab, () => {
       </div>
       <div class="custom-actions">
         <button class="primary-btn small" type="button" :disabled="Boolean(aiBusy)" @click="reviseWithAI">
-          {{ aiBusy === 'revise' ? '正在修改…' : '🤖 提交给大模型' }}
+          {{ aiBusy === 'revise' ? '正在修改…' : '🤖 提交修改' }}
         </button>
         <button class="ghost-btn small" type="button" @click="showRevise = false">收起</button>
       </div>
@@ -621,6 +662,28 @@ watch(tab, () => {
       </div>
 
       <aside class="detail-side">
+        <section class="side-card author-card">
+          <h2>作者介绍</h2>
+          <p class="side-text">{{ authorIntro || '作者简介正在核对，暂不展示未核实的内容。' }}</p>
+          <div v-if="authorWorksPreview.length" class="author-works">
+            <h3>馆藏作品集</h3>
+            <RouterLink
+              v-for="item in authorWorksPreview"
+              :key="item.id"
+              :to="`/book/${item.id}`"
+            >
+              {{ item.title }}
+            </RouterLink>
+            <details v-if="moreAuthorWorks.length" class="author-works__more">
+              <summary>查看其余 {{ moreAuthorWorks.length }} 部作品</summary>
+              <RouterLink v-for="item in moreAuthorWorks" :key="item.id" :to="`/book/${item.id}`">
+                {{ item.title }}
+              </RouterLink>
+            </details>
+          </div>
+          <p v-else class="side-text">暂无其他同作者馆藏作品。</p>
+        </section>
+
         <section class="side-card">
           <h2>作品档案</h2>
           <dl class="fact-list">
@@ -628,10 +691,9 @@ watch(tab, () => {
             <div><dt>年代</dt><dd>{{ book.era }}</dd></div>
             <div><dt>国别</dt><dd>{{ book.country }}</dd></div>
             <div><dt>类别</dt><dd>{{ book.category }}</dd></div>
-            <div><dt>推荐</dt><dd>{{ book.level }}</dd></div>
+
             <div v-if="book.custom"><dt>来源</dt><dd>我的书架 · AI 自定义</dd></div>
             <div v-else><dt>推荐等级</dt><dd>{{ book.level }}</dd></div>
-            <div><dt>阅读量</dt><dd>约 {{ book.readingMinutes }} 分钟</dd></div>
           </dl>
         </section>
 

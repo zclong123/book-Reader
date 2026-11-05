@@ -15,13 +15,7 @@
   "readingMinutes": 400,
   "summary": "孤儿奥利弗在伦敦的遭遇",
   "importance": 2,
-  "externalText": {
-    "source": "gutenberg",
-    "sourceId": 768,
-    "sourceUrl": "https://www.gutenberg.org/ebooks/768",
-    "title": "Wuthering Heights — 《呼啸山庄》（英文版）",
-    "localFile": "/books/wuduguer.txt"
-  },
+  "externalText": null,
   "id": "wuduguer",
   "essence": {
     "story": [

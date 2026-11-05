@@ -42,6 +42,28 @@ npm run preview
 
 默认预设包含本地 Ollama、OpenRouter、硅基流动和自定义 OpenAI 兼容接口。在线服务可能需要 API Key、网络连接或付费额度；免费模型的供应情况由服务商决定。浏览器会将生成请求发送到你配置的模型服务，API Key 保存在当前浏览器中；请勿在共享设备上保存敏感凭证。模型生成内容可能有误，引用、作者信息和史实请自行核对。
 
+## Android App（书籍数据内置）
+
+`android/` 目录是一个原生 Android 应用（Jetpack Compose），功能与网页端一致，书籍数据全部打包进安装包，安装后无需联网即可检索、阅读、朗读：
+
+- **总目录**：10000 部作品，三级分类（一级 → 二级 → 三级）、年代与推荐等级筛选，关键词搜索，每页 20 部，可收藏。
+- **精读详情**：阅读精华（故事情节 / 阅读所获 / 必背章句）、每日演讲书稿、章节导读、作者介绍与馆藏作品集、相似书籍推荐。
+- **朗读与跟读**：系统语音合成朗读，支持主持人（平稳）与朗诵（舒缓）两种语气、语速与音色切换；麦克风跟读录音可回放、保存。
+- **阅读原书**：内置 19 部公版全文，按章节阅读，自动保存进度；也可导入手机里的 `.txt` / `.md` 文件，支持字号与夜间模式。
+- **自定义与修改**：输入书名加入书架，或调用兼容 OpenAI 接口的模型生成完整档案；详情页可手动编辑，也可让模型按指令改写阅读精华或演讲书稿。设置里有「测试连接」，直接看清是网络、地址还是密钥的问题。
+- **阅读偏好**：搜索词、打开的书、读过的章节会累计成偏好，用来调整「今日推荐」与「相似的书」的排序；记录只保存在本机，可在「关于本馆」里导出汇总或清空。
+- **阅读体验**：以浅纸色为主的明亮界面，并跟随系统字体缩放；阅读器可单独切换夜间模式。
+
+首次构建前先生成内置数据（目录、全部精读档案与公版全文）：
+
+```bash
+npm run android:assets
+cd android
+./gradlew assembleDebug      # Windows 用 gradlew.bat
+```
+
+产物位于 `android/app/build/outputs/apk/debug/app-debug.apk`（约 23MB，已含全部目录、1524 份精读档案与 19 部公版全文）。没有模拟器时，可以先 `node src/android-preview/mock/server.mjs` 打开 <http://localhost:5199> 预览同一套页面结构与内容，用来核对布局与文案。`android/local.properties` 需指向本机 Android SDK（`sdk.dir=...`）；也可以直接用 Android Studio 打开 `android/` 目录构建。修改了 `data/` 下的目录或档案后，重新运行 `npm run android:assets` 再构建即可。
+
 ## 项目结构
 
 ```text
@@ -58,6 +80,8 @@ src/
   services/          AI 服务
   views/             目录、详情、阅读和自定义书页面
 scripts/             目录构建与书籍管理脚本
+android/             Android 应用（Compose）
+  assets/            构建生成的内置数据（catalog / dossiers / texts）
 ```
 
 ## 数据与电子书
@@ -84,6 +108,7 @@ npm run download-books -- --ids bainian,jianai,laoren
 | `npm run download-books -- --id <id>` | 下载已登记的公版电子书 |
 | `npm run new-batch -- <批次号>` | 为新一批作品创建精读档案模板 |
 | `npm run dossiers` | 运行精读档案生成脚本 |
+| `npm run android:assets` | 把目录、精读档案与公版全文打包为 Android 内置数据 |
 
 ## 隐私与浏览器支持
 

@@ -12,7 +12,8 @@
     "new-batch": "node scripts/new-batch.mjs",
     "dossiers": "node scripts/generate-dossiers.mjs",
     "download-books": "node scripts/download-books.mjs",
-    "books": "node scripts/add-books.mjs"
+    "books": "node scripts/add-books.mjs",
+    "android:assets": "node scripts/build-android-assets.mjs"
   },
   "dependencies": {
     "vue": "^3.5.13",

@@ -1,19 +1,44 @@
 import catalogData from '../../data/catalog.json'
 import { loadCustomBooks } from './customBooks.js'
 
-const modules = import.meta.glob('../../data/books/**/*.json', { eager: true })
-const details = {}
+const moduleLoaders = import.meta.glob('../../data/books/**/*.json')
+const catalogById = new Map(catalogData.map((book) => [book.id, book]))
+const detailFiles = new Map()
+const detailPromises = new Map()
+const matchesCatalog = (detail, book) =>
+  Boolean(book && detail.title === book.title && detail.category === book.category)
 
-for (const [path, mod] of Object.entries(modules)) {
-  const detail = mod?.default ?? mod
-  if (detail?.id) {
-    details[detail.id] = detail
-  } else {
-    const fallbackId = path.split('/').pop()?.replace(/\.json$/, '')
-    if (fallbackId && detail && typeof detail === 'object') {
-      details[fallbackId] = { ...detail, id: fallbackId }
-    }
-  }
+for (const path of Object.keys(moduleLoaders)) {
+  const id = path.split('/').pop()?.replace(/\.json$/, '')
+  if (!id) continue
+  const paths = detailFiles.get(id) ?? []
+  paths.push(path)
+  detailFiles.set(id, paths)
+}
+
+async function loadBuiltinDetail(id) {
+  const paths = detailFiles.get(id)
+  if (!paths?.length) return null
+  if (detailPromises.has(id)) return detailPromises.get(id)
+
+  const promise = Promise.all(paths.map((path) => moduleLoaders[path]())).then((modules) => {
+    const candidates = modules.map((mod, index) => {
+      const detail = mod?.default ?? mod
+      if (!detail || typeof detail !== 'object') {
+        throw new Error(`精读档案格式无效：${paths[index]}`)
+      }
+      const fallbackId = paths[index].split('/').pop()?.replace(/\.json$/, '')
+      if (detail.id && detail.id !== fallbackId) {
+        throw new Error(`精读档案 ID 与文件名不一致：${paths[index]}`)
+      }
+      return detail.id ? detail : { ...detail, id: fallbackId }
+    })
+    const book = catalogById.get(id)
+    return candidates.find((detail) => matchesCatalog(detail, book)) ?? candidates[0] ?? null
+  })
+
+  detailPromises.set(id, promise)
+  return promise
 }
 
 const customBooks = loadCustomBooks()
@@ -152,17 +177,19 @@ export function getBook(id) {
   return catalog.find((b) => b.id === id) ?? null
 }
 
-export function getDetail(id) {
-  return getDossier(id) ?? details[id] ?? customDetails[id] ?? null
+export async function getDetail(id) {
+  const local = getDossier(id)
+  if (local) return local
+  return (await loadBuiltinDetail(id)) ?? customDetails[id] ?? null
 }
 
 export function hasDetail(id) {
-  return Boolean(getDossier(id) || details[id] || customDetails[id])
+  return Boolean(getDossier(id) || detailFiles.has(id) || customDetails[id])
 }
 
 export function detailSource(id) {
   if (getDossier(id)) return 'local'
-  if (details[id] || customDetails[id]) return 'builtin'
+  if (detailFiles.has(id) || customDetails[id]) return 'builtin'
   return 'none'
 }
 
@@ -188,7 +215,7 @@ export function fallbackDetail(book) {
         {
           title: '一、先认识这本书',
           paragraphs: [
-            `《${book.title}》由${book.author}创作，属于${book.category}，全书阅读量约 ${book.readingMinutes} 分钟。它围绕${tags}展开，是理解${book.era}精神面貌的一扇窗口。`,
+            `《${book.title}》由${book.author}创作，属于${book.category}，预计阅读时间约 ${book.readingMinutes} 分钟。它围绕${tags}展开，是理解${book.era}精神面貌的一扇窗口。`,
             '第一次阅读不必追求记住所有细节。先弄清人物关系与核心冲突，再带着问题读第二遍，收获会明显不同。'
           ]
         }
@@ -200,10 +227,10 @@ export function fallbackDetail(book) {
   }
 }
 
-export function getContent(id) {
+export async function getContent(id) {
   const book = getBook(id)
   if (!book) return null
-  return getDossier(id) ?? details[id] ?? customDetails[id] ?? fallbackDetail(book)
+  return (await getDetail(id)) ?? fallbackDetail(book)
 }
 
 export function similarBooks(book, limit = 4) {

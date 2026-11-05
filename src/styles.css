@@ -1253,6 +1253,40 @@ button:disabled,
   font-size: 16px;
 }
 
+.author-card > .side-text {
+  margin-bottom: 14px;
+}
+
+.author-works {
+  display: grid;
+  gap: 8px;
+}
+
+.author-works h3 {
+  margin: 0;
+  font-size: 13px;
+}
+
+.author-works a {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--ink-soft);
+  font-size: 12.5px;
+}
+
+.author-works__more {
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.author-works__more summary {
+  cursor: pointer;
+  line-height: 1.8;
+}
+
 .fact-list {
   margin: 0;
   display: flex;

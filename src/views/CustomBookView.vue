@@ -186,11 +186,11 @@ function downloadCatalogCsv() {
     </nav>
 
     <section class="custom-hero">
-      <span class="eyebrow">自定义书架 · 免费大模型</span>
+      <span class="eyebrow">自定义书架 · AI 助读</span>
       <h1>输入书名，生成一份精读档案</h1>
       <p>
-        调用兼容 OpenAI 接口的免费模型，生成故事情节、阅读所获、必背章句、演讲书稿与章节导读。
-        生成结果只保存在本机浏览器，并自动加入总目录的“我的书架”。
+        输入书名即可创建速览，也可以配置 AI 服务，生成故事梗概、阅读所获、章句赏析、演讲书稿与章节导读。
+        生成结果会加入“我的书架”。
       </p>
     </section>
 
@@ -250,7 +250,7 @@ function downloadCatalogCsv() {
         </button>
       </div>
 
-      <p v-if="busy === 'ai'" class="inline-note">正在调用大模型，通常需要 1—3 分钟，请保持页面打开。</p>
+      <p v-if="busy === 'ai'" class="inline-note">正在生成精读内容，请保持页面打开。</p>
       <p v-if="error" class="inline-note error">{{ error }}</p>
       <p class="custom-note">API Key 只保存在本机浏览器；生成内容由模型产出，请自行校对后再使用。</p>
     </section>
@@ -275,7 +275,7 @@ function downloadCatalogCsv() {
         <button class="ghost-btn" type="button" @click="result = null">继续添加</button>
       </div>
       <p v-if="result.aiGenerated" class="custom-note">
-        JSON 可放入 <code>data/books/{{ result.category }}/</code>；目录 CSV 含表头和书目行，将第二行追加到 <code>data/catalog.csv</code>，再运行 <code>npm run build</code>。CSV 中批次为 0（未分批）。
+        可下载档案与目录条目作为备份，或用于分享这部作品。
       </p>
     </section>
 

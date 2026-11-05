@@ -1,0 +1,13 @@
+/.agents/skills/
+/.codeartsdoer/
+/.vscode/
+/node_modules/
+/scripts/
+
+# Android
+/android/.gradle/
+/android/build/
+/android/app/build/
+/android/local.properties
+/android/assets/
+*.apk

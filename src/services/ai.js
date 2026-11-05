@@ -10,10 +10,10 @@ export const AI_PRESETS = [
   },
   {
     key: 'openrouter',
-    label: 'OpenRouter 免费模型',
+    label: 'OpenRouter 模型',
     baseURL: 'https://openrouter.ai/api/v1',
     model: 'deepseek/deepseek-chat-v3-0324:free',
-    hint: '需要 OpenRouter API Key，免费模型名称可能调整，请以官网为准。'
+    hint: '需要填写 OpenRouter API Key；可用模型以服务商当前提供的选项为准。'
   },
   {
     key: 'siliconflow',

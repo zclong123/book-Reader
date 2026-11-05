@@ -2,12 +2,12 @@
 import { computed, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import BookCover from '../components/BookCover.vue'
-import { batches, buildCategoryTree, catalog, categories, hasDetail, levels, stats, todayBook } from '../data/library.js'
+import { buildCategoryTree, catalog, hasDetail, levels, stats, todayBook } from '../data/library.js'
+import { filterByTaxonomy } from '../data/catalogFilters.js'
 import catalogCsv from '../../data/catalog.csv?raw'
 
 const router = useRouter()
 const query = ref('')
-const activeCategory = ref('全部')
 const activeCat1 = ref('全部')
 const activeCat2 = ref('全部')
 const activeCat3 = ref('全部')
@@ -15,13 +15,12 @@ const activeBatch = ref('全部')
 const activeLevel = ref('全部')
 const sortBy = ref('category')
 const page = ref(1)
-const PAGE_SIZE = 60
+const PAGE_SIZE = 20
 const favoriteIds = ref(loadFavorites())
 const catTree = buildCategoryTree()
 
 const summary = stats()
 const today = todayBook()
-const hasCustom = computed(() => catalog.some((book) => book.custom))
 
 // 选中一级分类后可用的二级/三级选项
 const cat2Options = computed(() => {
@@ -34,7 +33,7 @@ const cat3Options = computed(() => {
   return cat2Options.value.find((item) => item.name === activeCat2.value)?.children ?? []
 })
 
-watch([query, activeCategory, activeCat1, activeCat2, activeCat3, activeBatch, activeLevel, sortBy], () => {
+watch([query, activeCat1, activeCat2, activeCat3, activeBatch, activeLevel, sortBy], () => {
   page.value = 1
 })
 
@@ -81,15 +80,6 @@ function downloadCatalog() {
   URL.revokeObjectURL(url)
 }
 
-const categoryOptions = computed(() => {
-  const counts = new Map()
-  for (const book of catalog) counts.set(book.category, (counts.get(book.category) ?? 0) + 1)
-  return ['全部', ...categories].map((name) => ({
-    name,
-    count: name === '全部' ? catalog.length : counts.get(name) ?? 0
-  }))
-})
-
 const eraOptions = computed(() => {
   const counts = new Map()
   for (const book of catalog) {
@@ -123,11 +113,11 @@ function eraBucket(era) {
 
 const filtered = computed(() => {
   const keyword = query.value.trim().toLowerCase()
-  const list = catalog.filter((book) => {
-    if (activeCategory.value !== '全部' && book.category !== activeCategory.value) return false
-    if (activeCat1.value !== '全部' && book.cat1 !== activeCat1.value) return false
-    if (activeCat2.value !== '全部' && book.cat2 !== activeCat2.value) return false
-    if (activeCat3.value !== '全部' && book.cat3 !== activeCat3.value) return false
+  const list = filterByTaxonomy(catalog, {
+    cat1: activeCat1.value,
+    cat2: activeCat2.value,
+    cat3: activeCat3.value
+  }).filter((book) => {
     if (activeBatch.value !== '全部' && eraBucket(book.era) !== activeBatch.value) return false
     if (activeLevel.value !== '全部' && book.level !== activeLevel.value) return false
     if (!keyword) return true
@@ -178,7 +168,6 @@ const groups = computed(() => {
 
 function resetFilters() {
   query.value = ''
-  activeCategory.value = '全部'
   activeCat1.value = '全部'
   activeCat2.value = '全部'
   activeCat3.value = '全部'
@@ -376,7 +365,7 @@ function resetFilters() {
 
     <section v-if="totalPages > 1" class="pagination">
       <button class="ghost-btn small" type="button" :disabled="page <= 1" @click="gotoPage(page - 1)">上一页</button>
-      <span class="page-info">第 {{ page }} / {{ totalPages }} 页 · 每页 {{ PAGE_SIZE }} 部</span>
+      <span class="page-info">第 {{ page }} / {{ totalPages }} 页 · 每页最多 {{ PAGE_SIZE }} 部</span>
       <button class="ghost-btn small" type="button" :disabled="page >= totalPages" @click="gotoPage(page + 1)">下一页</button>
     </section>
 
@@ -390,9 +379,8 @@ function resetFilters() {
       <h2>关于精读详情</h2>
       <p>
         馆内 {{ summary.total }} 部作品的总目录只提供一句话简介与分类导航；
-        其中 {{ summary.covered }} 部已内置精读档案，其余作品在详情页点击
-        “调用大模型生成精读详情”即可按需生成故事情节、阅读所获、必背章句、演讲书稿与章节导读。
-        生成的精读详情保存在本机，可以自由编辑，也可以让大模型按你的要求继续修改。
+        其中 {{ summary.covered }} 部已配有精读内容；更多作品可在详情页使用 AI 辅助生成故事梗概、阅读所获、
+        章句赏析、演讲书稿与章节导读，生成后还可以继续编辑。
       </p>
     </section>
   </div>
